@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpap/!svn/ver/475/peopleandplace/trunk/app/views/featured_voices
+END
+print.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/433/peopleandplace/trunk/app/views/featured_voices/print.rhtml
+END
+index.rss.builder
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/463/peopleandplace/trunk/app/views/featured_voices/index.rss.builder
+END
+_main_feature.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/433/peopleandplace/trunk/app/views/featured_voices/_main_feature.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/475/peopleandplace/trunk/app/views/featured_voices/show.rhtml
+END
+_featured_voice.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/464/peopleandplace/trunk/app/views/featured_voices/_featured_voice.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/245/peopleandplace/trunk/app/views/featured_voices/index.rhtml
+END

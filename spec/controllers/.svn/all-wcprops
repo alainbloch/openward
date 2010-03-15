@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers
+END
+protect_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/protect_controller_spec.rb
+END
+post_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/post_controller_spec.rb
+END
+sessions_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/sessions_controller_spec.rb
+END
+dashboard_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/dashboard_controller_spec.rb
+END
+home_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/home_controller_spec.rb
+END
+posts_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/posts_controller_spec.rb
+END
+pages_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/pages_controller_spec.rb
+END

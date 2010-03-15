@@ -1,0 +1,43 @@
+  <div id="main" class="feature remove_bullhorn">
+  
+  <div id="frontpage_content">
+    <%= link_to(  render_caricature(@feature, :id => "front_image", :style =>"width:179px;"), 
+                  section_article_path(@feature.permalink_params.merge(:section_id => "featured_voices"))
+                ) if @feature %>
+                
+    <div class="front_header">
+      <%= @volume.title %>
+    </div>
+    
+    <% if @feature %>
+      <h1 class="article_title">
+        <%= link_to @feature.title, section_article_path(@feature.permalink_params.merge(:section_id => "featured_voices")) %>
+      </h1>
+      <div class="author">by <%= @feature.user.name %></div>
+      <div class="article_date"><%= @feature.published_at.strftime("%B %d, %Y")%></div>
+      <p class="front_quote">
+        <%= strip_tags(@feature.excerpt) %>
+      </p>
+      <%= link_to "readmore", section_article_path(@feature.permalink_params.merge(:section_id => "featured_voices")), :class => "replaced readmore" %>
+    <% end %> 
+            
+  </div>
+
+  <div class="sidebar_modules">
+    <%= render :partial => "/shared/modules/perspectives_module", :locals => {:perspectives => @issue.posts.order("published_at ASC").published.section("perspectives") }%>
+  </div>
+  
+  <div id="next_issue_teaser">
+    <%= render :partial => "/advertisements/sidebar" %>  
+  </div>
+  
+</div>
+
+<div class="sidebar">
+  
+  <div class="sidebar_modules">
+    <%= render :partial => "/shared/modules/media_module",   :locals => {:medias    => @issue.medias.order("published_at ASC").library.published } %>
+    <%= render :partial => "/shared/modules/compass_module", :locals => {:compasses => @issue.posts.order("published_at ASC").published.section("our_compass") }%>
+  </div>
+
+</div>

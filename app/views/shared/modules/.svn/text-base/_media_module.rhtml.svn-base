@@ -1,0 +1,14 @@
+<% unless medias.empty? %>
+<div class="media module">
+  <h3>
+    <%= link_to "media library", media_library_path %>
+  </h3>
+  <% for media in medias do %>
+  <div class="module_entry">
+    <h4><%= link_to media.title, media_path(media) %></h4>
+    <p><%= strip_tags(media.excerpt) %></p>
+    <%= link_to "readmore", media_path(media), :class => "replaced view_media"%>
+  </div>  
+  <% end %>
+</div>
+<% end %>

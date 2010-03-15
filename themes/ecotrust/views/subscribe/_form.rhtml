@@ -1,0 +1,9 @@
+<div id="subscribe_form">
+ <label for="name">Name</label>
+ <%= text_field :subscription, :name, :id => "name" %>
+
+ <label for="email">Email address</label>
+ <%= text_field :subscription, :email, :id => "email" %>
+
+<%= show_simple_captcha(:object => "subscription", :label => "Enter text from the image below (case sensitive)", :distortion => "medium") %>  
+</div>

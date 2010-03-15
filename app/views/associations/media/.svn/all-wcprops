@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/579/peopleandplace/trunk/app/views/associations/media
+END
+_associate_media.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/578/peopleandplace/trunk/app/views/associations/media/_associate_media.html.erb
+END
+_media_list.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/579/peopleandplace/trunk/app/views/associations/media/_media_list.html.erb
+END
+add_media.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/39/peopleandplace/trunk/app/views/associations/media/add_media.rjs
+END
+refresh_media_list.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/578/peopleandplace/trunk/app/views/associations/media/refresh_media_list.rjs
+END
+_associated_media.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/516/peopleandplace/trunk/app/views/associations/media/_associated_media.html.erb
+END
+_media.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/576/peopleandplace/trunk/app/views/associations/media/_media.html.erb
+END
+remove_media.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/39/peopleandplace/trunk/app/views/associations/media/remove_media.rjs
+END

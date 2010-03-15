@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver
+END
+test_document.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/test_document.rb
+END
+simpletype.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/simpletype.wsdl
+END
+test_calc.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/test_calc.rb
+END
+echo_version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/echo_version.rb
+END
+document.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/document.wsdl
+END
+calc.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/calc.wsdl
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/README.txt
+END
+test_simpletype.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/wsdlDriver/test_simpletype.rb
+END

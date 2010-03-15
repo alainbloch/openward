@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails
+END
+extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions.rb
+END
+dsl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/version.rb
+END
+matchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/matchers.rb
+END

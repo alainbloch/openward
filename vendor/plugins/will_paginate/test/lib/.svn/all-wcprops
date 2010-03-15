@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/571/peopleandplace/trunk/vendor/plugins/will_paginate/test/lib
+END
+activerecord_test_connector.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/571/peopleandplace/trunk/vendor/plugins/will_paginate/test/lib/activerecord_test_connector.rb
+END
+activerecord_test_case.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/571/peopleandplace/trunk/vendor/plugins/will_paginate/test/lib/activerecord_test_case.rb
+END
+view_test_process.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/571/peopleandplace/trunk/vendor/plugins/will_paginate/test/lib/view_test_process.rb
+END
+load_fixtures.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/571/peopleandplace/trunk/vendor/plugins/will_paginate/test/lib/load_fixtures.rb
+END

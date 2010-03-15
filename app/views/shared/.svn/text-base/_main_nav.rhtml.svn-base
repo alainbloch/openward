@@ -1,0 +1,22 @@
+<div id="main_nav">
+  <div>
+    <span>volume <%= @volume_number %> issue <%= @issue_number %></span> 
+    <ul class="horizontal nav group">
+      <li id="featured" class="first">
+        <a href="/featured_voices" title="featured voices">featured voices</a>
+      </li>
+      <li id="perspectives">
+        <a href="/perspectives" title="perspectives">perspectives</a>
+      </li>
+      <li id="media">
+        <a href="/media_library" title="media library">media library</a>
+      </li>
+      <li id="compass">
+        <a href="/our_compass" title="our compass">our compass</a>
+      </li>
+      <li id="wire">
+        <a href="/on_the_wire" title="on the wire">on the wire</a>
+      </li>
+    </ul>
+  </div>
+</div>

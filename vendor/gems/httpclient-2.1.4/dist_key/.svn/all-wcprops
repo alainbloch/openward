@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/dist_key
+END
+cacerts.pem
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/dist_key/cacerts.pem
+END
+gen_dist_cert.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/dist_key/gen_dist_cert.rb
+END
+cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/dist_key/cert.pem
+END

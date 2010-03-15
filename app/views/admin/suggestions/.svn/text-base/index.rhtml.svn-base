@@ -1,0 +1,45 @@
+<div class="project_container">
+
+  <div class="sub_admin_menu">
+    <span class="actions">Connections</span>
+  </div>
+	
+			<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+        <tr>
+          <th class="la" width="50px">Name</th>
+          <th class="la" width="50px">Email</th>
+          <th class="la" width="200px">Suggestion</th>
+          <th class="la" width="50px">Date</th>
+          <th class="la" width="50px">Read</th>
+        </tr>
+
+      <% for suggestion in @suggestions %>
+        <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+          <tr style="background-color:<%= color %>;vertical-align:text-top;">
+           <td><%= suggestion.name %></td>
+           <td><%= suggestion.email %></td>
+           <td>
+            <div id="suggestion_<%= suggestion.id %>_partial_comment">
+              <a name="suggestion_<%= suggestion.id %>"><%= truncate h(suggestion.content) %></a>
+              <%= link_to_function "read more", "$('suggestion_#{suggestion.id}_full_comment').style.display = '';$('suggestion_#{suggestion.id}_partial_comment').style.display='none'" %>
+            </div>
+            <div  id="suggestion_<%= suggestion.id %>_full_comment" style="display:none;">
+              <%= h(suggestion.content) %>
+              <%= link_to_function "read less", "$('suggestion_#{suggestion.id}_full_comment').style.display = 'none';$('suggestion_#{suggestion.id}_partial_comment').style.display=''" %>
+            </div>
+            </td>
+           <td><%= suggestion.created_at.strftime("%m/%d/%Y") %></td>
+           <td><%= check_box_tag "suggestion_#{suggestion.id}_read", '1', suggestion.read %>
+              <%= suggestion.user.display_name if suggestion.user %>
+           </td>
+           <td><%= link_to image_tag("trash.gif"), admin_suggestion_path(suggestion), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %></td>
+        </tr>  
+      <% end %>
+
+      </table>
+
+      <div id="pagination">
+        <ul><%= will_paginate @suggestions, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+      </div>
+
+</div>

@@ -1,0 +1,8 @@
+<ul id="page_links">
+  <li><%= link_to "About", page_path("about"), :title => "about"%></li>
+  <li><%= link_to "Connect", connect_path, :title => "Connect"%></li>
+  <li><%= link_to "Subscribe", subscribe_path, :title => "Subscribe"%></li>
+  <li><%= link_to "Support", page_path("support"), :title => "Support"%></li>
+  <li><%= link_to "Licenses", page_path("licenses"), :title => "Licenses"%></li>
+  <li><%= link_to "Archive", archives_path, :title => "Archive" %></li>
+</ul>

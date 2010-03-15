@@ -1,0 +1,40 @@
+10
+
+dir
+580
+http://svn.vps120.speedyrails.ca/svnpap/peopleandplace/trunk/vendor/plugins/rspec_on_rails/generators
+http://svn.vps120.speedyrails.ca/svnpap
+
+
+
+2007-11-08T03:10:50.988421Z
+3
+deploy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7cd04dc2-7d32-4124-8f57-6e100f016afd
+
+rspec_controller
+dir
+
+rspec
+dir
+
+rspec_model
+dir
+
+rspec_scaffold
+dir
+

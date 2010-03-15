@@ -1,0 +1,19 @@
+<%= error_messages_for 'suggestion' %>
+
+<!--[form:suggestion]-->
+<p><label for="suggestion_email">Email</label><br/>
+<%= text_field 'suggestion', 'email'  %></p>
+
+<p><label for="suggestion_name">Name</label><br/>
+<%= text_field 'suggestion', 'name'  %></p>
+
+<p><label for="suggestion_content">Content</label><br/>
+<%= text_area 'suggestion', 'content'  %></p>
+
+<p><label for="suggestion_created_at">Created at</label><br/>
+<%= datetime_select 'suggestion', 'created_at'  %></p>
+
+<p><label for="suggestion_read">Read</label><br/>
+<select id="suggestion_read" name="suggestion[read]"><option value="false" selected>False</option><option value="true">True</option></select></p>
+<!--[eoform:suggestion]-->
+

@@ -1,0 +1,3 @@
+page.visual_effect :highlight, 'comment_area' 
+page.visual_effect :highlight, 'feedback' 
+page.replace_html 'comment_area', :partial => "inline_preview"

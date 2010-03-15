@@ -1,0 +1,8 @@
+page.replace_html "media_list",:partial => '/associations/media/media_list', 
+                                :locals  => {:medias => @medias, :action => params[:action], :user => @user, :type => params[:type] }
+
+# Use this to make sure that the new actions 
+# are highlighted if they are associated
+for media in @medias do
+  page << "associated_media('#{media.id}');"
+end

@@ -1,0 +1,17 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="1px">Selected</th>
+    <th class="la" width="100px">Title</th>
+    <th class="la" width="50px">Date</th>
+    <th class="la" width="250px">Content</th>
+  </tr>
+  <% for post in posts do %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= color %>">
+    <td><%= check_box_tag "newsletter[post_ids][]", post.id, issue.has_post?(post) %></td>
+    <td><%= link_to truncate( strip_tags(post.title)), admin_post_path(post) %></td>
+    <td><%= post.created_at.strftime("%b %d, %Y") %></td>
+    <td><%= truncate strip_tags(post.excerpt), 100 %></td>
+  </tr>  
+  <% end %>
+</table>

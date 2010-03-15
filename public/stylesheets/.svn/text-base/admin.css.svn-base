@@ -1,0 +1,54 @@
+/* begin */
+
+
+
+
+img {
+  border:0px;
+}
+
+* {
+  margin:0pt;
+  padding:0pt; }
+  	
+body {
+  text-align: center;
+  background-color: #FFF;
+  font: 12px 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+  line-height: 1.4; }
+
+#session_form {
+  position: relative;
+  top: 100px;      
+}
+
+#session_form .logo {
+  margin-bottom:20px;
+}
+
+#password_container {
+  background-color: #FFF;
+  padding: 10px;
+  width: 370px;
+  margin: 0pt auto;
+  text-align: right;
+  padding-right:30px;
+  }
+
+.form_field input {
+  padding: 2px 2px;
+  width: 250px;
+  border: 1px solid #999; }
+  
+  div.form_field {
+  	margin-bottom:15px;
+  }
+
+.error {
+  	border:  2px solid #FF676B;
+  	padding: 10px;
+  	color: red;
+  	font-weight: bold;
+  	width:285px;
+  	text-align: center;
+  	margin:10px 0px;}

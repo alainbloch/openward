@@ -1,0 +1,19 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="100px">Title</th>
+    <th class="la" width="50px">Date</th>
+    <th class="la" width="250px">Content</th>
+  </tr>
+  <% for article in articles do %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= color %>">
+    <% if article.class.to_s == "Media" %>
+      <td><%= link_to truncate( strip_tags article.title ), admin_media_path(article) %></td>
+    <% else %>
+      <td><%= link_to truncate( strip_tags article.title ), admin_post_path(article) %></td>
+    <% end %>
+    <td><%= article.created_at.strftime("%b %d, %Y") %></td>
+    <td><%= truncate strip_tags(article.excerpt), 100 %></td>
+  </tr>  
+  <% end %>
+</table>

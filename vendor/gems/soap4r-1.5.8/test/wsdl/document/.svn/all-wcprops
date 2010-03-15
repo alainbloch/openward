@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document
+END
+number.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document/number.wsdl
+END
+ping_nosoapaction.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document/ping_nosoapaction.wsdl
+END
+test_rpc.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document/test_rpc.rb
+END
+document.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document/document.wsdl
+END
+test_number.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document/test_number.rb
+END
+test_nosoapaction.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/document/test_nosoapaction.rb
+END

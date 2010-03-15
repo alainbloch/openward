@@ -1,0 +1,13 @@
+<div class="project_container">
+	<%= render :partial => "menu" %>
+  
+	<% form_tag admin_sections_path do %>
+	
+		<%= render :partial => 'form' %>
+	
+    <div style="float:right;display:block;padding:5px;">
+			<%= submit_tag "Save",  :class => "submit" %> or
+			<%= link_to "Cancel", admin_sections_path, :confirm => 'Are you sure you want to cancel?' %>
+		</div>
+	<% end %>
+</div>

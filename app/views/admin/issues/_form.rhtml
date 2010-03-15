@@ -1,0 +1,53 @@
+<div class="field_title" style="float:right;display:inline; padding:10px;">
+  <%= check_box :issue, :active %> Active Issue in the Volume
+</div>
+
+<div class="field_title">Title <%= error_message_on('issue', 'title')%></div>
+<div class="form_field">
+	<%= text_field :issue, :title, :size => '50' %>
+</div>
+
+<div class="form_field">
+	<b>Volume</b> <%= select :issue, :volume_id, issue_select_options %> <%= error_message_on('issue', 'volume')%>
+</div>
+
+<div class="form_field">
+	<b>Start Date</b> <%= date_select :issue, :start_date %> <%= error_message_on('issue', 'start_date')%>
+</div>
+
+<div class="form_field">
+	<b>End Date</b> <%= date_select :issue, :end_date %> <%= error_message_on('issue', 'end_date')%>
+</div>
+
+<div class="field_title">Intro Text <%= error_message_on('issue', 'text')%></div>
+<div class="form_field">
+	<%= text_area :issue, :intro, :size => '50' %>
+</div>
+<% unless @issue.new_record? %>
+
+  <div class="field_title">Feature</div>
+  <div class="form_field">
+    <%= render_post_list("Featured Voices", @issue)%>
+  </div>    
+
+  <div class="field_title">Perspectives</div>
+  <div class="form_field">
+    <%= render_post_list("Perspectives", @issue) %>
+  </div>
+
+  <div class="field_title">On The Wire</div>
+  <div class="form_field">
+    <%= render_post_list("On The Wire", @issue) %>    
+  </div>
+
+  <div class="field_title">Media Library</div>
+  <div class="form_field">
+    <%= render_media_list(@issue) %>    
+  </div>
+
+  <div class="field_title">Our Compass</div>
+  <div class="form_field">
+    <%= render_post_list("Our Compass", @issue) %>    
+  </div>
+
+<% end %>

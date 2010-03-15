@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnpap/!svn/ver/573/peopleandplace/trunk/lib
+END
+authentication.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/419/peopleandplace/trunk/lib/authentication.rb
+END
+will_remotely_paginate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/573/peopleandplace/trunk/lib/will_remotely_paginate.rb
+END
+rescue_errors_patch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/483/peopleandplace/trunk/lib/rescue_errors_patch.rb
+END
+hash.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnpap/!svn/ver/3/peopleandplace/trunk/lib/hash.rb
+END
+string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnpap/!svn/ver/483/peopleandplace/trunk/lib/string.rb
+END

@@ -1,0 +1,36 @@
+<div id="comment_content">
+  <label id="comment_label">
+    Comment
+    
+    <span id="preview_comment_link">
+    (<%= link_to_remote "click to preview", :url  => preview_comments_path,
+                                            :with =>    "$('feedback').serialize()",
+                                            :loading => "$('preview_comment_link').hide();
+                                                         $('spinner').show();" %>)
+    </span>
+    
+    <span id="edit_comment_link" style="display:none;">
+    (<%= link_to_function "click to edit" do |page|
+          page << "$('edit_comment_link').hide();"
+          page << "$('preview_comment_link').show();"
+          page << "$('comment_preview').hide();"
+          page << "$('comment_editor').show();"
+          page.visual_effect :highlight, 'comment_content'
+         end %>)
+    </span>
+    
+    <span id="spinner" style="display:none;" >
+      <i>Loading Preview...</i><%= image_tag "grey_spinner-white_bg.gif" %>
+    </span>
+  
+  </label>
+  
+  <div id="comment_editor">
+    <%= text_area :comment, :content, :id => "feedback", :wrap => "on", :cols => "25" %>
+  </div>
+
+  <div style="display:none;" id="comment_preview">    
+    <%= display(@comment.content) if @comment and !@comment.content.blank? %>
+  </div>
+  
+</div>

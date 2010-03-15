@@ -1,0 +1,27 @@
+
+<div class="project_container">
+  
+  <div class="sub_admin_menu">
+    <span class="actions"><%= link_to 'Manage Articles', admin_posts_path %></span>&nbsp;|&nbsp;
+    <span class="actions"><%= link_to 'Create Article', new_admin_post_path %></span> 
+  </div>
+  
+	<% form_tag admin_post_path(@post), :method => :put do %>
+	
+		<%= render :partial => 'form' %>
+	
+		<div style="float:right;display:block;padding:5px;">
+		  <%= submit_tag "Save and Preview", :class => "submit" %>
+			<%= submit_tag "Save and Continue Editing", :class => "submit" %> 
+      <%= submit_tag "Save", :class => "submit" %> 
+			<%= submit_tag "Send to Editor", :editor => true, :class => "submit" %> 
+		</div>
+		
+		<!-- 
+		<div class="field_title">Send Trackbacks to</div>
+		<div>
+		  <%#= text_field_tag :trackbacks, "#{@post.trackbacks}"  %>  
+		</div>  
+    -->
+	<% end %>
+</div>

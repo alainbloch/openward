@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench
+END
+bm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench/bm.rb
+END
+bm_upload.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench/bm_upload.rb
+END
+upload.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench/upload.cgi
+END
+bm_download.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench/bm_download.rb
+END
+bm_common.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench/bm_common.rb
+END
+download.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/bench/download.cgi
+END

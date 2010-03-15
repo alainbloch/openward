@@ -1,0 +1,23 @@
+<li class="media_list_item">
+    <%= link_to media_thumbnail(media, :alt => 'video_title', :height => '86px', :width => '121px'), media_path(media.permalink_params), :class => "media_image" %>
+
+  <div class="list_item_content">
+    <h2 class="media_title">
+      <%= link_to media.title, media_path(media.permalink_params) %>
+    </h2>
+    <p>
+      <%= media.excerpt %>
+    </p>
+    <%= link_to "view media", media_path(media.permalink_params), :class => "view_media replaced" %>   
+   
+  </div>
+  <!-- .list_item_content -->
+  <div class="metadata">
+    <span><%= media.published_at.strftime("%b %d, %Y") %></span> 
+    <%= render :partial => "tags/association", :locals => {:taggable => media}%>
+    <span class="comments"><%= pluralize media.approved_comments.size, "Comment" %></span>
+    <span class="permalink"><%= link_to "permalink", media_path(media.permalink_params) %></span>
+  </div>
+  <!-- metadata -->
+  <!-- .tags -->
+</li>

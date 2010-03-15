@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/state_machine
+END
+state.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/state_machine/state.rb
+END
+event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/state_machine/event.rb
+END
+machine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/state_machine/machine.rb
+END
+state_transition.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/state_machine/state_transition.rb
+END

@@ -1,0 +1,25 @@
+<div id="footer">
+  <ul class="nav horizontal">
+    <li class="first">
+      <a href="/">home</a>
+    </li>
+    <li>
+      <a href="/about.html">About P&amp;P</a>
+    </li>
+    <li>
+      <a href="/connection">Make a Connection</a>
+    </li>
+    <li>
+      <a href="/subscribe">Subscribe</a>
+    </li>
+    <li>
+      <a href="/archive">Archive</a>
+    </li>
+    <li>
+      <a rel="license" href="/licenses.html" id="cc_icon" class="replaced">CC License</a>
+    </li>
+    <li class="last">
+      <%= link_to "RSS", formatted_home_path(:rss), :id => "rss_icon", :class => "replaced last" %>
+    </li>
+  </ul>
+</div>

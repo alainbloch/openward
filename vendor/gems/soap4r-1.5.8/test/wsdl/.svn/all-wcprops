@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl
+END
+multiplefault.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/multiplefault.wsdl
+END
+emptycomplextype.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/emptycomplextype.wsdl
+END
+test_multiplefault.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/test_multiplefault.rb
+END
+test_emptycomplextype.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/test_emptycomplextype.rb
+END
+test_fault.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/test_fault.rb
+END

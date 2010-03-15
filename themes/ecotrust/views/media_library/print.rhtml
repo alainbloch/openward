@@ -1,0 +1,18 @@
+<h1 class="video_title"> 
+  <%= @media.title %>
+</h1>
+
+<div>
+  <% if @media.media_type == "Image" %>
+    <%= render_media_for(@media, :width => "100%") %>
+  <% else %>
+    <%= render_media_for(@media) %>
+  <% end %>
+</div>
+<span class="author">by <%= @media.user.name %></span>
+<span class="article_date"><%= @media.created_at.strftime("%B %d, %Y %I:%M%p") %></span>          
+<div class="print">
+<p>
+  <%= @media.content %>
+</p>
+</div>

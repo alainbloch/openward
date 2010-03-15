@@ -1,0 +1,52 @@
+<%= auto_discovery_link_tag(:rss, formatted_home_path(:format => :rss), {:title => %(People and Place)}) %>
+<%= auto_discovery_link_tag(:rss, formatted_media_library_path(:media_type => "all", :format => :rss), {:title => "Media Library"}) %>
+
+      <div id="main" class="media_library">
+
+        <div id="about_each_section">
+          <div class="about_media_library">
+            <p>
+              The Media Library gathers a backstory of video, audio, text and images on each P&P topic.
+            </p>
+          </div>
+        </div>
+
+        <div id="content">
+          <div id="media_library_header">
+            media library
+          </div>
+          <div id="media_navigation">
+            <ul>
+              <li>
+                <%= link_to "Most Recent", most_recent_media_library_path, :title => "Most Recent"%>
+              </li>
+              <li>
+                <%= link_to "Video", media_library_path(:media_type => "video"), :title => "Video"%>
+              </li>
+              <li>
+                <%= link_to "Audio", media_library_path(:media_type => "audio"), :title => "Audio"%>
+              </li>
+              <li>
+                <%= link_to "Text", media_library_path(:media_type => "text"), :title => "Text"%>
+              </li>
+              <li class="last">
+                <%= link_to "Images", media_library_path(:media_type => "image"), :title => "Images"%>
+              </li>
+            </ul>
+          </div>
+          <!-- media_listing -->
+          <ul id="media_listing">
+            <%= render :partial => 'media', :collection => @medias %>
+		      </ul>
+		      <!-- .media_listing -->
+		      
+		      <div id="pagination">
+           <ul><%= will_paginate @medias, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+      		</div>
+		      
+      </div>
+      
+
+</div>
+
+<%= render :partial => "shared/large_sidebar"%>

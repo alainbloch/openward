@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/inflections.rb
+END
+multibyte.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/multibyte.rb
+END
+behavior.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/behavior.rb
+END
+access.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/access.rb
+END
+starts_ends_with.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/starts_ends_with.rb
+END
+xchar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/xchar.rb
+END
+conversions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/conversions.rb
+END
+filters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/filters.rb
+END
+iterators.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/string/iterators.rb
+END

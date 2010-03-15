@@ -1,0 +1,87 @@
+      <div id="main" class="media">
+        <div id="about_each_section">
+           <div class="<%= about_class(@media)%>">
+              <p><%= @media.user ? @media.user.description : %(&nbsp;) %></p>
+          </div>
+        </div>
+        <div id="content">
+          <h1 class="video_title">
+            <%= link_to( "(Edit Media)", edit_admin_media_path(@media), :style => "display:inline;float:right;") if current_user %>
+            <%= @media.title %>
+          </h1>
+                    
+          <% if @media.user %>
+            <span class="author">by <%= @media.user.name %></span>
+          <% end %>
+          
+          <span class="article_date">
+            <% if @media.published? %>
+              <%= @media.published_at.strftime("%B %d, %Y %I:%M%p") unless @media.published_at.nil? %>
+            <% else %>
+              <b>Not yet published</b>
+            <% end %>
+          </span>
+          
+          <div style="padding-top:10px;font-size:1.4em;padding-bottom:5px;">
+          <% if @media.media_type == "Image"%>
+            <%= link_to render_media_for(@media), print_media_path(@media.permalink_params)%>
+          <% else %>  
+            <%=render_media_for(@media) %>
+          <% end %>
+          </div>
+          
+          <div id="article_content">
+          <p>
+            <%= @media.content %>
+          </p>
+          </div>
+
+          <%= render :partial => "shared/syndicate", :locals => {:article => @media} %>
+          
+          <%= render :partial => "tags/association", :locals => {:taggable => @media}%>
+
+        </div>          
+
+        <% unless @media.posts.empty? %>
+        <!-- Begin Associated Articles -->
+          <div id="associated_articles">
+
+            <h2>Associated Articles</h2>
+            <span class="articles_amount"><%#= pluralize @media.posts.size, "Article"%></span> 
+              <table width="100%" cellpadding="12" class="associated_articles">
+                <% for post in @media.posts do %>
+                <tr>
+                  <th style="width:250px;"></th>
+                  <th style="width:100px;"></th>
+                  <th style="width:100px;"></th>
+                </tr>  
+                <tr>
+                  <td><%= link_to post.title, article_path(post) %></td>
+                  <td><%#= post.user.name %></td>
+                  <td><%= post.published_at.strftime("%b %d, %Y")%></td>
+                </tr>
+                <% end %>
+              </table>
+          </div>
+        <!-- End Associated Articles -->
+        <% end %> 
+          
+        <!-- Begin Comments -->  
+          <div id="discussion">
+          <h2>Discussion</h2>
+          <span class="comments_amount"><%= pluralize @media.approved_comments.size, "Comment"%></span> 
+          <p class="discuss_instructions">
+            <%= @setting.comment_instructions %>
+          </p>
+          <ul id="comments_listing">
+            <%= render :partial => "comments/comment", :collection => @media.approved_comments %>
+          </ul>
+        </div>
+        <!-- End Comments   -->  
+        
+        <!-- Begin Comment Form-->      
+          <%= render :partial => "comments/form", :locals => {:commentable_id => @media, :commentable_type => "Media" } %>
+        <!-- End Comment Form -->
+        
+        </div>
+<%= render :partial => "shared/large_sidebar"%>

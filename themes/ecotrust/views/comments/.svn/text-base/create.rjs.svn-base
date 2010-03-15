@@ -1,0 +1,25 @@
+if @comment.valid? & @visitor.valid?
+ 
+ @visitor.save and @comment.save
+ 
+         
+ if @comment.show?          
+   title = "Comment Added"
+   comment_alert = "Your comment has been added."
+   page.replace_html "comments_listing", :partial => "comments/comment", :collection => @commentable.approved_comments
+ else
+   title = "Comment Pending"
+   comment_alert = 'Your comment is pending approval. Thank you for your patience.'
+ end
+ 
+ @comment = Comment.new        
+ 
+ page.replace "comment_form", :partial => "comments/form", :locals => {:commentable_id => @commentable, :commentable_type => @commentable_type}
+
+else  
+ title = "Comment Error"
+ comment_alert = error_messages_for(:comment, :visitor)
+ page.replace "comment_form", :partial => "form", :locals => {:commentable_id => @commentable, :commentable_type => @commentable_type}
+end
+ 
+page.replace_html "alert_popup-content", :partial => "shared/alert", :locals => {:title => title, :comment => comment_alert}

@@ -1,0 +1,17 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="1px">Selected</th>
+    <th class="la" width="100px">Title</th>
+    <th class="la" width="50px">Date</th>
+    <th class="la" width="250px">Content</th>
+  </tr>
+  <% for media in medias do %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= color %>">
+    <td><%= check_box_tag "newsletter[media_ids][]", media.id, issue.has_media?(media) %></td>    
+    <td><%= link_to truncate( strip_tags media.title), admin_media_path(media) %></td>
+    <td><%= media.created_at.strftime("%b %d, %Y") %></td>
+    <td><%= truncate strip_tags(media.excerpt), 100 %></td>
+  </tr>  
+  <% end %>
+</table>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/expectations
+END
+handler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/expectations/handler.rb
+END
+extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/expectations/extensions.rb
+END
+errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/expectations/errors.rb
+END

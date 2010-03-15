@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner
+END
+behaviour_runner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/behaviour_runner.rb
+END
+backtrace_tweaker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/backtrace_tweaker.rb
+END
+reporter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/reporter.rb
+END
+formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter.rb
+END
+heckle_runner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/heckle_runner.rb
+END
+option_parser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/option_parser.rb
+END
+command_line.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/command_line.rb
+END
+spec_parser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/spec_parser.rb
+END
+options.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/options.rb
+END
+drb_command_line.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/drb_command_line.rb
+END
+heckle_runner_unsupported.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/heckle_runner_unsupported.rb
+END

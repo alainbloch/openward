@@ -1,0 +1,71 @@
+      <div id="main" class="<%= article_class(@post)%>">
+        
+        <div id="about_each_section">
+          <div class="<%= about_class(@post)%>">
+            <% if @post.caricature %>
+              <p><%= @post.caricature.excerpt %></p>
+            <% else %>
+              <p><%= @post.user.description %></p>
+            <% end %>            
+          </div>
+        </div>
+        
+        <div id="content">
+          <h1>
+            <%= link_to( "(Edit Article)", edit_admin_post_path(@post), :style => "display:inline;float:right;") if current_user %>
+            <%= @post.title %>
+          </h1>
+          <div id="article_date">
+            <div class="author">by <%= @post.user.name %></div>
+            <div class="article_date"><%= @post.published_at.strftime("%B %d, %Y %I:%M%p") %></div>
+          </div>
+          <!-- Featured Voice Caricature -->
+			    <%= render_caricature(@post, :style =>"width:232px;")  if @post.caricature %>
+			    <!-- End Feature Voice Caricature -->
+          
+          <div id="article_content">
+            <p class="feature_first_paragraph">
+              <%= @post.content %>
+            </p>
+          </div>
+          
+          <%= render_source_link(@post) %>
+                    
+        <%= render :partial => "shared/syndicate", :locals => {:article => @post} %>
+	  
+	      <%= render :partial => "tags/association", :locals => {:taggable => @post}%>
+    
+	  </div>
+	  
+	    <% unless @post.published_media.empty? %>  
+  	  <!-- Begin Associated Media -->
+      <div class="associated_media">
+        <h2>Associated Media</h2>
+        <span class="pieces_count"><%#= pluralize @post.published_media.size, "Piece" %></span>
+        <!-- Begin feature_media_listing -->
+        <ul class="media_listing">
+          <%= render :partial => "media_library/association", :collection => @post.published_media %>
+        </ul>
+         <!-- End feature_media_listing -->
+      <!-- End Associated Media -->
+    </div>
+    <% end %>
+	  
+    <div id="discussion">
+      <h2>
+        Discussion
+      </h2><span class="comments_amount"><%= pluralize @post.approved_comments.size, "Comment"%></span> 
+      <p class="discuss_instructions">
+        <%= @setting.comment_instructions %>
+      </p>
+      <ul id="comments_listing">
+        <%= render :partial => "comments/comment", :collection => @post.approved_comments %>
+      </ul>
+    </div>
+ 
+    <%= render :partial => "comments/form", :locals => {:commentable_id => @post, :commentable_type => "Post"} %>
+    
+</div>
+
+<%= render :partial => "shared/large_sidebar" %>
+

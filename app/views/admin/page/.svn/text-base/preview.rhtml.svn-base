@@ -1,0 +1,44 @@
+<% content_for :preview do %>
+  
+  <% if @preview_action == "edit"%>
+    <%= form_tag edit_admin_page_path(@page), :method => :get  %>
+  <% else %>
+    <%= form_tag new_admin_page_path, :method => :get %>
+  <% end %> 
+
+    <!-- hidden form fields -->
+    <div style="display:none;">
+      <%= render :partial => 'form' %>
+    </div>
+    <%= submit_tag "Return" %>
+    <!-- end hidden form fields -->
+  </form>
+  
+<% end %>
+
+<div id="masthead_nav">
+  <h3>P&amp;P Masthead</h3>
+        
+<ul>
+<li><a href="/about.html" title="about">About</a></li>
+<li><a href="/suggest_story" title="suggest">Suggest</a></li>
+<li><a href="/subscribe" title="subscribe">Subscribe</a></li>
+<li><a href="/support_pp.html" title="support">Support</a></li>
+<li><a href="/licenses.html" title="licenses">Licenses</a></li>
+<li><a href="/archive" title="archive">Archive</a></li>
+</ul>
+<img src="/img/wooden_man.gif" alt="man in the woods"/>
+
+<blockquote><p> &ldquo;Conservation is a state of harmony between men and land.&rdquo;</p>
+</blockquote>
+
+  <div class="citation"><span class="author">Aldo Leopold</span>A Sand County Almanac, 1949</div>
+  
+</div>
+      
+<div id="main" class="masthead_content"><h1><%= @page.title %></h1>  	
+	<p><%= @page.content %></p>
+
+</div>
+
+</div>

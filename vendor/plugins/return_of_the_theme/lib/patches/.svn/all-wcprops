@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/557/peopleandplace/trunk/vendor/plugins/return_of_the_theme/lib/patches
+END
+action_controller_patch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnpap/!svn/ver/516/peopleandplace/trunk/vendor/plugins/return_of_the_theme/lib/patches/action_controller_patch.rb
+END
+action_mailer_patch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/480/peopleandplace/trunk/vendor/plugins/return_of_the_theme/lib/patches/action_mailer_patch.rb
+END
+asset_tag_helper_patch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnpap/!svn/ver/557/peopleandplace/trunk/vendor/plugins/return_of_the_theme/lib/patches/asset_tag_helper_patch.rb
+END
+route_set_patch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/480/peopleandplace/trunk/vendor/plugins/return_of_the_theme/lib/patches/route_set_patch.rb
+END

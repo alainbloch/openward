@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/inflections.rb
+END
+multibyte.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/multibyte.rb
+END
+callbacks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/callbacks.rb
+END
+buffered_logger.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/buffered_logger.rb
+END
+base64.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/base64.rb
+END
+memoizable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/memoizable.rb
+END
+string_inquirer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/string_inquirer.rb
+END
+time_with_zone.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/time_with_zone.rb
+END
+inflector.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/inflector.rb
+END
+duration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/duration.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/version.rb
+END
+secure_random.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/secure_random.rb
+END
+dependencies.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/dependencies.rb
+END
+ordered_hash.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/ordered_hash.rb
+END
+vendor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/vendor.rb
+END
+deprecation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/deprecation.rb
+END
+ordered_options.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/ordered_options.rb
+END
+whiny_nil.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/whiny_nil.rb
+END
+cache.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/cache.rb
+END
+rescuable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/rescuable.rb
+END
+basic_object.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/basic_object.rb
+END
+core_ext.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext.rb
+END
+json.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/json.rb
+END
+option_merger.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/option_merger.rb
+END
+gzip.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/gzip.rb
+END
+test_case.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/test_case.rb
+END

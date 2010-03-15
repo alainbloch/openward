@@ -1,0 +1,11 @@
+<tr><td>
+  <div class="title">
+    <strong><%= link_to post.title, section_article_url(post.permalink_params) %></strong>
+  </div>
+  <p><%= post.excerpt %></p>
+  <div class="read-more">
+		<a href="<%= section_article_url(post.permalink_params) %>">
+			read more <%= theme_image_tag "newsletter/icon02.gif", :url => true  %>
+		</a>
+	</div>
+</td></tr>

@@ -1,0 +1,80 @@
+#!/usr/bin/env ruby
+
+# To include an environment just add to this array. 
+# Production has been purposely left off so that someone doesn't accidentally destroy the production data.
+included_envs = ["development", "test"]
+
+require 'yaml'
+require 'rubygems'
+
+def warning(statement = '')
+  puts "##################################################################\n#{statement}"  
+end
+
+def mysql_drop_create_database(database,host,username,password)
+  warning "Dropping #{database} in MySQL..."
+  system("/usr/bin/env mysql -e 'drop database   #{database}'#{host} -u #{username}#{password}")
+  warning "Creating #{database} in MySQL..."
+  system("/usr/bin/env mysql -e 'create database #{database}'#{host} -u #{username}#{password}")
+end
+
+def postgresql_drop_create_database(database)
+  warning "Dropping #{database} in Postgres..."
+  system("/usr/bin/env dropdb #{database}")
+  warning "Creating #{database} in Postgres..."
+  system("/usr/bin/env createdb #{database}")
+end
+
+# The following is used to test for the existence of the required gems on the local server.
+warning "Testing for required gems. Read REQUIRED_GEMS in the root directory for the list..."
+required_gems = File.open('REQUIRED_GEMS')
+
+required_gems.each do |gem|
+  next if gem =~ /^#/
+  gem.strip!
+
+  begin
+    require gem
+  rescue LoadError
+    warning "ERROR: The RubyGem: #{gem} is not installed.\n\n\t\tPlease install with 'sudo gem install #{gem}'"
+    warning
+    exit  
+  end
+end
+
+
+# The following is used to test for the existence of the database.yml file.
+begin 
+  config_file = File.open("config/database.yml")
+rescue
+  warning 'ERROR: There was was an error loading config/database.yml.'
+  puts "Please verify that you've created it using the sample file:\n\t\t\t(config/database.yml.example)"
+  warning
+  exit
+end
+
+# the following will drop and recreate the databases. 
+
+warning "Preparing to DROP and CREATE the specified databases..."
+database_config = YAML::load_stream(config_file)
+database_config.documents[0].each_pair do |env,db|
+  next unless included_envs.include?(env) and !db['adapter'].nil?
+  username = db['username'] || 'root'
+  password = (db['password'].nil? ? '' : " -p #{db['password']}")
+  host     = (db['host'].nil? ? '' : " -h #{db['host']}")
+  
+  case db['adapter']
+    when 'mysql' : mysql_drop_create_database(db['database'],host,username,password)
+    when 'postgresql' : postgresql_drop_create_database(db['database'])
+  end
+  
+  warning "Migrating schema to the #{env} db..."
+  system("rake db:migrate RAILS_ENV=#{env}")
+  warning "Loading initial data into the #{env} db..."
+  system("rake db:load_initial_data  RAILS_ENV=#{env}")
+  warning "Loading fixtures from spec/fixtures into #{env} db..."  
+  system("rake spec:db:fixtures:load RAILS_ENV=#{env}")
+end
+
+#Super! You made it!
+warning "Setup complete!"

@@ -1,0 +1,37 @@
+<%= link_to_function image_tag("a-close.gif"), "CloseLightbox('ie6_alert');return false", :style => "float:right;" %>
+
+<h1 style="border-bottom:1px dashed #DDDDDD;height:33px; padding-top:0.25em;">
+  Support Healthy Internet Ecology
+  <img src="../img/black_flourish.gif" style="position:relative;top:6px;">
+</h1>
+
+<div id="ie6_alert_content">
+     <p>
+      <strong>You're using Internet Explorer 6</strong> to browse this site. 
+      <strong>Internet Explorer 6 has known security issues</strong> and other problems that can impact your internet experience. 
+      There is a new and better version of Internet Explorer that you can download for free: <a href="http://www.microsoft.com/windows/products/winfamily/ie/default.mspx">Internet Explorer 7</a>. 
+    </p>
+
+    <p>
+      We at Ecotrust are interested in promoting a healthy internet ecology
+      and recommend that you upgrade your system.    
+    </p>
+
+    <p>
+      <a href="http://www.microsoft.com/windows/products/winfamily/ie/default.mspx">
+        Click here to upgrade to Internet Explorer 7.
+      </a>
+    </p>
+
+    <p>Or try one of these browsers:</p>
+      <ul>
+      <li><a href="http://www.mozilla.com/en-US/firefox/">Firefox</a></li>
+      <li><a href="http://www.google.com/chrome">Google Chrome</a></li>
+      <li><a href="http://www.opera.com/download/">Opera</a></li>
+      </ul>
+    
+</div>
+
+<div id="form" style="min-height:0px;">
+  <button onClick="CloseLightbox('ie6_alert');">Close</button>
+</div>

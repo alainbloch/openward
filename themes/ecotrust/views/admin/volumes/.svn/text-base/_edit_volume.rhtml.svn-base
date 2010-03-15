@@ -1,0 +1,10 @@
+<div id="volume_<%= volume.id %>">
+  <div class="field_title">Volume <%= volume.number %>
+    <%= text_field :volume ,:title, :id => "volume_#{volume.id}_title" %> 
+    <%= link_to_remote "save", :url => admin_volume_path(volume), 
+                                 :method => :put, 
+                                 :with => "'title=' + $('volume_#{volume.id}_title').value" %>
+    <%= link_to_function "cancel" do |page|
+          page.replace "volume_#{volume.id}", :partial => "admin/volumes/volume", :locals => {:volume => volume}
+        end %>
+</div>

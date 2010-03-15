@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/569/peopleandplace/trunk/app/controllers/admin
+END
+suggestions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/318/peopleandplace/trunk/app/controllers/admin/suggestions_controller.rb
+END
+issues_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/536/peopleandplace/trunk/app/controllers/admin/issues_controller.rb
+END
+newsletters_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/561/peopleandplace/trunk/app/controllers/admin/newsletters_controller.rb
+END
+roles_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/3/peopleandplace/trunk/app/controllers/admin/roles_controller.rb
+END
+comments_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/451/peopleandplace/trunk/app/controllers/admin/comments_controller.rb
+END
+sections_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/481/peopleandplace/trunk/app/controllers/admin/sections_controller.rb
+END
+dashboard_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/569/peopleandplace/trunk/app/controllers/admin/dashboard_controller.rb
+END
+admin_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/480/peopleandplace/trunk/app/controllers/admin/admin_controller.rb
+END
+volumes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/238/peopleandplace/trunk/app/controllers/admin/volumes_controller.rb
+END
+tags_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/212/peopleandplace/trunk/app/controllers/admin/tags_controller.rb
+END
+pages_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/564/peopleandplace/trunk/app/controllers/admin/pages_controller.rb
+END
+settings_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/390/peopleandplace/trunk/app/controllers/admin/settings_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/417/peopleandplace/trunk/app/controllers/admin/users_controller.rb
+END
+medias_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/534/peopleandplace/trunk/app/controllers/admin/medias_controller.rb
+END
+posts_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/537/peopleandplace/trunk/app/controllers/admin/posts_controller.rb
+END

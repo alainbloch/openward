@@ -1,0 +1,19 @@
+<div class="project_container">
+  
+		<div class="sub_admin_menu">
+      <span class="actions"><%= link_to 'Manage Users', admin_users_path %></span>&nbsp;|&nbsp;
+      <span class="actions">Create User</span> 
+    </div>
+    
+	
+		<% form_tag admin_users_path do %>
+			<%= render :partial => 'form' %>
+			
+			<div style="float:right;display:block;padding:5px;">
+				<%= submit_tag "Create" %> or 
+				<%= link_to "Cancel", { :action => 'index' }, { :confirm => 'Are you sure you want to cancel?' } %>
+			</div>
+		
+		<% end %>
+		
+</div>

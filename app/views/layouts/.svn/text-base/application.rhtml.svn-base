@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title><%= @page_title ? "#{@page_title} | P&P": "People and Place: Ideas That Connect Us" %></title>
+    <link type="text/css" rel="Stylesheet" media="screen" href="/stylesheets/master.css" />
+    <%= javascript_include_tag :defaults %> 
+    <%= auto_discovery_link_tag(:rss, :format => "rss")  %>
+  </head>
+  <body id="index">
+    <%= yield :preview %>
+    <%= render :partial => "shared/header" %>
+    <%= render :partial => "shared/main_nav" %>
+    <div id="wrapper">
+      <%= yield %>
+    </div>
+    <%= render :partial => "shared/footer" %>
+    <%= @setting.analytics %>
+  </body>
+</html>

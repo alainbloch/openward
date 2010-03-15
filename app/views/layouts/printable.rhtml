@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title><%= @page_title ? "#{@page_title} | P&P": "People and Place: Ideas That Connect Us" %></title>
+    <link type="text/css" rel="Stylesheet" media="screen" href="/stylesheets/master.css" />
+  </head>
+  <body id="index">
+    
+    <div id="header">
+      <a href="/" id="people_place_logo" class="replaced">people and place: ideas that connect
+      us</a> 
+      <a href="http://ecotrust.org" id="published_by_ecotrust" class="replaced">published by ecotrust</a>
+    </div>
+    
+    <div id="main_nav">
+      <div>
+        <span>volume <%= @volume_number %> issue <%= @issue_number %></span> 
+      </div>
+    </div>
+    
+    <div id="wrapper">
+        <div id="content">
+          <%= yield %>
+        </div>
+    </div>
+  </body>
+</html>

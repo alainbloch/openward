@@ -1,0 +1,105 @@
+<div class="field_title">Article Title <%= error_message_on('post', 'title')%></div>
+<div class="form_field">
+	<%= text_field :post, :title, :size => '50' %>
+</div>
+
+<div class="field_title">Author <%= error_message_on('post', 'user')%></div>
+<div class="form_field">
+  <% if current_user.has_role?('admin') %>
+	  <%= select :post, :user_id, User.find(:all).collect {|u| [ u.name, u.id ] }, :size => '50', :include_blank => true %>
+  <% else %>
+    <% if @post.new_record? %>
+      <%= current_user.name %>
+    <% else %>
+      <%= @post.user.name %>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="field_title">Body <%= error_message_on('post', 'content')%></div>
+<div class="form_field">
+		<%= text_area :post, :content,  :cols => '50', :rows => '20' %>
+</div>
+
+
+<div style="float:left; display:inline;">
+
+    <div class="field_title">Excerpt</div>
+    <div class="form_field">
+  	  <%= text_area :post, :excerpt,  :cols => '80', :rows => '2' %>
+    </div>
+
+    <div class="field_title">Source</div>
+    <div class="form_field">
+  	  <%= text_field :post, :source %>
+    </div>
+
+    <div class="field_title">Section Assignment</div>
+    <div class="form_field">
+        <%= select:post, :section, SECTIONS, {}, :class => "nice_select_input" %>
+    </div>
+  
+      <div class="field_title">Publish Status</div>
+      
+      <div class="form_field">
+        <% if current_user.has_role?('admin')%>
+            <%= select:post, :status, Post::STATUS, {}, :class => "nice_select_input" %>
+        <% else %>
+          <%= @post.status %>
+        <% end %>
+      </div>
+      
+      <div class="field_title">
+        <% if @post.issue %>
+          Published in Volume <%= @post.issue.volume.number_string %> Issue <%= @post.issue.number_string %><br/>
+          <% if @post.newsletter %>
+              Sent in <%= link_to "Newsletter", admin_issue_newsletter_path(@post.issue, @post.newsletter)%> on <%= @post.newsletter.created_at.strftime("%B %d, %Y %I:%M %p") %>
+          <% else %>
+              Has not been sent in a newsletter.
+          <% end %>
+        <% else %>
+          Will be published in Volume <%= @volume_number %> Issue <%= @issue_number %> upon publishing
+        <% end %>
+      </div>
+      
+      <div class="field_title">
+        <%= check_box :post, :in_archive, :disabled => !current_user.has_role?('admin') %> Include in Archive?
+      </div>
+      
+</div>
+
+<div style="float:right; display:inline;width:200px;">
+
+  <div class="timestamp-container">
+
+    <div class="field_title">Published at</div>    
+
+    <% if current_user.has_role?('admin') %>
+      <div><%= datetime_select :post, :published_at, :value => (@post.published_at.nil? ? DateTime.now : @post.published_at), :order => [:month, :day, :year] %></div>
+    <% else %>
+      <div class="post_and_media_timestamp">
+        <b><%= @post.published_at ? @post.published_at.strftime("%B %d, %Y %I:%M %p") : "Article needs to be published"%></b>
+      </div>
+    <% end %>
+
+  </div>   
+
+</div>
+
+<div style="clear:both;"/>
+
+<%= render :partial => '/associations/media/associate_media', :locals => { :post   => @post, 
+                                                                           :medias => Media.paginate(:page => params[:page]) } %>
+  
+<div class="form_field">
+  <div class="field_title">Tag Assignment</div>
+  <div class="tag_field">
+  	<ul id="categories">
+  		<% Tag.find(:all, :order => "name ASC").each do |tag| %>
+  			<li>
+  				<%= check_box_tag tag.name, true, @post.has_tag?(tag), :name => "tags[#{tag.name}]" %><%= tag.name %>
+  			</li>
+  		<% end %>
+  	</ul>
+  </div>
+</div>  

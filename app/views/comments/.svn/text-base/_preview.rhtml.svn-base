@@ -1,0 +1,17 @@
+<%= link_to_function image_tag("a-close.gif"), "CloseLightbox('preview_comment');return false", :style => "float:right;" %>
+
+<h1>Comment Preview <img src="../img/black_flourish.gif"></h1>
+
+<div style="min-height:100px;">
+  <%= display comment %>
+</div>
+
+<% if @setting.comment_moderation %>
+  <div style="border-top:1px dashed #DDDDDD;padding-top:0.25em;font-size:1.5em;">
+    <i>Comments are currently moderated and must be approved before they are displayed.</i>
+  </div>
+<% end %>
+
+<div id="form" style="min-height:0px;margin-top:0;">
+  <button onClick="CloseLightbox('preview_comment');">Close Preview</button>
+</div>

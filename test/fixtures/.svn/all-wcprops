@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/fixtures
+END
+associations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/fixtures/associations.yml
+END
+newsletters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/fixtures/newsletters.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/fixtures/settings.yml
+END
+visits.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/30/peopleandplace/trunk/test/fixtures/visits.yml
+END
+medias.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/fixtures/medias.yml
+END
+roles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/fixtures/roles.yml
+END
+sections.yml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/fixtures/sections.yml
+END
+subscriptions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/fixtures/subscriptions.yml
+END
+volumes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/fixtures/volumes.yml
+END
+issues.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/fixtures/issues.yml
+END
+tags.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/fixtures/tags.yml
+END

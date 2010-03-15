@@ -1,0 +1,24 @@
+<div id="favicon_links">
+  <ul>
+    <% social_bookmarks(page_url,article.title).each do |bookmark| %>
+      <li>
+        <%= link_to bookmark[:name], bookmark[:url], :class => "replaced", :id => bookmark[:name] %>
+      </li>  
+    <% end %>
+    
+    <% if article.class == Post and article.section == "Featured Voices" %>
+    <li class="right">
+      <%#= link_to "Download PDF", formatted_featured_voice_path(@post, :pdf), :id => "pdf", :title => "Download Feature PDF", :class => "replaced" %>
+    </li>
+    <% end %>  
+    <li class="right">
+      <%= link_to content_tag(:span, "print"), {:controller => params[:controller], :action => "print", :id => params[:id]}, :class => "replaced", :id => "print", :title => "Print Article" %>
+    </li>
+    <li class="right">
+      <%= send_article_link(article) %>
+    </li>
+    <li style="list-style: none">
+      
+    </li>
+  </ul>
+</div>

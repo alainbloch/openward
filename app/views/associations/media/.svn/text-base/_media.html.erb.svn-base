@@ -1,0 +1,25 @@
+<% @background = (@background == "#E6E6E6" ? "#F2F2F2" : "#E6E6E6" ) -%>
+<tr id="media_entry_<%= media.id%>" class="small_list_entry" style = "background-color:<%= @background %>;">
+  <td class="small_list_entry_field">  
+    <%#= model_icon(media) %> 
+  </td>
+  <td class="small_list_entry_field" style="width:107px;">
+    <%= link_to(truncate(media.title, :length => 20), edit_admin_media_path(media)) %> 
+  </td>
+  <td class="small_list_entry_field" style="width:158px;">
+    <%= truncate(strip_tags(media.content)) %>
+  </td>  
+  <td class="small_list_entry_remove">
+    <div id="remove_media_entry_<%= media.id %>" style="display:none;">
+    <%= link_to_remote image_tag("trash.gif", :class => 'image_link'), 
+                      :url => { :controller => '/associations',
+                                :action     => :remove_media, 
+                                :media_id  => media.id } %>
+    </div>
+    <div  id="add_media_entry_<%= media.id %>">
+    <%= link_to_remote "add",  :url => { :controller => '/associations',
+                                         :action     => :add_media, 
+                                         :media_id   => media.id } %>
+    </div>
+  </td>  
+</tr>

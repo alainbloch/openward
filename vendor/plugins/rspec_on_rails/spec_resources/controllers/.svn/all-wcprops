@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/controllers
+END
+redirect_spec_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/controllers/redirect_spec_controller.rb
+END
+controller_spec_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/controllers/controller_spec_controller.rb
+END
+rjs_spec_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/controllers/rjs_spec_controller.rb
+END
+render_spec_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/controllers/render_spec_controller.rb
+END

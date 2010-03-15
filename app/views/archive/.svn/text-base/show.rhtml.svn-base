@@ -1,0 +1,37 @@
+<div id="main" class="feature features_listing">
+
+  <div id="about_each_section">
+   <div class="about_feature_page">
+      <p>
+        Featured Voices speak to ideas that connect us. Each serves as the centerpiece for an issue of P&P.
+      </p>
+    </div>
+  </div>
+
+  <div id="content">
+    
+     <% if @setting.archive_page %>
+        <div id="featured_voices_header">
+          <%= link_to( "(Edit Page)", edit_admin_page_path(@setting.archive_page), :style => "display:inline;float:right;") if current_user %>
+          <%= @setting.archive_page.title %>
+        </div>
+        <div id="article_content">
+        <p><%= @setting.archive_page.content %></p>
+        </div>
+      
+      <% else %>
+        <div id="featured_voices_header">
+        archives
+      </div>
+      <% end  %>
+      
+      <% unless @volumes.empty? %>
+        <%= render :partial => "volume", :collection => @volumes %>
+      <% else %>
+        <h2>There are no archives at this present time.</h2>
+      <% end %>
+  </div>
+  
+</div>
+
+<%= render :partial => "shared/large_sidebar" %>

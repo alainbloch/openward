@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnpap/!svn/ver/10/peopleandplace/trunk/spec/fixtures
+END
+pages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/10/peopleandplace/trunk/spec/fixtures/pages.yml
+END
+rights.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/fixtures/rights.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/fixtures/users.yml
+END
+visitors.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/9/peopleandplace/trunk/spec/fixtures/visitors.yml
+END
+activities.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/10/peopleandplace/trunk/spec/fixtures/activities.yml
+END
+roles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/fixtures/roles.yml
+END
+comments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/9/peopleandplace/trunk/spec/fixtures/comments.yml
+END
+roles_users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/fixtures/roles_users.yml
+END
+posts_tags.yml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/fixtures/posts_tags.yml
+END
+posts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/9/peopleandplace/trunk/spec/fixtures/posts.yml
+END
+suggestions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/9/peopleandplace/trunk/spec/fixtures/suggestions.yml
+END
+tags.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/fixtures/tags.yml
+END

@@ -1,0 +1,16 @@
+<div id="project_menu">
+	<div class="menu_item <%= "active_item"  if params[:controller] == "admin/post" %>"><%= link_to 'Articles', new_admin_post_path %></div>
+	<div class="menu_item <%= "active_item"  if params[:controller] == "admin/medias" %>"><%= link_to 'Media',   new_admin_media_path %></div>
+	<div class="menu_item <%= "active_item"  if params[:controller] == "admin/comments" %>"><%= link_to 'Comments', admin_comments_path %></div>
+
+  <% if current_user.has_role?('admin') %>
+    <div class="menu_item <%= "active_item"  if params[:controller] == "admin/users" %>"><%= link_to('Users', admin_users_path) %></div>
+    <div class="menu_item <%= "active_item"  if params[:controller] == "admin/page" %>"><%= link_to 'Pages',   admin_pages_path %></div>
+    <div class="menu_item <%= "active_item"  if params[:controller] == "admin/tags" %>"><%= link_to('Tags', admin_tags_path) %></div>
+	  <div class="menu_item <%= "active_item"  if params[:controller] == "admin/volumes" %>"><%= link_to( 'Vol/Issue', admin_volumes_path) %></div>
+	  <div class="menu_item <%= "active_item"  if params[:controller] == "admin/suggestions" %>"><%= link_to('Connections',  admin_suggestions_path) %></div>
+    <div class="menu_item <%= "active_item"  if params[:controller] == "admin/settings" %>"><%= link_to('Settings', admin_settings_path) %></div>
+  <% end %>
+
+</div>
+

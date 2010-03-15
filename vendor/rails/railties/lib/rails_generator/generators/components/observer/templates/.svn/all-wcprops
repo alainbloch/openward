@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates
+END
+unit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates/unit_test.rb
+END
+observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates/observer.rb
+END

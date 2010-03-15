@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter
+END
+base_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/base_formatter.rb
+END
+snippet_extractor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/snippet_extractor.rb
+END
+base_text_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/base_text_formatter.rb
+END
+failing_behaviours_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/failing_behaviours_formatter.rb
+END
+specdoc_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/specdoc_formatter.rb
+END
+html_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/html_formatter.rb
+END
+failing_examples_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/failing_examples_formatter.rb
+END
+rdoc_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/rdoc_formatter.rb
+END
+progress_bar_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner/formatter/progress_bar_formatter.rb
+END

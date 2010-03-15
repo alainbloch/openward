@@ -1,0 +1,26 @@
+<div  class="form_field" style="width:210px;">
+  <label for="item_name">Search </label>
+  <%= text_field_tag("query", params[:query], :id => "query" ) %>
+  <%= spinner %>
+  <%= media_query_observer(user, action) %>
+</div>
+
+<div style="font-size:12px;padding-bottom:10px;">
+  <%= link_to_media_type("All", "") %> | 
+  <%= link_to_media_type("Videos", "Video") %> | 
+  <%= link_to_media_type("Audio", "Audio") %> | 
+  <%= link_to_media_type("Text", "Text") %> | 
+  <%= link_to_media_type("Images", "Image") %> | 
+  <%= link_to_media_type("Caricatures", "Caricature") %>
+</div>
+
+<table id="media_list_table">
+    <%= render :partial => '/associations/media/media', :collection => medias %> 
+    <tr id="media_list_table_last"></tr>
+</table>
+
+<div id="media_list_pagination_links">
+  <div id="pagination">
+    <ul><%=  remote_media_pagination(medias, action, user, params[:type]) %></ul>
+  </div>  
+</div>

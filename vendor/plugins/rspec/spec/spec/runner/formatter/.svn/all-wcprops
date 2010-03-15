@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter
+END
+specdoc_formatter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/specdoc_formatter_spec.rb
+END
+specdoc_formatter_dry_run_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/specdoc_formatter_dry_run_spec.rb
+END
+html_formatted-1.8.4.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/html_formatted-1.8.4.html
+END
+progress_bar_formatter_failure_dump_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/progress_bar_formatter_failure_dump_spec.rb
+END
+html_formatted-1.8.5.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/html_formatted-1.8.5.html
+END
+html_formatted-1.8.6.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/html_formatted-1.8.6.html
+END
+rdoc_formatter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/rdoc_formatter_spec.rb
+END
+progress_bar_formatter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/progress_bar_formatter_spec.rb
+END
+rdoc_formatter_dry_run_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/rdoc_formatter_dry_run_spec.rb
+END
+snippet_extractor_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/snippet_extractor_spec.rb
+END
+progress_bar_formatter_dry_run_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/progress_bar_formatter_dry_run_spec.rb
+END
+failing_behaviours_formatter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/failing_behaviours_formatter_spec.rb
+END
+html_formatter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/html_formatter_spec.rb
+END
+failing_examples_formatter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/failing_examples_formatter_spec.rb
+END
+html_formatted-1.8.5-jruby.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/runner/formatter/html_formatted-1.8.5-jruby.html
+END

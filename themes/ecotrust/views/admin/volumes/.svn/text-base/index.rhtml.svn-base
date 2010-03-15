@@ -1,0 +1,23 @@
+<div class="project_container">
+  
+  <div class="sub_admin_menu">
+    <span class="actions"><%= link_to 'Volume List',  admin_volumes_path %></span>&nbsp;|&nbsp;
+    <span class="actions"><%= link_to 'Create Issue', new_admin_issue_path %></span> 
+  </div>
+  <div class="sub_admin_menu">
+    <% form_remote_tag :url => admin_volumes_path do %>
+    Add New Volume <%= text_field :volume, :title %> <%= submit_tag "Create" %>
+    <% end %>
+  </div>
+  
+  <div id="volumes">
+  <% unless @volumes.empty? %>
+  <% form_tag activate_admin_volumes_path do %>
+      <%= render :partial => "volume", :collection => @volumes %>
+      <%= submit_tag "Save" %>
+  <% end %>
+  <% else %>
+    <div>No Volumes yet. Create one using the form above.</div>
+  <% end %>
+  </div>
+</div>

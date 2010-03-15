@@ -1,0 +1,21 @@
+<% @color = (@color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+<tr style="background-color:<%= @color %>">
+  <td>
+    <%= radio_button_tag "active_issue", issue.id, issue.active, :id => "active_issue" if issue.volume.active %>
+  </td>
+  <td><%= issue.number %></td>
+  <td><%= issue.title %></td>
+  <td><%= issue.feature.user.name if issue.feature %></td>
+  <td><%= issue.posts.size + issue.medias.size %></td>
+  <td>
+    <% unless issue.start_date.blank? %>
+      <%= issue.start_date.strftime("%m/%d/%y")%><%= " - #{issue.end_date.strftime("%m/%d/%y")}" if issue.end_date %>
+    <% end %>
+  </td>
+  <td>
+    <%= link_to "edit", edit_admin_issue_path(issue)%>
+    <span style="padding-left:5px;">
+      <%= link_to image_tag("trash.gif") + "delete", admin_issue_path(issue), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %>
+    </span>
+  </td>
+</tr>

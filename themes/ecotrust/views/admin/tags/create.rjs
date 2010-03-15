@@ -1,0 +1,4 @@
+page['tags'].replace :partial => 'tag_list', :locals => { :tags => Tag.find(:all, :order => "name ASC") }
+
+
+page['tag_form'].replace_html :partial => 'form'

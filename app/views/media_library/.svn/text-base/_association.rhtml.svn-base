@@ -1,0 +1,18 @@
+<!-- associated media to an article -->
+<li>
+      <%= link_to media_thumbnail(association, :alt => association.title, :width => "121px", :height => "86px"), media_path(association), :class => "media_image" %>
+  	<h3>
+      <%= link_to association.title, media_path(association) %> 
+    </h3>
+    <!--
+    <p class="medium"><%= association.media_type.capitalize %></p>
+    -->
+    <!-- removing excerpt
+    <p>
+      <%= association.excerpt %>
+    </p>
+    -->
+  
+</li>
+
+<!-- end associated media -->

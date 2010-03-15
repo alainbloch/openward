@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient
+END
+util.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/util.rb
+END
+connection.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/connection.rb
+END
+http.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/http.rb
+END
+auth.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/auth.rb
+END
+session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/session.rb
+END
+ssl_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/ssl_config.rb
+END
+timeout.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/timeout.rb
+END
+cacert.p7s
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/cacert.p7s
+END
+cookie.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/lib/httpclient/cookie.rb
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/scripts
+END
+update.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/scripts/update.rb
+END
+destroy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/scripts/destroy.rb
+END
+generate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/scripts/generate.rb
+END

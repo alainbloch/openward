@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpap/!svn/ver/440/peopleandplace/trunk/app/views/shared
+END
+_footer.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/90/peopleandplace/trunk/app/views/shared/_footer.rhtml
+END
+_small_sidebar.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/201/peopleandplace/trunk/app/views/shared/_small_sidebar.rhtml
+END
+_large_sidebar.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/327/peopleandplace/trunk/app/views/shared/_large_sidebar.rhtml
+END
+_syndicate.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/271/peopleandplace/trunk/app/views/shared/_syndicate.rhtml
+END
+_top_menu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpap/!svn/ver/12/peopleandplace/trunk/app/views/shared/_top_menu.rhtml
+END
+_alert.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/293/peopleandplace/trunk/app/views/shared/_alert.rhtml
+END
+_header.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/417/peopleandplace/trunk/app/views/shared/_header.rhtml
+END
+_main_nav.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpap/!svn/ver/43/peopleandplace/trunk/app/views/shared/_main_nav.rhtml
+END
+_popup.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/269/peopleandplace/trunk/app/views/shared/_popup.html.erb
+END
+_pagination.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/3/peopleandplace/trunk/app/views/shared/_pagination.rhtml
+END
+_ie6_alert.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/333/peopleandplace/trunk/app/views/shared/_ie6_alert.rhtml
+END

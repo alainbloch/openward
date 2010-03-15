@@ -1,0 +1,48 @@
+<div class="project_container">
+  
+  <div class="sub_admin_menu">
+    <span class="actions"><%= link_to 'Volume List',  admin_volumes_path %></span>&nbsp;|&nbsp;
+    <span class="actions"><%= link_to 'Create Issue', new_admin_issue_path %></span>
+  </div>
+  
+  <% form_tag admin_issue_path(@issue), :method => :put do %>  
+
+    <%= render :partial => "form" %>
+
+    <div style="float:right;display:block;padding:5px;">
+  		<%= submit_tag "Update", :class => "submit" %> or
+  		<%= link_to "Cancel", admin_volumes_path, { :confirm => 'Are you sure you want to cancel?' } %>
+  	</div>
+
+  <% end %>
+
+  <br style="clear:both;">
+  
+  <div class="field_title">Newsletters - <%= link_to "Create Newsletter", new_admin_issue_newsletter_path(@issue) %></div>
+  <p>Newsletters are pushed onto your <a href="http://verticalresponse.com">VerticalResponse</a> account. You must log into your account to send
+    the newsletter to your mailing list.</p>
+  <div class="form_field">
+    <table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+      <tr>
+        <th class="la" width="90px">Title</th>
+        <th class="la" width="60px">Date Released</th>
+        <th class="la" width="150px">Intro</th>
+        <th class="la" width="60px">No. of Articles</th>
+        <th width="51px"></th>
+        <th width="5px"></th>
+      </tr>
+      <% for newsletter in @issue.newsletters do %>
+      <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+      <tr style="background-color:<%= color %>">
+        <td><%= link_to newsletter.title, admin_issue_newsletter_path(@issue, newsletter) %></td>
+        <td><%= newsletter.created_at.strftime("%b %d, %Y") %></td>
+        <td><%= truncate strip_tags(newsletter.intro) %></td>
+        <td><%= newsletter.medias.size + newsletter.posts.size %></td>
+        <td><%= link_to "Send out", send_out_admin_issue_newsletter_path(@issue, newsletter), :confirm => "Are you sure you want to send this newsletter again?" %></td>
+        <td><%= link_to image_tag("trash.gif") + "Delete", admin_issue_newsletter_path(@issue, newsletter), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %></td>
+      </tr>  
+      <% end %>
+    </table>
+  </div>
+  
+</div>

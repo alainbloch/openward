@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples
+END
+failure_in_setup.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/failure_in_setup.rb
+END
+diffing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/diffing_spec.rb
+END
+failure_in_teardown.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/failure_in_teardown.rb
+END
+partial_mock_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/partial_mock_example.rb
+END
+team_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/team_spec.rb
+END
+mocking_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/mocking_example.rb
+END
+raising_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/raising_example.rb
+END
+mocking_with_mocha.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/mocking_with_mocha.rb
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/spec_helper.rb
+END
+mocking_with_flexmock.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/mocking_with_flexmock.rb
+END
+syntax_error_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/syntax_error_example.rb
+END
+timeout_behaviour.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/timeout_behaviour.rb
+END
+predicate_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/failing_examples/predicate_example.rb
+END

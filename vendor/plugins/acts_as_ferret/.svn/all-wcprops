@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/39/peopleandplace/trunk/vendor/plugins/acts_as_ferret
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/39/peopleandplace/trunk/vendor/plugins/acts_as_ferret/LICENSE
+END
+rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/39/peopleandplace/trunk/vendor/plugins/acts_as_ferret/rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/39/peopleandplace/trunk/vendor/plugins/acts_as_ferret/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/39/peopleandplace/trunk/vendor/plugins/acts_as_ferret/install.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnpap/!svn/ver/39/peopleandplace/trunk/vendor/plugins/acts_as_ferret/README
+END

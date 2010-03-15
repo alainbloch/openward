@@ -1,0 +1,14 @@
+<h1><%= @post.title %></h1>
+
+<div id="article_date">
+  <div class="author">by <%= @post.user.name %></div>
+  <div class="article_date"><%= @post.published_at.strftime("%B %d, %Y %I:%M%p") %></div>
+</div>
+
+<%= render_caricature(@post, :style =>"width:232px;") %>
+
+<div id="article_content">
+<p class="feature_first_paragraph">
+  <%= @post.content %>
+</p>
+</div>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/soap/wsdl2ruby/soapenc
+END
+soapenc.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/soap/wsdl2ruby/soapenc/soapenc.wsdl
+END
+test_soapenc.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl/soap/wsdl2ruby/soapenc/test_soapenc.rb
+END

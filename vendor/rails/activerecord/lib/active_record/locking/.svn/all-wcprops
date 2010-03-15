@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/lib/active_record/locking
+END
+optimistic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb
+END
+pessimistic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/lib/active_record/locking/pessimistic.rb
+END

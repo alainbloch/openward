@@ -1,0 +1,32 @@
+<li class="media_list_item">
+  <div class="list_item_caricature">
+    <% unless featured_voice.caricature.blank? %>
+      <%= link_to( media_thumbnail(featured_voice.caricature, :alt => 'caricature', :width => '120px'), featured_voice_path(featured_voice), :class => "media_image" ) %>
+    <% else %>
+      &nbsp;
+    <% end %>
+  </div>
+  <div class="list_item_content">
+    <h2 class="media_title">
+    <%= link_to featured_voice.title, featured_voice_path(featured_voice) %>
+    </h2>
+    <div class="author">by <%= featured_voice.user.name %></div>
+
+    <p><%= featured_voice.excerpt %></p>
+    
+    <%= link_to "readmore", featured_voice_path(featured_voice), :class => "readmore replaced" %>
+   
+  </div>
+  <!-- .list_item_content -->
+  
+  <!-- .features_list_item_content -->
+  
+  	<div class="metadata">                
+      <span><%= featured_voice.published_at.strftime("%b %d, %Y") %></span> 
+      <%= render :partial => "tags/association", :locals => {:taggable => featured_voice}%>
+      <span class="comments"><%= pluralize featured_voice.approved_comments.size, "Comment" %></span>
+      <span class="permalink"><%= link_to "permalink", featured_voice_url(featured_voice) %></span>
+      <!-- .tags -->
+    </div>
+
+</li>

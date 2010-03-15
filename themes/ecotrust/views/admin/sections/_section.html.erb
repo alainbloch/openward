@@ -1,0 +1,11 @@
+<% @color = (@color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+<tr style="background-color:<%= @color %>">
+ <td><%= link_to section.name, section_path(section) %></td>
+ <td><%= truncate section.description %></td>
+ <td><%= section.posts.size %></td>
+ <td style="text-align:right;">
+  <% if current_user.has_role?('admin') %>
+    <%= link_to "Edit", edit_admin_section_path(section),  :style => "border:medium none;text-decoration:none;" %>
+  <% end %>
+ </td>
+</tr>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models
+END
+post_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models/post_spec.rb
+END
+tag_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models/tag_spec.rb
+END
+page_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models/page_spec.rb
+END
+right_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models/right_spec.rb
+END
+user_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models/user_spec.rb
+END
+role_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/models/role_spec.rb
+END

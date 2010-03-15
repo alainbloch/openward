@@ -1,0 +1,27 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="100px">Type</th>
+    <th class="la" width="20">Id</th>
+    <th class="la" width="450px">Description</th>
+    <th class="la" width="50px">Time/Date</th>
+    <th class="la" width="50px">User</th>
+    <th class="la" width="50"></th>
+  </tr>
+
+  <% for activity in activities %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+    <tr style="background-color:<%= color %>">
+     <td><%= activity.action_type %></td>
+     <td><%= activity.id %></td>
+     <td><%= activity.description %></td>
+     <td><%= activity.created_at.strftime("%m/%d/%Y") %></td>
+     <td><%= activity.owner %></td>
+     <td><%= link_to_activity(activity) %></td>
+  </tr>  
+<% end %>
+
+</table>
+
+<div id="pagination">
+  <ul><%= will_paginate activities, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+</div>

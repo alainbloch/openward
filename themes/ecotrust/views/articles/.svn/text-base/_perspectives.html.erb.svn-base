@@ -1,0 +1,14 @@
+<li class="perspectives_list_item">
+   <div class="perspectives_list_item_content">
+     <h2 class="article_title"><%= link_to perspectives.title, section_article_path(perspectives.permalink_params.merge(:section_id => "perspectives")) rescue debugger %></h2>
+     <div class="author">by <%= perspectives.user.name %></div>
+       <p><%= perspectives.excerpt %></p>
+        <%= link_to "readmore", section_article_path(perspectives.permalink_params.merge(:section_id => "perspectives")), :class => "readmore replaced" %>
+     </div>
+   <div class="metadata">
+     <span><%= perspectives.published_at.strftime("%b %d, %Y") %></span>
+     <%= render :partial => "tags/association", :locals => {:taggable => perspectives} %>
+     <span class="comments"><%= pluralize perspectives.approved_comments.size, "Comment" %></span>
+     <span class="permalink"><%= link_to "permalink", section_article_path(perspectives.permalink_params.merge(:section_id => "perspectives")) %></span>
+   </div>
+</li>

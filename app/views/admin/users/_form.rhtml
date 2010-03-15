@@ -1,0 +1,55 @@
+<div style="float:right">
+  <div class="field_title">Description <%= error_message_on('user', 'description')%></div>
+  <div class="form_field">
+  	<%= text_area :user, :description %>
+  </div>
+</div>
+
+<div class="field_title">First Name <%= error_message_on('user', 'first_name')%></div>
+<div class="form_field">
+	<%= text_field :user, :first_name %>
+</div>
+	
+<div class="field_title">Last Name<%= error_message_on('user', 'last_name')%></div>
+<div class="form_field">
+	<%= text_field :user, :last_name %>
+</div>
+	
+<div class="field_title">Display Name <%= error_message_on('user', 'display_name')%></div>
+<div class="form_field">
+	<%= text_field :user, :display_name %>
+</div>
+
+<div class="field_title">Email Address </span><%= error_message_on('user', 'email') %></div>
+<div class="form_field">
+	<%= text_field :user, :email %>
+</div>
+
+<% if !@hide_password %>
+  
+<div class="field_title">Password </span><%= error_message_on('user', 'password') %></div>
+<div class="form_field">
+	<%= password_field :user, :password %>
+</div>
+
+<div class="field_title">Password Confirmation </span><%= error_message_on('user', 'password_confirmation') %></div>
+<div class="form_field">
+	<%= password_field :user, :password_confirmation %>
+</div>
+	
+<% end %>
+	
+	
+<% if current_user.has_role?("admin") %>
+<div class="field_title">Roles</span><%= error_message_on('user', 'roles')%></div>
+<div class="form_field">
+    <ul id="list_select">
+   		<% Role::SITE_ROLE_NAMES.each do |role_name| %>
+   			<li><%= check_box_tag "roles[#{role_name}]", true, @user.has_role?(role_name) %><%= role_name %></li>
+   		<% end %>
+   	</ul>
+</div>
+<br style="clear:both;">
+<% end %>
+
+

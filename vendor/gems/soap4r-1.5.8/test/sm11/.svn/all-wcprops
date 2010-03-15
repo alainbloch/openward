@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/sm11
+END
+client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/sm11/client.rb
+END
+servant.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/sm11/servant.rb
+END
+classDef.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/sm11/classDef.rb
+END
+server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/sm11/server.rb
+END
+driver.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/sm11/driver.rb
+END

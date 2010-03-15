@@ -1,0 +1,77 @@
+10
+
+dir
+580
+http://svn.vps120.speedyrails.ca/svnpap/peopleandplace/trunk/test
+http://svn.vps120.speedyrails.ca/svnpap
+
+
+
+2009-02-13T21:36:54.624248Z
+486
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7cd04dc2-7d32-4124-8f57-6e100f016afd
+
+unit
+dir
+
+test_helper.rb
+file
+
+
+
+
+2010-03-15T00:39:45.000000Z
+fc4d849e28f089141debb18b22058277
+2007-11-08T00:00:03.011457Z
+1
+deploy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1317
+
+functional
+dir
+
+integration
+dir
+
+fixtures
+dir
+
+mocks
+dir
+

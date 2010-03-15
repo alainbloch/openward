@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2
+END
+SOAP4R_SOAPBuildersInteropTest_R2GroupB.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/SOAP4R_SOAPBuildersInteropTest_R2GroupB.wsdl
+END
+clientOpenLink.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientOpenLink.rb
+END
+InteropTest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/InteropTest.rb
+END
+clientKafkaXSLT.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientKafkaXSLT.rb
+END
+clientMSSOAPToolkit3.0.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientMSSOAPToolkit3.0.rb
+END
+clientSQLData.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSQLData.rb
+END
+InteropTestC.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/InteropTestC.wsdl
+END
+clientPhalanx.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientPhalanx.rb
+END
+iSimonReg.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/iSimonReg.rb
+END
+clientJAX-RPC.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientJAX-RPC.rb
+END
+clientSun.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSun.rb
+END
+server.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/server.cgi
+END
+clientApacheAxis.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientApacheAxis.rb
+END
+groupc.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/groupc.wsdl
+END
+SOAPBuildersInterop_R2.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/SOAPBuildersInterop_R2.wsdl
+END
+clienteSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clienteSOAP.rb
+END
+clientASP.NET.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientASP.NET.rb
+END
+clientBase.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientBase.rb
+END
+client4S4C.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/client4S4C.rb
+END
+client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/client.rb
+END
+clientSilverStream.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSilverStream.rb
+END
+clientEasySoap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientEasySoap.rb
+END
+clientPEAR.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientPEAR.rb
+END
+clientXSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientXSOAP.rb
+END
+InteropTestDriver.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/InteropTestDriver.rb
+END
+client4S4C2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/client4S4C2.rb
+END
+clientSIMACE.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSIMACE.rb
+END
+interopService.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/interopService.rb
+END
+server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/server.rb
+END
+rwikiInteropService.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/rwikiInteropService.rb
+END
+clientSOAP4R.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSOAP4R.rb
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/README.txt
+END
+clientWASP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientWASP.rb
+END
+clientXMLBus.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientXMLBus.rb
+END
+clientXMLRPC-EPI.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientXMLRPC-EPI.rb
+END
+test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/test.sh
+END
+InteropTest.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/InteropTest.wsdl
+END
+clientFrontier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientFrontier.rb
+END
+clientWingfoot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientWingfoot.rb
+END
+client.log
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/client.log
+END
+SOAP4R_SOAPBuildersInteropTest_R2.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/SOAP4R_SOAPBuildersInteropTest_R2.wsdl
+END
+clientWebMethods.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientWebMethods.rb
+END
+SOAPBuildersInterop_R2GrB.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/SOAPBuildersInterop_R2GrB.wsdl
+END
+clientBEAWebLogic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientBEAWebLogic.rb
+END
+clientNuSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientNuSOAP.rb
+END
+clientNuWave.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientNuWave.rb
+END
+clientZSI.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientZSI.rb
+END
+SOAP4R_SOAPBuildersInteropTest_R2GroupCClient.rb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/SOAP4R_SOAPBuildersInteropTest_R2GroupCClient.rb
+END
+clientgSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientgSOAP.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/base.rb
+END
+interopResultBase.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/interopResultBase.rb
+END
+clientJSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientJSOAP.rb
+END
+clientVWOpentalkSoap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientVWOpentalkSoap.rb
+END
+clientWASPC.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientWASPC.rb
+END
+clientkSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientkSOAP.rb
+END
+clientSOAP__Lite.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSOAP__Lite.rb
+END
+clientCapeConnect.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientCapeConnect.rb
+END
+simonReg.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/simonReg.rb
+END
+clientWhiteMesa.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientWhiteMesa.rb
+END
+clientMSSOAPToolkit2.0.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientMSSOAPToolkit2.0.rb
+END
+clientGLUE.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientGLUE.rb
+END
+clientSpray2001.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientSpray2001.rb
+END
+SOAPBuildersInterop_R2GrC.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/SOAPBuildersInterop_R2GrC.wsdl
+END
+clientApacheSOAP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientApacheSOAP.rb
+END
+clientOracle.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientOracle.rb
+END
+clientDelphi.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientDelphi.rb
+END
+clientHP.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/clientHP.rb
+END
+client.NetRemoting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/interopR2/client.NetRemoting.rb
+END

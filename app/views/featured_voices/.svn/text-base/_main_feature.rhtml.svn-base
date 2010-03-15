@@ -1,0 +1,30 @@
+<!-- Main Feature -->
+<div id="main_feature">
+
+  <!-- Featured Voice Caricature -->
+  <%= render_caricature(@main_feature, :style =>"width:179px;") %>
+  <!-- End Feature Voice Caricature -->
+
+  <h1 class="article_title"><%= link_to @main_feature.title, featured_voice_path(@main_feature) %></h1>
+   <div class="author">by <%= @main_feature.user.name %></div>
+   <div class="article_date"><%= @main_feature.published_at.strftime("%b %d, %Y %I:%M%p") %></div>
+
+   <p class="feature_first_paragraph"><%= @main_feature.excerpt %></p>
+
+   <%= link_to "readmore", featured_voice_path(@main_feature), :class => "readmore replaced" %>       
+  
+   <div class="metadata">                
+     <span class="comments"><%= pluralize @main_feature.approved_comments.size, "comments" %></span>&nbsp;|&nbsp;
+     <span class="permalink"><%= link_to "permalink", featured_voice_path(@main_feature) %></span>
+   </div>
+       
+  <div class="tags">
+    <% unless @main_feature.tags.empty? %>
+      <strong>Tags:</strong>
+      <% for tag in @main_feature.tags do %>
+       <%= link_to tag.name, "#", :title => "tag" %>
+      <% end %>
+     <% end %>
+  </div>
+</div>
+<!--- End Main Feature -->

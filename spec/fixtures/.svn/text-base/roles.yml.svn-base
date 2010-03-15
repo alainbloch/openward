@@ -1,0 +1,8 @@
+administrator:
+  id: 1
+  name: admin
+  description: 'Has access to all functions.'
+editor:
+  id: 2
+  name: editor
+  description: 'Can create pages and posts.'

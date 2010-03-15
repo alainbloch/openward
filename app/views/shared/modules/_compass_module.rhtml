@@ -1,0 +1,14 @@
+<% unless compasses.empty? %>
+<div class="compass module">
+  <h3>
+    <%= link_to "our compass", our_compass_path %>
+  </h3>
+  <% for compass in compasses do %>
+    <div class="module_entry">
+      <h4><%= link_to compass.title, "/our_compass/#{compass.id}" %></h4>
+      <p><%=  strip_tags(compass.excerpt) %></p>
+      <%= link_to "readmore", "/our_compass/#{compass.id}", :class => "replaced readmore" %>
+    </div>
+  <% end %>
+</div>
+<% end %>

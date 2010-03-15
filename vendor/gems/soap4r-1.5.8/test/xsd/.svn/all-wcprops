@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd
+END
+test_xmlschemaparser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/test_xmlschemaparser.rb
+END
+test_xsd.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/test_xsd.rb
+END
+xmlschema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/xmlschema.xml
+END
+test_ns.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/test_ns.rb
+END
+xmllang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/xmllang.xml
+END
+noencoding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/noencoding.xml
+END
+test_noencoding.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/xsd/test_noencoding.rb
+END

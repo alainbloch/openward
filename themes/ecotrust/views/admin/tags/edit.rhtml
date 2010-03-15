@@ -1,0 +1,10 @@
+<h1>Editing tag</h1>
+
+<% form_tag admin_tag_path(@tag), :method => :put do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag "Update Tag"%></div>
+  <div style="margin-right:75px;color:#454545;font-weight:bold;">single word, no numbers, all lowercase</div>
+<% end %>
+
+<%= link_to 'Show', admin_tag_path(@tag) %> |
+<%= link_to 'Back', admin_tags_path %>

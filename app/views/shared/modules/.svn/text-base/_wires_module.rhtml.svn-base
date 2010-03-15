@@ -1,0 +1,13 @@
+<% unless wires.empty? %>
+<div class="wire module">
+   <h3>
+     <%= link_to "on the wire", on_the_wire_path %>
+     <div class="wire_date"><%= Time.now.strftime("%B %d, %Y")%></div>
+   </h3>
+   <ul class="wire_links">
+     <% for wire in wires do %>
+       <li><%= link_to wire.title, wire_path(wire), :class => "article title" %></li>
+     <% end %>
+   </ul>
+ </div>
+ <% end %>

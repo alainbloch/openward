@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/json
+END
+variable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/json/variable.rb
+END
+encoding.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/json/encoding.rb
+END
+decoding.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/json/decoding.rb
+END

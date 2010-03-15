@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/float
+END
+time.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/float/time.rb
+END
+rounding.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/lib/active_support/core_ext/float/rounding.rb
+END

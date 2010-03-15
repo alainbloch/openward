@@ -1,0 +1,37 @@
+<% @color = (@color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= comment.new ? '#DDFF99' : @color %>;vertical-align:text-top;" id="comment_<%= comment.id %>">
+    <td><a name="comment_<%= comment.id %>"><%= comment.id%></a><%#= check_box_tag "#{comment.id}_action" %></td>
+
+    <td>
+     <div id="comment_<%= comment.id %>_partial_content">
+       <%= truncate h(comment.content) %>
+       <%= link_to_function "read more", "$('comment_#{comment.id}_full_content').style.display = '';$('comment_#{comment.id}_partial_content').style.display='none'" %>
+     </div>
+     <div  id="comment_<%= comment.id %>_full_content" style="display:none;">
+       <%= h(comment.content) %>
+       <%= link_to_function "read less", "$('comment_#{comment.id}_full_content').style.display = 'none';$('comment_#{comment.id}_partial_content').style.display=''" %>
+     </div>
+     </td>
+    
+    <td><%= comment.created_at.strftime("%m/%d/%Y")%></td>
+    <td><%= truncate h comment.commentator.name  %></td>
+    <td><%= truncate h comment.commentator.email %></td>
+    <td><%= comment.commentable.section %></td>
+    <td><%= link_to truncate(comment.commentable.title), article_path(comment.commentable) %></td>
+    <td>
+      <%= check_box_tag "#{comment.id}_action", 1, comment.show %>
+      <%= observe_field "#{comment.id}_action", :url => reveal_admin_comment_path(comment), :method => :put, :with => "show" %>
+    </td>
+    <td>
+
+    <% if comment.archived %>
+      <%= link_to_remote "Queue",  :url => archive_admin_comment_path(comment, :archived => false), :method => :put,  :style => "text-decoration:none;" %>
+    <% else %>
+      <%= link_to_remote "Archive", :url => archive_admin_comment_path(comment, :archived => true), :method => :put, :style => "text-decoration:none;" %>
+    <% end %>
+    <span style="padding-left:5px;">
+      <%= link_to image_tag("trash.gif"), admin_comment_path(comment), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %>
+    </span>
+      
+    </td>
+  </tr>

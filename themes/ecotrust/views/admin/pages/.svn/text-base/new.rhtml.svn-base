@@ -1,0 +1,15 @@
+
+	<div class="project_container">
+		<%= render :partial => "menu" %>
+    
+		<% form_tag admin_pages_path do %>
+		
+			<%= render :partial => 'form' %>
+		
+      <div style="float:right;display:block;padding:5px;">
+        <%= submit_tag "Save and Preview", :class => "submit" %>
+				<%= submit_tag "Save",             :class => "submit" %> or
+				<%= link_to "Cancel", { :action => 'index' }, { :confirm => 'Are you sure you want to cancel?' } %>
+			</div>
+		<% end %>
+	</div>

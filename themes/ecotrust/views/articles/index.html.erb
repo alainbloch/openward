@@ -1,0 +1,32 @@
+<%= auto_discovery_link_tag(:rss, formatted_home_path(:format => :rss), {:title => %(People and Place)}) %>
+<%= auto_discovery_link_tag(:rss, formatted_section_path(:section_id => @section.uri, :format => :rss), {:title => @section.name}) %>
+
+<div id="main" class="<%= @section.uri %>">
+        
+  <div id="about_each_section">
+    <div class="about_<%= @section.uri %>">
+      <p><%= @section.description %></p>
+    </div>
+  </div>
+  
+  <div id="content">
+    
+    <div id="perspectives_list_header">
+      <%= @section.name.downcase %>
+    </div>
+
+    <ul id="<%= @section.name == "Featured Voices" ? "media_listing" : "perspectives_listing" %>">
+      <%= render_correct_partial(@posts) %>
+  	</ul>
+  		 	 
+	  <div id="pagination">
+      <ul><%= will_paginate @posts, :container      => false, 
+                                    :previous_label => "previous", 
+                                    :next_label     => "next" %></ul>
+		</div>
+
+  </div>
+        
+</div>
+
+<%= render :partial => "shared/large_sidebar"%>

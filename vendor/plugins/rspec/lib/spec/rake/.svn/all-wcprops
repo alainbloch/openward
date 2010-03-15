@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/rake
+END
+spectask.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/rake/spectask.rb
+END
+verify_rcov.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/rake/verify_rcov.rb
+END

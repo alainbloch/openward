@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>P&P Newsletter | <%= @newsletter.title %></title>
+</head>
+<body>
+<%= theme_stylesheet_link_tag 'newsletter_styles' %>
+<table width="100%" cellspacing="10" cellpadding="0">
+<tbody>
+<tr>
+<td align="center">
+
+<div class="container">
+  
+<table width="648" border="0" cellspacing="0">
+  <tr>
+    <td colspan="2">
+      <div align="center" class="online">
+        People &amp; Place: To read this issue online, 
+        <%= link_to "click here", archive_url(:volume_number => @newsletter.volume.number, 
+                                              :issue_number  => @newsletter.issue.number ),
+                                  :class => "archive-link" %>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="444px">
+		<div class="logo">
+			<%= link_to theme_image_tag("newsletter/logo.jpg"), home_url %>
+		</div>
+	</td>
+	<td width="204px">
+		<div class="publish">
+			published by <a href="http://www.ecotrust.org">
+			<%= theme_image_tag "newsletter/ecotrust.gif" %>ecotrust</a>
+		</div>
+	</td>
+  </tr>
+  </table>
+  
+  <table width="648" border="0" cellspacing="0">
+  <tr class="volume-date">
+    <td width="324"><div class="volume">volume <%= @newsletter.volume.number_string %> issue <%= @newsletter.issue.number_string %></div></td>
+    <td width="324"><div class="date"><%= @newsletter.created_at.strftime("%B %d, %Y")%></div></td>
+  </tr>
+  </table>
+  
+  <table width="596" border="0" padding="19" cellspacing="0">
+  <% unless @newsletter.intro.blank? %>
+  <tr>
+    <td colspan="3">
+	    <div class="intro"><%= @newsletter.intro %></div>
+	  </td>
+  </tr>
+  <% end %>
+  <tr>
+    <td width="293" class="article">
+			<div class="character">
+				<%= link_to  render_caricature(@newsletter.feature, :id => "front_image", :style =>"width:179px;"), 
+                     section_article_path(@newsletter.feature.permalink_params) %><br/>
+				<%= @newsletter.feature.caricature.excerpt %>
+			</div>
+	  </td>
+	  <td width="10px" class="spacer">&nbsp;</td>
+    <td width="293" class="article">
+		  <h1 class="article-title">
+  		  <%= theme_image_tag "newsletter/icon01.gif"%>
+  		  <%= link_to @newsletter.feature.title, section_article_url(@newsletter.feature.permalink_params) %><br/>
+  			<span class="by">by <%= @newsletter.feature.user.name %></span>
+  		</h1>
+  		<p><%= strip_tags(@newsletter.feature.excerpt) %></p>
+  		<div class="read-more">
+  			<a href="<%= section_article_url(@newsletter.feature.permalink_params) %>">
+  				read more <%= theme_image_tag "newsletter/icon02.gif" %>
+  			</a>
+  		</div>
+	  </td>
+  </tr>
+  <tr>
+    <td width="293" class="article">
+      <h1 class="article-title2">
+        <%= theme_image_tag "newsletter/icon03.gif"%>
+        perspectives
+      </h1>
+
+      <table class="article-table">
+        <%= render :partial => "post", :collection => @newsletter.posts_by_section("perspectives") %>
+      </table>
+      
+    </td>
+    <td width="10px" class="spacer">&nbsp;</td>
+    <td width="293" class="article">
+      <h1 class="article-title2">
+        <%= theme_image_tag "newsletter/icon04.gif"%>
+        media library
+      </h1>
+      
+      <table class="article-table">
+        <%= render :partial => "media", :collection => @newsletter.medias %>
+      </table>
+      
+      
+    </td>
+  </tr>
+  <tr>
+    <td width="293" class="article">
+      <h1 class="article-title2">
+        <%= theme_image_tag "newsletter/icon05.gif"%>
+        our compass
+      </h1>
+      
+      <table class="article-table">
+          <%= render :partial => "post", :collection => @newsletter.posts_by_section("our_compass") %>
+      </table>
+      
+    </td>
+    <td width="10px" class="spacer">&nbsp;</td>
+	  
+    <td width="293" class="article">
+		<div class="sponsor">
+      <%= render :partial => "advertisements/sidebar" %>
+		</div>
+	</td>
+  </tr>
+</table>
+
+<table width="596" border="0" padding="19" cellspacing="0">
+  
+  <tr>
+    <td><h3 class="place">In This Volume of People and Place:</h3></td>
+  </tr>
+  
+  <tr>
+    <td><h5 class="volume-title">VOLUME <%= @newsletter.volume.number %> - <%= @newsletter.volume.title.upcase %></h5></td>
+  </tr>
+  
+  <tr>
+    <td class="archive-list">
+      <ul class="issues">
+        <%= render :partial => "/archives/issue", :collection =>  @newsletter.volume.issues %>
+      </ul>
+    </td>
+  </tr>
+  
+  <tr>
+    <td class="footer">
+      <div class="copyright"><%= DateTime.now.year %> <%= link_to "Ecotrust", "http://www.ecotrust.org" %>, Content on P&P is published under a <%= link_to "Creative Commons license", "http://creativecommons.org/licenses/by-nc-nd/3.0/" %></div>
+      <div class="archive">
+        <%= link_to "Go to Archive", archives_url %>&nbsp;|&nbsp;<%= link_to "Unsubscribe", "#"%>
+      </div>
+    </td>  
+  </tr>
+
+</table>
+
+<!-- Close container-->
+</div>
+
+<!-- Close wrapper -->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+</body>
+</html>

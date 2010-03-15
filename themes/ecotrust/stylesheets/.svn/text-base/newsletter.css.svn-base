@@ -1,0 +1,47 @@
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+img{border:none;vertical-align:middle;}
+form,ul,h1,h2,h3,h4,h5,h6,p,span,input{margin:0px;padding:0px;}
+ul{list-style:none;}
+body{margin:0px;font-size:16px;line-height:18px;font-family:"Times New Roman", Times, serif;background:url(images/body-bg.jpg) repeat-x left top;color:#231815;}
+input,select,textarea{font-size:16px;line-height:18px;font-family:"Times New Roman", Times, serif; vertical-align:middle; color:#231815;}
+a{text-decoration:none;color:#231815;}
+h1{font-size:24px;line-height:26px;}
+h2{font-size:20px; line-height:22px;}
+h3{ font-size:16px; line-height:18px;}
+h4{ font-size:15px; line-height:17px;}
+h5{ font-size:14px; line-height:16px;}
+div.container{width:648px;margin:0 auto; border:solid 1px #000;}
+div.online{text-align:center;font-size:14px; line-height:16px; margin:0 0 -10px 0; position:relative; padding:5px 0 0 0;}
+a.click{ text-decoration:underline; }
+ul.logo-publish{width:648px; clear:both; padding:0 0 4px 0;}
+li.logo-out{width:444px; float:left;}
+div.logo{ padding:0 0 0 24px; }
+li.publish-out{width:204px; float:left;}
+div.publish{ padding:70px 0 0 0;}
+div.volume-date{ border-top:solid 1px #CDCECE; border-bottom:solid 1px #CDCECE; height:25px; line-height:25px;}
+div.volume{float:left; padding:0 0 0 24px;}
+div.date{float:right; padding:0 24px 0 0;}
+div.content{width:595px; margin:0 auto;}
+div.intro{ font-size:14px; line-height:16px; padding:16px 0 12px 20px;}
+div.separator{font-size:1px; height:1px; line-height:1px; background:#CDCECE;}
+ul.article1{width:595px; clear:both; padding:20px 0;}
+li.article1-col1{width:268px; float:left;}
+li.article1-col2{width:309px; float:right;}
+ul.article{width:595px; clear:both; padding:20px 0;}
+li.article-col1{width:268px; float:left;}
+li.article-col2{width:309px; float:right;}
+div.character{width:151px; margin:0 auto; font-size:12px; line-height:14px;}
+h1.article-title {overflow:hidden;}
+h1.article-title img{float:left; }
+span.by{font-size:20px; line-height:22px;}
+ul.article p{ padding:10px 0;}
+div.read-more{text-align:right;}
+h1.article-title2{ color:#E4D467;}
+div.sponsor{ padding:0 0 0 19px;}
+h3.sponsor{padding:0 0 5px 0; color:#9F9FA0; font-weight:normal;}
+div.place{ padding:10px 0;}
+h3.place{text-align:center; color:#595757; font-weight:normal; padding:10px;}
+ul.issues a{text-decoration:underline;}
+div.footer{width:100%; overflow:hidden; padding:0 0 10px 0;}
+div.copyright{ color:#A8A9A9; font-size:11px;  line-height:13px; padding:8px 0; float:left;}
+div.archive a{ font-size:14px; line-height:16px; text-decoration:underline; color:#231815; }

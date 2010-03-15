@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/examples
+END
+message_content.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/examples/message_content.html
+END
+VRAPI_lifecycle.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/examples/VRAPI_lifecycle.rb
+END
+VRAPI_reporting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/examples/VRAPI_reporting.rb
+END
+message_content.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/examples/message_content.txt
+END

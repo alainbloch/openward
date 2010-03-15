@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour/helper.rb
+END
+model.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour/model.rb
+END
+functional.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour/functional.rb
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour/controller.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour/base.rb
+END
+view.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/dsl/behaviour/view.rb
+END

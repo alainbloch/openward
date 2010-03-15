@@ -1,0 +1,19 @@
+<!--list_item_start-->
+<li class="perspectives_list_item">
+   <div class="perspectives_list_item_content">
+     <h2 class="article_title"><%= link_to compass.title, compass_path(compass)%></h2>
+     <p><%= compass.excerpt %></p>
+       <%= link_to "readmore", compass_path(compass), :class => "readmore replaced" %>
+   </div>
+   <!-- .perspectives_list_item_content -->
+   <div class="metadata">
+     <span><%= compass.published_at.strftime("%b %d, %Y") %></span>
+     <%= render :partial => "tags/association", :locals => {:taggable => compass} %>
+     <span class="comments"><%= pluralize compass.approved_comments.size, "Comment" %></span>
+     <span class="permalink"><%= link_to "permalink", compass_url(compass) %></span>
+   </div>
+   <!-- .perspectives_metadata -->
+
+   <!-- .tags -->
+ </li>
+ <!-- .perspectives_list_item -->

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec
+END
+extensions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/extensions.rb
+END
+dsl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/dsl.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/version.rb
+END
+matchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/matchers.rb
+END
+expectations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/expectations.rb
+END
+translator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/translator.rb
+END
+runner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/runner.rb
+END
+test_case_adapter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/test_case_adapter.rb
+END
+mocks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/lib/spec/mocks.rb
+END

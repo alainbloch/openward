@@ -1,0 +1,20 @@
+<div class="project_container">
+
+<div class="sub_admin_menu">
+  <span class="actions">Manage Tags</span>
+</div>
+
+<%= render :partial => 'tag_list', :locals => {:tags => @tags}%>
+
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+    <div style="width:100%;text-align:center;" >
+    <% form_remote_tag :url => admin_tags_path do %>
+      <div id="tag_form">
+        <%= render :partial => 'form' %>
+      </div>
+        <%= submit_tag "Create Tag"%>
+        <div style="margin-right:75px;color:#454545;font-weight:bold;">
+          single word, no numbers, all lowercase
+        </div>
+    <% end %>
+    </div>

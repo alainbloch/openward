@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd
+END
+xmlparser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/xmlparser.rb
+END
+datatypes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/datatypes.rb
+END
+ns.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/ns.rb
+END
+namedelements.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/namedelements.rb
+END
+qname.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/qname.rb
+END
+codegen.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/codegen.rb
+END
+iconvcharset.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/iconvcharset.rb
+END
+charset.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/charset.rb
+END
+datatypes1999.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/datatypes1999.rb
+END
+mapping.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/xsd/mapping.rb
+END

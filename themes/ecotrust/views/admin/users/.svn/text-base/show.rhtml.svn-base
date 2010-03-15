@@ -1,0 +1,47 @@
+<div class="project_container">
+  
+    <% if current_user.has_role?('admin')%>
+
+    	<div class="sub_admin_menu">
+        <span class="actions"><%= link_to 'Manage Users', admin_users_path %></span>&nbsp;|&nbsp;
+        <span class="actions"><%= link_to 'Create User',  new_admin_user_path %></span> 
+      </div>
+
+    <% end %>
+  
+		<span class="action"><%= link_to 'Edit', edit_admin_user_path(@user) %></span> | 
+		<span class="action"><%= link_to 'Delete',{ :action => 'destroy', :id => @user }, :confirm => 'Are you sure you want to delete this user?' %></span>		
+	
+		
+				<p> 
+					<label for="account_full_name"><span>First Name:</span></label>
+					<%= @user.first_name %>
+				</p>
+
+				<p> 
+					<label for="account_full_name"><span>Last Name:</span></label>
+					<%= @user.last_name %>
+				</p>
+
+				<p> 
+					<label for="account_login"><span>Display Name:</span></label>
+					<%= @user.display_name %>
+				</p>
+
+				<p> 
+					<label for="account_email_address"><span>Email Address:</span></label>
+					<%= @user.email %>
+				</p>
+				
+				<p>
+					<label for="account_password_confirmation"><span>Roles</span>:</label>
+				</p>
+				
+				<div style="padding-left:5px;">
+					<ul id="list_select">
+					<% for role in @user.roles %>
+						<li><span><%= role.name %></span>
+					<% end %>
+					</ul>
+				</div>
+</div>

@@ -1,0 +1,20 @@
+1_science:
+  post_id: 1
+  tag_id: 1
+  
+2_culture:
+  post_id: 2
+  tag_id: 6
+
+1_permaculture:
+  post_id: 1
+  tag_id: 7
+
+1_energy:
+  post_id: 1
+  tag_id: 3
+
+2_education:
+  post_id: 2
+  tag_id: 4      
+    

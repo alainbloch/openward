@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/579/peopleandplace/trunk/themes/ecotrust/views/associations/media
+END
+_associate_media.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/578/peopleandplace/trunk/themes/ecotrust/views/associations/media/_associate_media.html.erb
+END
+_media_list.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/579/peopleandplace/trunk/themes/ecotrust/views/associations/media/_media_list.html.erb
+END
+add_media.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/490/peopleandplace/trunk/themes/ecotrust/views/associations/media/add_media.rjs
+END
+refresh_media_list.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/578/peopleandplace/trunk/themes/ecotrust/views/associations/media/refresh_media_list.rjs
+END
+_associated_media.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/517/peopleandplace/trunk/themes/ecotrust/views/associations/media/_associated_media.html.erb
+END
+_media.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/490/peopleandplace/trunk/themes/ecotrust/views/associations/media/_media.html.erb
+END
+remove_media.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/490/peopleandplace/trunk/themes/ecotrust/views/associations/media/remove_media.rjs
+END

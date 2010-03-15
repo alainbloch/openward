@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/generators/components/performance_test
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/generators/components/performance_test/USAGE
+END
+performance_test_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/lib/rails_generator/generators/components/performance_test/performance_test_generator.rb
+END

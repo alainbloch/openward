@@ -1,0 +1,59 @@
+<div class="field_title">Page Title <%= error_message_on('page', 'title')%></div>
+<div class="form_field">
+	<%= text_field :page, :title, :size => '50' %>
+</div>
+
+<div class="form_field">	
+		<%= text_area :page, :content,  :cols => '50', :rows => '20' %>
+</div>
+
+
+
+
+
+<div style="float:left; display:inline;">
+
+  <div class="field_title">Caricature</div>
+  <div class="form_field">
+        <%= select :page, :media_id, Media.caricatures.collect{|c| [c.title, c.id]}, :include_blank => true %>
+        <%= observe_field "page_media_id", :url    => caricature_media_library_path,
+                                           :update => "caricature",
+                                           :with   => 'id' %>
+  </div>
+  <div class="form_field" id="caricature" style="width:232px;">
+        <% if @page.media %>
+          <%= render_caricature(@page, :style =>"width:232px;") %>
+        <% else %>
+          <i>none selected</i>
+        <% end %>  
+  </div>
+
+  
+  <div class="field_title">Quote</div>
+  <div class="form_field">
+    <%= text_field :page, :quote %>
+  </div>
+
+  <div class="field_title">Quote Author</div>
+  <div class="form_field">
+    <%= text_field :page, :quote_author %>
+  </div>
+
+  <div class="field_title">Quote Source</div>
+  <div class="form_field">
+    <%= text_field :page, :quote_source %>
+  </div>
+
+    <div class="field_title">Page Assignment</div>
+    <div class="form_field">
+			<select id="page_page_id" name="page[page_id]" class="width_150" style = "border: 1px solid #ccc; font-size: 12px; width: 125px;">
+        <%= parent_pages(@page) %>
+      </select>
+    </div>
+  
+    <div class="field_title">Publish Status</div>
+    <div class="form_field">
+        <%= select:page, :status, Page::STATUS, {}, :style => "border: 1px solid #ccc; font-size: 12px; width: 125px;" %>
+    </div>
+
+</div>

@@ -1,0 +1,17 @@
+<tr id="associated_media_entry_<%= associated_media.id%>" class="small_list_entry" style = "background-color:#BBF48D;">
+  <td class="small_list_entry_field">
+    <%= hidden_field_tag "post[media_ids][]", associated_media.id %>  
+  </td>
+  <td class="small_list_entry_field" style="width:107px;">
+    <%= link_to truncate(associated_media.title, 20), edit_admin_media_path(associated_media) %> 
+  </td>
+  <td class="small_list_entry_field" style="width:158px;">
+    <%= truncate(strip_tags(associated_media.content)) %>
+  </td>  
+  <td class="small_list_entry_remove">
+    <%= link_to_remote image_tag("trash.gif", :class => 'image_link'), 
+                                              :url => { :controller => '/associations',
+                                                        :action     => :remove_media, 
+                                                        :media_id  => associated_media.id } %>
+  </td>  
+</tr>

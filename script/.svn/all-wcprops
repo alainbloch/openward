@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnpap/!svn/ver/494/peopleandplace/trunk/script
+END
+spec_server
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpap/!svn/ver/3/peopleandplace/trunk/script/spec_server
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/console
+END
+setup_application
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/3/peopleandplace/trunk/script/setup_application
+END
+breakpointer
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/breakpointer
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/generate
+END
+spec
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnpap/!svn/ver/3/peopleandplace/trunk/script/spec
+END
+ferret_server
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/494/peopleandplace/trunk/script/ferret_server
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnpap/!svn/ver/1/peopleandplace/trunk/script/plugin
+END

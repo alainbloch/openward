@@ -1,0 +1,19 @@
+<!--list_item_start-->
+<li class="perspectives_list_item">
+   <div class="perspectives_list_item_content">
+     <h2 class="article_title"><%= link_to wire.title, wire_path(wire) %></h2>
+     <p><%= wire.excerpt %></p>             
+       <%= link_to "readmore", wire_path(wire), :class => "readmore replaced" %>
+   </div>
+   <!-- .perspectives_list_item_content -->
+   <div class="metadata">
+     <span><%= wire.published_at.strftime("%b %d, %Y") %></span>
+     <%= render :partial => "tags/association", :locals => {:taggable => wire} %>
+     <!-- .tags -->  
+     <span class="comments"><%= pluralize wire.approved_comments.size, "Comment" %></span>
+     <span class="permalink"><%= link_to "permalink", wire_url(wire) %></span>
+   </div>
+   <!-- .perspectives_metadata -->
+
+ </li>
+ <!-- .perspectives_list_item -->

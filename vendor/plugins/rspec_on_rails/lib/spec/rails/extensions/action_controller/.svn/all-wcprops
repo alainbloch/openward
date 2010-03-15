@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions/action_controller
+END
+test_response.rb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions/action_controller/test_response.rb
+END
+rescue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions/action_controller/rescue.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/lib/spec/rails/extensions/action_controller/base.rb
+END

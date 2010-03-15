@@ -1,0 +1,62 @@
+<div class="project_container" style="float:left;">
+  
+  <div class="sub_admin_menu">
+    <span class="actions">Manage Media</span>&nbsp;|&nbsp;
+    <span class="actions"><%= link_to 'Create Media', new_admin_media_path %></span> 
+  </div>
+
+		<% unless @medias.empty? %>
+					
+			<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+        <tr>
+          <th class="la" width="50px"></th>
+          <th class="la" width="250px"><%= link_to_medias_path("Media Title", "title")%></th>
+          <th class="la" width="20px"><%= link_to_medias_path("Created Date", "updated_at")%></th>
+          <th class="la" width="20px">Published Date</th>
+          <th class="la" width="150px">User</th>
+          <th class="la" width="50px"><%= link_to_medias_path("Type", "media_type")%></th>
+          <th class="la" width="50px"><%= link_to_medias_path("Status", "status")%></th>
+          <th class="la" width="150px">Content</th>
+          <th class="la" width="150px"></th>
+        </tr>
+
+      <% for media in @medias %>
+        <tr style="background-color:#E6E6E6">
+         <td><%= media_content_icon(media)%></td>
+         <td>
+         <% if media.status == "Published" %>
+          <%= link_to truncate(media.title), media_path(media.permalink_params) %>
+         <% else %>
+          <%= link_to truncate(media.title), preview_admin_media_path(media) %>
+         <% end %>
+         </td>
+         <td><%= media.updated_at.strftime("%m/%d/%Y") %></td>
+         <td><%= media.published_at.strftime("%m/%d/%Y") unless media.published_at.blank? %></td>
+         <td><%= media.user.name %></td>
+         <td><%= media.media_type %></td>
+         <td><%= media.status %></td>
+         <td><%= truncate(strip_tags media.content) %></td>
+         <td>
+          <% if current_user && (current_user.has_role?('admin') or media.user == current_user) %>
+            <%= link_to "Edit", edit_admin_media_path(media),  :style => "border:medium none;text-decoration:none;" %>
+             <span style="padding-left:5px;">
+            <%= link_to image_tag("trash.gif"), admin_media_path(media), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %>
+             </span>
+          <% end %>
+          </td>
+        </tr>  
+      <% end %>
+
+      </table>
+		
+      <div id="pagination">
+        <ul><%= will_paginate @medias, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+      </div>
+		
+		<% else %>
+
+		<p>No Media have been created yet</p>
+
+		<% end %>
+
+</div>

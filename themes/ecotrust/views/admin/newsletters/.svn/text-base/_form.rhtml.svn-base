@@ -1,0 +1,32 @@
+<div class="form_field">
+	<b>Volume <%= @issue.volume.number_string %> <%= %(- #{@issue.volume.title}) unless @issue.volume.title.blank? %></b>
+</div>
+
+<div class="form_field">
+	<b>Issue <%= @issue.number_string %> <%= %(- #{@issue.title}) unless @issue.title.blank? %></b>
+</div>
+
+<div class="field_title">Title <%= error_message_on('newsletter', 'title')%></div>
+<div class="form_field">
+	<%= text_field :newsletter, :title, :size => '50' %>
+</div>
+
+<div class="field_title">Intro Text <%= error_message_on('newsletter', 'text')%></div>
+<div class="form_field">
+	<%= text_area :newsletter, :intro, :size => '50' %>
+</div>
+
+<% Section.find(:all).each do |section| %>
+
+  <div class="field_title"><%=  section.name %> (select all that apply)</div>
+  <div class="form_field">
+    <%= render_post_list(section, @issue ) %>
+  </div>
+
+<% end %>
+
+<div class="field_title">Media Library (select all that apply)</div>
+<div class="form_field">
+  <%= render_media_list(@issue ) %>
+</div>
+

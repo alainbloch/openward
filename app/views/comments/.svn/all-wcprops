@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpap/!svn/ver/572/peopleandplace/trunk/app/views/comments
+END
+input_field.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/365/peopleandplace/trunk/app/views/comments/input_field.rjs
+END
+_inline_preview.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/457/peopleandplace/trunk/app/views/comments/_inline_preview.rhtml
+END
+_preview.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/334/peopleandplace/trunk/app/views/comments/_preview.rhtml
+END
+_comment.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/467/peopleandplace/trunk/app/views/comments/_comment.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/572/peopleandplace/trunk/app/views/comments/_form.rhtml
+END
+_comment_area.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/457/peopleandplace/trunk/app/views/comments/_comment_area.rhtml
+END
+preview.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/365/peopleandplace/trunk/app/views/comments/preview.rjs
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/plugins/mock_frameworks
+END
+mocha.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/plugins/mock_frameworks/mocha.rb
+END
+flexmock.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/plugins/mock_frameworks/flexmock.rb
+END
+rspec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/plugins/mock_frameworks/rspec.rb
+END

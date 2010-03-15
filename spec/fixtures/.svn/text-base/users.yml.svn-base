@@ -1,0 +1,24 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+user:
+  id: 1
+  email: "user@host.com"
+  display_name: "user"
+  first_name: "System"
+  last_name: "User"
+  crypted_password: "9d45c2620a9bf28c1ec8e76f6a233e2206a81bf9" # secret
+  salt: "1d1c39cd777d8776a9f740073987a89ff7b395b1"
+  created_at: <%= Time.now.to_s :db %>
+  updated_at: <%= Time.now.to_s :db %>
+  confirmed: false
+  
+alain:
+  id: 2
+  email: "alainbloch@gmail.com"
+  display_name: "alainb"
+  first_name: "Alain"
+  last_name: "Bloch"
+  crypted_password: "9d45c2620a9bf28c1ec8e76f6a233e2206a81bf9" # secret
+  salt: "1d1c39cd777d8776a9f740073987a89ff7b395b1"
+  created_at: <%= Time.now.to_s :db %>
+  updated_at: <%= Time.now.to_s :db %>
+  confirmed: true

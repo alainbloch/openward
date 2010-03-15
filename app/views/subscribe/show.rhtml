@@ -1,0 +1,47 @@
+
+<div id="masthead_nav">
+<h3>P&amp;P Masthead</h3>
+
+
+<%= render :partial => "pages/page_links" %>
+
+
+<% if @setting.subscribe_page; @page = @setting.subscribe_page %>
+
+<% if @page.media %>
+<%= image_tag url_for_file_column(@page.media, 'file'), :style => "width:232px;" %>  
+<% end %>
+
+<blockquote><p> &ldquo;<%= @page.quote %>&rdquo;</p>
+</blockquote>
+
+<div class="citation"><span class="author"><%= @page.quote_author %></span><%= @page.quote_source %></div>
+
+<% end %>
+
+</div>      
+<div id="main" class="masthead_content">
+  
+<% if @setting.subscribe_page %>
+  <h1>
+    <%= link_to( "(Edit Page)", edit_admin_page_path(@setting.subscribe_page), :style => "display:inline;float:right;") if current_user %>
+    <%= @setting.subscribe_page.title %>
+  </h1>  <div id="article_content">
+  
+  <p><%= @setting.subscribe_page.content %></p></div>
+<% else %>
+<h1>Subscribe to our Newsletter</h1>
+<div id="article_content">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<% end %>
+
+<div id="form">
+  <% form_remote_tag :url => subscribe_path do %>
+      <%= render :partial => "form" %>
+    <button type="submit">Subscribe</button>
+  <% end %>
+</div>
+
+</div>

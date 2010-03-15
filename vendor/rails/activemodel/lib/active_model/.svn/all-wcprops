@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model
+END
+validations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations.rb
+END
+observing.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/observing.rb
+END
+callbacks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/callbacks.rb
+END
+state_machine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/state_machine.rb
+END
+core.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/core.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/base.rb
+END
+deprecated_error_methods.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/deprecated_error_methods.rb
+END
+errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/errors.rb
+END

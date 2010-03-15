@@ -1,0 +1,13 @@
+<% unless perspectives.empty? %>
+<div class="perspectives module">
+  <h3><%= link_to "perspectives", perspectives_path %></h3>
+  <% for perspective in perspectives do %>
+  <div class="module_entry">
+    <h4><%= link_to perspective.title, perspective_path(perspective) %></h4>
+    <span class="author">by <%= h perspective.user.name %></span>
+    <p><%= strip_tags(perspective.excerpt) %></p>
+    <%= link_to "readmore", perspective_path(perspective),:class => "replaced readmore"%>
+  </div>
+  <% end %>
+</div>
+<% end %>

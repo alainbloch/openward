@@ -1,0 +1,59 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+science:
+  id: 1
+  name: science
+  description:
+    
+art:
+  id: 2
+  name: art
+  description:
+
+energy:
+  id: 3
+  name: energy
+  description:
+  
+education:
+  id: 4
+  name: education
+  description:
+
+technology:
+  id: 5
+  name: technology
+  description:
+
+culture:
+  id: 6
+  name: culture
+
+permaculture:
+  id: 7
+  name: permaculture
+  
+sustainability:
+  id: 8
+  name: sustainability
+  
+ecology:
+  id: 9
+  name: ecology
+
+environment:
+  id: 10
+  name: environment
+  
+politics:
+  id: 11
+  name: politics
+  
+activism:
+  id: 12
+  name: activism
+
+philosophy:
+  id: 13
+  name: philosophy
+          
+    

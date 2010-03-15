@@ -1,0 +1,109 @@
+<div class="project_container">
+<% form_tag admin_settings_path, :method => :put do %>
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+<div class="quarter_container">
+  <span class="actions">Page Assignments</span>
+</div>
+  <div class="three_quarter_container"><br/>
+      <%= select :setting, :archive_page_id,    Page.find_all_by_status("Published").collect {|p| [ p.title, p.id ] }, { :include_blank => true } %><span class="actions">Archive Page</span><br/> 
+      <%= select :setting, :connection_page_id, Page.find_all_by_status("Published").collect {|p| [ p.title, p.id ] }, { :include_blank => true }%><span class="actions">Connection Page</span><br/>
+      <%= select :setting, :subscribe_page_id,  Page.find_all_by_status("Published").collect {|p| [ p.title, p.id ] }, { :include_blank => true }%><span class="actions">Subscribe Page</span><br/>
+  </div>
+
+
+  <div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+  <div class="quarter_container">
+    <span class="actions">Comment Moderation</span>
+  </div>
+  <div class="three_quarter_container">
+      Immediately Posted <%= radio_button :setting, :comment_moderation, false %>
+      Moderated First <%= radio_button :setting, :comment_moderation, true %>    
+  </div>
+  
+  <div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+
+  <div class="quarter_container">
+    <span class="actions">Comment Expiration</span>
+  </div>
+  
+  <div class="three_quarter_container">
+      <%= select :setting, :comment_expiration, Setting::COMMENT_EXPIRATION %>
+      <span class="actions">Days</span>   
+  </div>
+  
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+  <div class="quarter_container">
+    <span class="actions">Next Issue Author</span>
+  </div>
+
+  <div class="three_quarter_container">
+
+    <div class="form_field">    
+      <%= text_field  :setting, :next_issue_author %>
+    </div>
+    
+  </div>  
+  
+
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+  <div class="quarter_container">
+    <span class="actions">Next Issue Text</span>
+  </div>
+  
+  <div class="three_quarter_container">
+  
+    <div class="form_field">    
+      <%= text_area :setting, :next_issue_text %>
+      <%= date_select :setting, :next_issue_date %> 
+      Show next issue date 
+      <%= radio_button :setting, :show_date, false %> no
+      <%= radio_button :setting, :show_date, true %> yes
+    </div>
+    
+  </div>
+  
+
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+<div class="quarter_container">
+    <span class="actions">Comment Instructions</span>
+  </div>
+  <div class="three_quarter_container">
+    <div class="form_field">
+      <%= text_area :setting, :comment_instructions %>    
+    </div>
+  </div>
+  
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+  
+  <div class="quarter_container">
+      <span class="actions">Analytics (will be inserted just before the <%= h("</body>") %> tag)</span>
+    </div>
+    <div class="three_quarter_container">
+      <div class="form_field">
+        <%= text_area :setting, :analytics %>    
+      </div>
+    </div>
+
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+
+  <div class="quarter_container">
+      <span class="actions"><%= link_to "Sharethis", "http://sharethis.com" %> code (will be inserted into every post)</span>
+    </div>
+    <div class="three_quarter_container">
+      <div class="form_field">
+        <%= text_area :setting, :sharethis %>    
+      </div>
+    </div>
+
+<div class="sub_admin_menu" style="clear:both;">&nbsp;</div>
+  
+</div>  
+
+  <%= submit_tag "Save Settings"%> or <%= link_to "Cancel", admin_path %>
+<% end %>

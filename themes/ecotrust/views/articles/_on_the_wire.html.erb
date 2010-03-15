@@ -1,0 +1,19 @@
+<!--list_item_start-->
+<li class="perspectives_list_item">
+   <div class="perspectives_list_item_content">
+     <h2 class="article_title"><%= link_to on_the_wire.title, section_article_path(on_the_wire.permalink_params.merge(:section_id => @section.uri)) %></h2>
+     <p><%= on_the_wire.excerpt %></p>             
+       <%= link_to "readmore", section_article_path(on_the_wire.permalink_params.merge(:section_id => @section.uri)), :class => "readmore replaced" %>
+   </div>
+   <!-- .perspectives_list_item_content -->
+   <div class="metadata">
+     <span><%= on_the_wire.published_at.strftime("%b %d, %Y") %></span>
+     <%= render :partial => "tags/association", :locals => {:taggable => on_the_wire} %>
+     <!-- .tags -->  
+     <span class="comments"><%= pluralize on_the_wire.approved_comments.size, "Comment" %></span>
+     <span class="permalink"><%= link_to "permalink", section_article_path(on_the_wire.permalink_params.merge(:section_id => @section.uri)) %></span>
+   </div>
+   <!-- .perspectives_metadata -->
+
+</li>
+<!-- .perspectives_list_item -->

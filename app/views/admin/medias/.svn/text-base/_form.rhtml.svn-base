@@ -1,0 +1,107 @@
+<%= content_tag(:div, error_messages_for(:media)) if @media.errors %>
+<div class="media_file">
+  <div class="form_field">
+    <table>
+      <tr>
+        <td class="media_file_title"><%= radio_button :media, :media_class, Media::MEDIA_CLASSES[0], :onClick => "toggle_media_fields(this.id,'media_file');" %> Upload Media File</td>
+        <td class="media_file_input"><%= file_column_field "media", "file" %> <%= link_to("Download #{@media.filename}",url_for_file_column("media", "file")) if @media.file %></td>
+        <script type="text/javascript">
+          toggle_media_fields("media_class_file","media_file");
+        </script>
+      </tr>
+      <tr>
+        <td class="media_file_title"><%= radio_button :media, :media_class, Media::MEDIA_CLASSES[1], :onClick => "toggle_media_fields(this.id,'media_embed');" %> Embed Media File</td>
+        <td class="media_file_input"><%= text_field :media, :embed, :disabled => ( @media.media_class == "embed" ? "false" : "true" )  %></td>
+      </tr>
+      <tr>
+        <td class="media_file_title"><%= radio_button :media, :media_class, Media::MEDIA_CLASSES[2], :onClick => "toggle_media_fields(this.id,'media_url');" %> Direct Link Media File</td>
+        <td class="media_file_input"><%= text_field :media, :url, :disabled => ( @media.media_class == "url" ? "false" : "true" ) %></td>
+      </tr>
+      <tr><td class="media_file_title">Media Type</td><td class="media_file_input"><%= select :media, :media_type, Media::MEDIA_TYPES.keys, {:include_blank => true}, :style => "border:1px solid #999999; width:150px;" %></td></tr>
+    </table>  
+  </div>
+</div>
+
+<div class="field_title">Media Title <%= error_message_on('media', 'title')%></div>
+<div class="form_field">
+	<%= text_field :media, :title, :size => '50' %>
+</div>
+
+<div class="field_title">Author <%= error_message_on('media', 'user')%></div>
+<div class="form_field">
+  <% if current_user.has_role?('admin') %>
+	  <%= select :media, :user_id, User.find(:all).collect {|u| [ u.name, u.id ] }, :size => '50', :include_blank => true %>
+  <% else %>
+    <% if @media.new_record? %>
+      <%= current_user.name %>
+    <% else %>
+      <%= @media.user.name %>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="field_title">Body <%= error_message_on('media', 'content')%></div>
+<div class="form_field">
+  <div>
+		<a href="javascript:addEditor('media_content');" class="tab" id="wysiwig_view_tab">WYSIWIG view</a>
+		<a href="javascript:removeEditor('media_content');" class="tab"  id="html_view_tab" style="background-color:#F0F0EE;border:1px solid #CCCCCC;" >Edit HTML</a>
+	</div>	
+		<%= text_area :media, :content,  :cols => '50', :rows => '20' %>
+</div>
+
+
+<div style="float:left; display:inline;">
+<div class="field_title">Excerpt</div>
+      <div class="form_field">
+      	<%= text_area :media, :excerpt,  :cols => '80', :rows => '2' %>
+      </div>
+  
+      <div class="field_title">Publish Status</div>
+      <div class="form_field">
+      <% if current_user.has_role?('admin')%>
+          <%= select:media, :status, Media::STATUS, {}, :style => "border: 1px solid #ccc; font-size: 12px; width: 125px;" %>
+      <% else %>
+        <%= @media.status %>
+      <% end %>
+      </div>
+      
+      <div class="field_title">
+        <% if @media.issue %>
+          Published in Volume <%= @media.issue.volume.number_string %> Issue <%= @media.issue.number_string %>
+        <% else %>
+          Will be published in Volume <%= @volume_number %> Issue <%= @issue_number %> upon approval
+        <% end %> 
+      </div>
+      
+      <div class="field_title">
+        <%= check_box :media, :in_archive, :disabled => !current_user.has_role?('admin') %> Include in Archive?
+      </div>
+</div>
+
+<div style="float:right; display:inline;width:200px;">
+  <div class="timestamp-container">
+    <div class="field_title">Timestamp</div>    
+      <% if current_user.has_role?('admin') %>
+        <div><%= datetime_select :media, :published_at, :order => [:month, :day, :year] %></div>
+      <% else %>
+      <div class="post_and_media_timestamp">
+        <b><%= @media.published_at ? @media.published_at.strftime("%B %d, %Y %I:%M %p") : "Media Article needs to be published"%></b>
+      </div>
+      <% end %>
+  </div>   
+</div>
+
+<div style="clear:both;"/>
+  
+<div class="form_field">
+  <div class="field_title">Tag Assignment</div>
+  <div class="tag_field">
+  	<ul id="categories">
+  		<% Tag.find(:all, :order => "name ASC").each do |tag| %>
+  			<li>
+  				<%= check_box_tag tag.name, true, @media.has_tag?(tag), :name => "tags[#{tag.name}]" %><%= tag.name %>
+  			</li>
+  		<% end %>
+  	</ul>
+  </div>
+</div>  

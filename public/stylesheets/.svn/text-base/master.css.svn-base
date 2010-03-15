@@ -1,0 +1,2023 @@
+.post_and_media_timestamp {
+	border:1px black solid;
+	background-color:#E1E1E1;
+	padding:5px;
+	text-align:center;
+}
+
+.nice_select_input {
+	border: 1px solid #ccc; 
+	font-size: 12px; 
+	width: 125px;
+}
+
+.timestamp-container{
+border: 1px solid #ccc; height:150px; padding: 5px;width:225px;
+}
+
+a.media_link,
+a.media_link:visited {
+	text-decoration:none;
+	font-weight:bold;
+	color:gray;
+	font-size:1.2em;
+}
+
+a.media_link:hover {
+	font-size:1.2em;
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+img.media_link_image {
+	top:3px;
+	position:relative;
+}
+
+/* Alain's Popup Boxes */
+
+.popup .popup_comment .errorExplanation p,
+.popup .popup_comment .errorExplanation h2{
+	font-size:1em;
+}
+
+.popup_comment li{
+	list-style-image:none;
+	list-style-position:inside;
+	list-style-type: disc;
+}
+
+.popup h1 {
+	border-bottom:1px dashed #DDDDDD;
+	height:33px;
+	padding-top:0.25em;
+}
+
+.popup h1 img {
+	position:relative;
+	top:6px;
+}
+
+.popup .popup_comment {
+	font-size:1.5em
+}
+
+body #ie6_alert_content li{
+	font-size:1.4em;
+	margin-bottom:5px;
+}
+body #ie6_alert_content li{
+	list-style-image:none;
+	list-style-position:inside;
+	list-style-type: disc;
+}
+
+body #ie6_alert_content p {
+	margin-bottom:10px;
+}
+* html .fader {top:0px;}
+
+.fader {
+	overflow:hidden;
+	position:fixed;
+	top:0px;
+	left:0;
+	width:100%;
+	height:100%;
+	bottom:0;
+	z-index:100000;
+	background:black;
+}
+
+.popup {
+	width:400px;
+	top: 50px; 
+	left: 30%;
+	position:fixed;
+	z-index:10000000;
+	text-align:left;
+}
+
+.popup .p-bg {
+	overflow:hidden;
+	width:400px;
+	padding:30px;
+	background:white;
+	border:4px gray solid;
+}
+.popup textarea {
+	font-family: Arial, Helvetica;
+	padding:2px;
+}
+.popup #email_submit {
+	font-size:1.6em;
+	padding:0.5em;
+	background-color:#ccc;
+	border:1px solid gray;
+	margin-top:1em;
+}
+
+.popup #email_submit input {
+	font-size:.8em;
+}
+
+.popup #form {
+	min-height:200px;
+}
+
+/* Alain's Edits */
+
+.tag1 {font-size: 2.0em;}
+.tag2 {font-size: 2.5em;}
+.tag3 {font-size: 3.0em;}
+.tag4 {font-size: 3.5em;}
+.tag5 {font-size: 4.5em;}
+.tag6 {font-size: 5.0em;}
+
+.tag1, .tag2, 
+.tag3, .tag4,
+.tag5, .tag6 {
+padding:5px;
+text-decoration:none;
+}
+
+ul#comments_listing li.comment {
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+
+#form #feedback {
+	padding:2px;
+}
+
+.module_entry{
+	margin-bottom:10px;
+	float:left;
+	width:100%;
+	display:inline;
+}
+
+.module a,
+.module a:visited,
+.media_listing a,
+.media_listing a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+
+
+.module a:hover {
+	text-decoration:underline;
+}
+
+.module{
+	float:left;
+	display:inline;
+	
+}
+
+.features_list_item .features_list_item_content,
+.features_list_item .metadata,
+.features_list_item .tags {
+ float:left;
+ display:inline;
+}
+
+
+body #media_listing .media_list_item .metadata span {
+	display:inline;
+}
+
+body .main_feature  .metadata span {
+	display:inline;
+}
+
+body input#subscribe {
+ width:1em;
+}
+
+body #discussion li {
+	float:left;
+	min-height:0;
+	padding-bottom:5px;
+	padding-top:5px;
+	width:100%;
+	display:inline;
+}
+
+.perspectives_list_item .metadata,
+.media_list_item .metadata {
+	float:right;
+	width:123px;
+	display:inline;
+}
+
+.list_item_content .view_media {
+	margin-top:0;
+	float:right;
+	display:inline;
+	
+}
+
+.media_list_item .media_image {
+/*	height:100%;*/
+}
+
+.list_item_caricature .media_image {
+	border:0;
+	height:100%;
+}
+
+body #about_each_section {
+	float:left;
+	display:inline;
+	padding:1em;
+}
+
+body #about_each_section div{
+	padding-top:70px;
+}
+
+body #main #content {
+	float:left;
+	display:inline;
+	width:45em;
+}
+
+#media_listing {
+	float:left;
+	display:inline;
+}
+
+body .media_image {
+	/*height:100%;*/
+}
+
+body #main_feature {
+	border-bottom:1px solid gray;
+	padding-bottom:10px;
+	float:left;
+	display:inline;
+	
+}
+
+body .list_item_content p {
+	font-size:1.4em;
+}
+
+body .list_item_content {
+ height:100%;
+}
+
+body div.list_item_caricature {
+	width:120px;
+	float:left;
+	display:inline;
+	
+}
+
+body .media_list_item {
+	float:left;
+	height:100%;
+	width:100%;
+	display:inline;
+	
+}
+
+.list_item_content p {
+	margin-bottom:0;
+}
+
+.media_list_item .media_title {
+ font-size:2em;
+}
+
+body .article_title {
+	margin:0;
+}
+
+body .article_title a {
+	text-decoration:none;
+}
+
+body .perspectives_list_item {
+float:left;
+height:100%;
+width:100%;
+display:inline;
+
+}
+body .perspectives_list_item_content {
+	width:297px;
+	height:100%;
+}
+
+body #main.features_listing .permalink {
+	padding-left:0;
+}
+
+body .wire {
+border-top:none;
+}
+.metadata .comments {
+	/*font-size:1em;*/
+}
+
+h1.article_title a {
+ color:black;
+}
+
+.sidebar .module h3 a {
+	color:#D2B252
+}
+
+/* Alain Edit - they wanted the feature bullhorn removed from the front page */
+#wrapper #main.remove_bullhorn {
+ background:none;
+}
+
+#main #frontpage_content {
+margin:0;
+}
+
+#main.perspectives,
+#main.features_listing,
+#main.media_library {
+/*min-height:1200px;*/
+}
+
+#main .media_title {
+ line-height:1em;
+}
+
+/*------------------------------------------------------------------------
+Project:       People and Place
+Last Changed:  2008-07-25
+Author:      Paige Saez with help from Reid Beels 
+               http://paigesaez.org
+------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------
+=Media_Library_List_Page
+------------------------------------------------------------------------*/
+
+#media_library_header {
+	color: #d2b252;
+	font-size: 3em;
+	letter-spacing: .1em;
+	font-weight: normal;
+}
+
+.about_media_library {
+	
+}
+
+#media_navigation {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	/*margin-bottom: 3em;*/
+}
+
+#media_navigation ul li {
+	font-size: 1.4em;
+	text-decoration: underline;
+	display: inline;
+	padding-left: .8em;
+	padding-right: .8em;
+	border-right: 1px solid gray;
+}
+
+#media_navigation .last {
+	border-right: 0px;
+}
+
+.media_list_item {
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid gray;
+	height: 128px;
+	position: relative;
+}
+
+.media_image {
+	border: 1px solid gray;
+	margin-bottom: .5em;
+	width: 120px;
+	height: 90px;
+}
+
+.media_title {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: .5em;
+}
+
+#media_listing .tags {
+	font-size: .9em;
+}
+
+.metadata span {
+	display: block;
+	font-size:.9em;
+}
+
+#main.media .comment .metadata, 
+#main.perspectives .comment .metadata, 
+#main.feature .comment .metadata,
+#main.on_the_wire .comment .metadata,
+#main.our_compass .comment .metadata {
+	width: 120px;
+	padding-left: .5em;
+	text-align: right;
+	/*Alain Edit: pos abs is causing errors. gotta make it a float without a height restriction
+	height: 100px;
+	position: absolute;
+	*/
+	float:left;
+	display:inline;
+	top: 1em;
+	left: 0;
+	margin-left: -3em;
+}
+
+
+#features_listing .metadata span {
+	display: inline;
+}
+
+.features_listing .metadata span {
+	display: inline;
+}
+.view_media {
+	background: url('../img/view_media.gif') no-repeat;
+	width: 106px;
+	height: 27px;
+	display:inline;
+	float:right;
+	margin-top:0;
+	
+}
+
+.media_image {
+	width: 121px;
+	height: 86px;
+}
+
+.list_item_content {
+	width: 175px;
+	height: 125px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.list_item_content p {
+	font-size: 1.2em;
+}
+
+.media_image, .list_item_content, .media .metadata {
+	float: left;
+	display:inline;
+	
+}
+
+/*---#media_navigation CURRENT NEEDED IN gray---*/
+
+#media_navigation a {
+	color: #222;
+}
+
+#media .view_media {
+	background: url('../img/view_media.gif') no-repeat;
+}
+
+
+/*------------------------------------------------------------------------
+=Reset
+------------------------------------------------------------------------*/
+
+/* v1.0 | 20080701 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	font-size: 62.5%;
+}
+
+
+
+#article_content ul {
+	list-style: disc;
+	font-size:1.1em;
+	margin-left:1em;
+}
+
+#article_content li {
+	margin-bottom:1em;
+}
+
+
+
+ol, ul, #favicon_links ul,
+ul#media_listing {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------------------------------------
+=Default
+------------------------------------------------------------------------*/
+
+body {
+	background: #fff;
+	color: #222;
+}
+
+#article_content {
+	font-size:1.45em;
+}
+
+#article_content p, 
+#content #article_content blockquote,
+#feedback_preview blockquote{
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:1.1em;
+}
+
+.print p,
+.print blockquote {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+
+
+.masthead_content p {
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:1.5em;
+}
+
+p, pre {
+	/*margin-bottom: 15px; removed margin */  
+	font-size: 1.4em;
+}
+
+.masthead_content ul, #masthead_nav ul {
+	font-size: 1.6em;
+}
+
+/*------------------------------------------------------------------------
+=Layout
+------------------------------------------------------------------------*/
+
+#header {
+	width: 900px;
+	margin: 0 auto;
+	height: 116px;
+	position: relative;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 1em auto;
+	position: relative;
+/*min-height: 80em;*/
+	padding-bottom: 1em;}
+
+#wrapper.frontpage {
+/*min-height: 70em;*/
+}
+
+.article_title a,
+.article_title a:visited,
+.media_title a,
+.media_title a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+.article_title a:hover,
+.media_title a:hover {
+	text-decoration:underline;
+}
+
+#wrapper.masthead {
+	background: url('../img/solid_column_border.gif') repeat-y 310px;
+}
+
+.replaced {
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	text-align: left;
+}
+
+#about_each_section {
+	font-size: .75em;
+	font-weight: bold;
+	/*position: absolute;
+	top: 9.5em;
+	width: 85px;*/
+	width:10em;
+	height: 234px;
+}
+
+
+#about_each_section a:link {
+/*	color: #222;
+	text-decoration: underline;*/
+}
+
+/*------------------------------------------------------------------------
+=main_nav
+------------------------------------------------------------------------*/
+
+#main_nav {
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	height: 3em;
+}
+
+#main_nav div {
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#main_nav span {
+	font-weight: bold;
+	font-size: 1.8em;
+	line-height: 1.6em
+}
+
+#main_nav ul {
+	position: absolute;
+	right: 0;
+	top: .5em;
+}
+
+#main_nav ul a {
+	color: #222;
+	display: block;
+	font-weight: normal;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 1.8em;
+}
+
+#main_nav ul a:hover {
+	text-decoration: underline;
+}
+
+
+
+#top_nav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	z-index: 5;
+}
+
+#top_nav a {
+	text-transform: uppercase;
+	color: gray;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#people_place_logo {
+	background: url('../img/pp_logo.gif') no-repeat;
+	height: 116px;
+	width: 384px;
+	margin-bottom: 30px;
+}
+
+#published_by_ecotrust {
+	background: url('../img/published_ecotrust.gif');
+	width: 210px;
+	height: 48px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/*------------------------------------------------------------------------
+=nav
+------------------------------------------------------------------------*/
+
+/* default nav styling */
+
+ul.nav {
+	list-style: none;
+}
+
+ul.nav li {
+	text-align: right;
+}
+
+ul.nav.horizontal li {
+	float: left;
+	border-left: 2px solid #d2b252;
+	padding: 0 1.5em;
+	display:inline;
+	
+}
+
+ul.nav.horizontal li.first {
+	border: 0;
+}
+
+ul.nav li:first-child {
+	margin-left: 0;
+}
+
+/*------------------------------------------------------------------------
+=Main Content
+------------------------------------------------------------------------*/
+
+#main {
+	width:58em;
+	/*width: 561px;*/
+	float:left;
+	display:inline;
+}
+
+div#main.perspectives {
+	/*background: url('../img/perspec.jpg') no-repeat;*/
+	position: relative;
+}
+/* Working on replacement code */
+.about_perspectives_list {
+	background: url('../img/perspec.jpg') no-repeat;
+}
+
+div#main.media {
+	/*background: url('../img/media.jpg') no-repeat;*/
+	position: relative;
+}
+/* Working on replacement code */
+.about_media_page {
+	background: url('../img/media.jpg') no-repeat;
+}
+
+div#main.media_library {
+	/*background: url('../img/media.jpg') no-repeat;*/
+	position: relative;
+}
+/* Working on replacement code */
+.about_media_library {
+	background: url('../img/media.jpg') no-repeat;
+}
+
+
+div#main.feature {
+	/*background: url('../img/bullhorn.jpg') no-repeat;*/
+	position: relative;
+}
+/* Working on replacement code */
+.about_feature_page {
+	background: url('../img/bullhorn.jpg') no-repeat;
+}
+
+div#main.our_compass {
+/* ie6 doesn't overflow negative margins
+background: url('../img/compass.jpg') no-repeat -7px 0;*/
+position: relative;
+}
+/* Working on replacement code */
+.about_our_compass {
+background: url('../img/compass.jpg') no-repeat 0 0;
+}
+
+div#main.on_the_wire {
+/* ie6 doesn't overflow negative margins
+background: url('../img/radio_tower.jpg') no-repeat -7px 0;*/
+position: relative;
+}
+/* Working on replacement code */
+.about_on_the_wire {
+background: url('../img/radio_tower.jpg') no-repeat 0 0;
+}
+
+#main #content {
+	border-left: dashed 1px #ddd;
+	/*margin-left: 9em;*/
+	padding: 1em 1em 1em 1em;
+}
+
+#content h1 {
+	font-weight: bold;
+	font-size: 2.3em;
+}
+
+.tags {
+	font-size: 1.2em;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	color: gray;
+}
+
+body .tags a, .tags a:link,
+body span.permalink a {
+	text-decoration: none;
+	color: gray;
+}
+
+body .tags a:hover {
+	color:black;
+	text-decoration: underline;
+}
+
+#favicon_links {
+	font-size: 1.6em;
+	line-height: 2em;
+	height: 2em;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-top: 1em;
+	/*margin-bottom: 1em;*/
+}
+
+#favicon_links li {
+	float: left;
+	height: 18px;
+	margin-right: .5em;
+	margin-top: .4em;
+	display:inline;
+	
+}
+
+#favicon_links li.right {
+	float: right;
+	margin-right: 0;
+	margin-left: .5em;
+	display:inline;
+	
+}
+
+#delicious {
+	background: url('../img/delicious.gif') no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+#digg {
+	background: url('../img/digg.gif') no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+#technorati {
+	background: url('../img/technorati.gif') no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+#stumbleupon {
+	background: url('../img/stumbleupon.gif') no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+#reddit {
+	background: url('../img/reddit.gif') no-repeat;
+	height: 18px;
+	width: 18px;
+	text-align: left;
+}
+
+#mail {
+	background: url('../img/mail.gif') no-repeat;
+	width: 24px;
+}
+
+#print {
+	background: url('../img/print.gif') no-repeat;
+	width: 18px;
+}
+
+#pdf {
+	background: url('../img/pdf.png') no-repeat;
+	width: 24px;
+}
+
+/*------------------------------------------------------------------------
+=Sidebar
+------------------------------------------------------------------------*/
+
+.sidebar {
+	width:30em;
+	/* Alain Edit: removed absolute position in favor of a float and a display inline
+	width: 310px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	*/
+	float:left;
+	display:inline;
+	border-left: 1px dashed #ddd;
+	padding-left: 1em;
+}
+
+.sidebar .module {
+	margin: .5em;
+}
+
+.sidebar_header {
+	background: url('../img/black_flourish.gif') no-repeat 8.5em;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+	height: 33px;
+	padding-top: .5em;
+	padding-left: .5em;
+	margin-top: 1em;
+}
+
+.advert {
+	background-color: #fff;
+	color: gray;
+	margin: 0em 1em 2em 1em;
+}
+
+.advert p {
+	margin-bottom: .5em;
+}
+
+.advertisement {
+	background-color: #fff;
+	border: 1px solid gray;
+	width: 270px;
+	height: 165px;
+	/*width: 300px;
+	height: 140px;*/
+}
+
+.advertisement_frontpage {
+	background-color: #fff;
+	border: 1px solid gray;
+	width: 180px;
+	height: 100px;
+}
+
+.sidebar h3 {
+	height: 52px;
+	color: #d2b252;
+	/*margin-top: .5em;*/
+	/* ie6 doesn't overflow negative margins
+	margin-left: -.5em;
+	*/
+	padding-left: 70px;
+	padding-top: 20px;
+	font-size: 2em;
+	letter-spacing: .1em;
+}
+
+.sidebar .module {
+	border-bottom: 1px dashed #ddd;
+	padding-bottom: 10px;
+}
+
+.sidebar_modules .wire {
+/*padding-top: 10px;*/
+}
+
+.sidebar .featured h3 {
+	background: url('../img/bullhorn.jpg') no-repeat;
+}
+
+.sidebar .perspectives h3 {
+	background: url('../img/perspec.jpg') no-repeat;
+}
+
+.sidebar .perspectives h4.second {
+	margin-top: 3em;
+}
+
+.sidebar .media h3 {
+	background: url('../img/media.jpg') no-repeat;
+}
+
+.sidebar .compass h3 {
+	background: url('../img/compass.jpg') no-repeat;
+}
+
+.sidebar .wire h3 {
+	background: url('../img/radio_tower.jpg') no-repeat;
+	/*margin-left: .1em;*/
+	}
+
+.readmore {
+	background: url('../img/readmore_flourish.gif') no-repeat;
+	width: 100px;
+	height: 22px;
+	float: right;
+	display:inline;
+	
+}
+
+.paragraph_links {
+	position: relative;
+}
+
+.paragraph_links .readmore {
+	float: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display:inline;
+	
+}
+
+.sidebar h4 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom:0.4em;
+}
+
+.sidebar h4 a {
+	font-size:1.1em;
+}
+
+.sidebar p {
+/*padding-top: 5px;*/
+}
+
+.wire {
+	margin-top: 1em;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+}
+
+.wire ul li {
+	font-size: 1.5em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.wire a:link {
+	color: #222;
+}
+
+.wire h3 {
+	position: relative;
+}
+
+.wire h3 .wire_date {
+	/*position: absolute;*/
+	left: 90px;
+	top: 50px;
+	font-size: .6em;
+	letter-spacing: normal;
+	font-family: sans-serif;
+	color: gray;
+}
+
+#tagcloud {
+	/*background: url('../img/tags.gif') no-repeat;
+	width: 100%;*/
+	min-height: 135px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding:10px;
+	border: 1px solid #ddd;
+	float:left;
+	display:inline;
+	width:438px;
+}
+
+#tagcloud a{
+ text-decoration:none;
+}
+
+.featured_voices {
+	color: #d2b252;
+	font-size: 3em;
+	letter-spacing: .1em;
+	font-weight: normal;
+	padding-bottom: .5em;
+	margin-bottom: 1em;
+}
+
+/*------------------------------------------------------------------------
+=Article Metadata
+------------------------------------------------------------------------*/
+
+.article_title {
+	font-weight: bold;
+	margin: .5em 0 0 0;
+}
+
+.article_date {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+	font-family: sans-serif;
+	color: gray;
+}
+
+.author {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+}
+
+/*------------------------------------------------------------------------
+=Front Page
+------------------------------------------------------------------------*/
+
+#wrapper.frontpage .sidebar {
+	width: 218px;
+	float:left;
+	display:inline;
+}
+
+#wrapper.frontpage .sidebar h3{
+font-size: 2em;
+}
+
+#wrapper.frontpage .sidebar p {
+font-size: 1.5em;
+margin-bottom: 5px;
+/*margin-top: 5px;*/
+line-height: 1.1em;}
+
+#wrapper.frontpage #main {
+	width: 429px;
+	padding-top: 2em;
+}
+
+#wrapper.frontpage .sidebar .compass {
+	border-bottom: none;
+	padding-bottom: 25px;
+}
+
+#wrapper.frontpage .sidebar .wire {
+/* Alain Edit: removed because we want compass to appear below wires
+	border: none;
+*/
+}
+
+#sidebar_left {
+	right: 238px;
+}
+
+#frontpage_content {
+	margin: 0 .5em 3em 8em;
+	padding-right: 179px;
+	position: relative;
+}
+
+.front_header {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom:.5em;
+}
+
+#front_image {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.front_quote {
+	font-size: 1.6em;
+}
+
+#next_issue_teaser {
+	margin-top: 4em;
+	padding-top: 2em;
+	margin-bottom: 3em;
+}
+
+#next_issue_teaser h2 {
+	margin-top: .5em;
+	font-weight: bold;
+}
+
+.issue_header {
+	padding-top: 1em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom:.5em;
+}
+
+
+/*------------------------------------------------------------------------
+=Video
+------------------------------------------------------------------------*/
+
+#video {
+	background: url('../img/video.gif') no-repeat;
+	width: 434px;
+	height: 350px;
+	padding-bottom: 1em;
+}
+
+.video_title {
+	/*border-bottom: 1px solid gray;*/
+	padding-right: 1em;
+}
+
+#associated_articles {
+	padding-bottom:1em;
+	padding-left:10em;
+	float:left;
+	width:45em;
+	margin-top:1em;
+	display:inline;
+	
+}
+
+#associated_articles table{
+	font-size: 1.6em;
+	/*position:relative;
+	top:-1em;*/
+}
+
+
+#associated_articles h2 {
+	border-bottom: 1px solid gray;	
+	/*padding-bottom: .2em;*/
+	margin-bottom: .3em;
+	width:453px;
+}
+
+#associated_articles a {
+	color:gray;
+	text-decoration: underline;
+}
+
+#associated_articles a:hover {
+	color:black;
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------------------
+=Perspectives List Page
+------------------------------------------------------------------------*/
+
+#perspectives_list_header {
+	color: #d2b252;
+	font-size: 3em;
+	letter-spacing: .1em;
+	font-weight: normal;
+	border-bottom: 1px solid gray;
+	padding-bottom: .5em;
+}
+
+.perspectives_list_item {
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid gray;
+	height: 178px;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.perspectives_list_item_content {
+	width: 247px;
+	height: 178px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#perspectives_listing .tags {
+	/*margin-top: 1em; removed margin */
+	font-size: .9em;
+}
+
+#perspectives_listing .tags a {
+	color: gray;
+}
+
+#perspectives_listing .tags a:hover {
+	color: black;
+}
+
+#medias_listing .tags a {
+	color: gray;
+}
+
+#medias_listing .tags a:hover {
+	color: black;
+}
+
+.perspectives_list_item_content, 
+.perspectives.metadata {
+	float: left;
+	display:inline;
+	
+}
+
+.comments {
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 1.3em;
+	color: gray;
+}
+
+.permalink a:hover {
+	text-decoration:underline;
+	color:black;
+}
+
+/*------------------------------------------------------------------------
+=Feature Listing
+------------------------------------------------------------------------*/
+
+#media_library_header, 
+#featured_voices_header {
+	color: #d2b252;
+	font-size: 3.2em;
+	letter-spacing: .1em;
+	font-weight: normal;
+}
+
+#featured_voices_header {
+	border-bottom: 1px solid gray;
+	padding-bottom: .5em;
+	/*margin-bottom: .5em;*/
+}
+
+#features_listing {
+	margin-top: .5em;
+	padding-top: .5em;
+}
+
+.feature_listing_article {
+	margin-top: .5em;
+}
+
+.features_list_item {
+	border-top: 1px solid gray;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-top: 1em;
+	float:left;
+	display:inline;
+	
+}
+
+.features_list_item_title {
+	font-weight: bold;
+	font-size: 2em;
+	padding-top: 1em;
+	display: block;
+}
+
+#main.features_listing .permalink {
+	padding-left: 7em;
+}
+
+/*------------------------------------------------------------------------
+=Feature Page
+------------------------------------------------------------------------*/
+#content blockquote,
+#feedback_preview blockquote {
+	font-size: 1.6em;
+	background: url('../img/big_quotes.gif') no-repeat;
+	padding-left: 4em;
+	padding-right: 2em;
+}
+
+#content blockquote p {
+	font-size:1em;
+}
+
+.associated_media {
+	background: url('../img/media.jpg') no-repeat;
+	padding-left: 10em;
+	width:465px;
+	float:left;
+	display:inline;
+	
+}
+
+.associated_media h2 {
+	font-size: 2em;
+	border-bottom: 1px solid gray;
+	margin-top: 1em;
+	margin-bottom: .4em;
+	/*padding-bottom: 7px;
+	position: relative;*/
+	width:451px;
+}
+
+.associated_media h2 span {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.media_listing {
+	list-style: none;
+	display: inline;
+	float:left;
+	
+}
+
+/* 
+TODO
+Currently setting an explicit height on the media_listing ul. 
+This should probably be refactored to resize based on the content of the floated list items 
+*/
+
+.media_listing li {
+	float: left;
+	width: 121px;
+	/*Alain Edit: Removed height limitation so that it doesn't break if the title is too big
+	height: 178px;
+	*/
+	/*min-height: 178px;*/
+	padding-bottom:1em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	display:inline;
+	
+}
+
+.media_listing li p {
+	font-size: 1.3em;
+	margin-bottom: 1px;
+	line-height: 1.2em;
+}
+
+.media_listing h3 {
+	font-weight: bold;
+	font-size: 1.40em;
+	text-align: center;
+}
+
+.media_listing .medium {
+	color: gray;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.pieces {
+	font-size: .7em;
+	color: gray;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+.feature_image {
+	float: right;
+	display:inline;
+	
+}
+
+.feature_first_paragraph:first-letter {
+	font-size:2.25em;
+	/* If we wanted a drop-cap then using the following...*/
+	/*font-size: 3.3em;*/
+	/*line-height: .8em;*/
+	/*float: left;*/
+	/*margin-right: .1em;*/
+	
+}
+
+/*------------------------------------------------------------------------
+=Discussion(Comments)
+------------------------------------------------------------------------*/
+
+#discussion {
+	margin-top: 1em;
+	/*width: 552px;*/
+	width:55em;
+	float:left;
+	display:inline;
+	
+}
+
+#discussion h2{
+	padding-left: 5em;
+}
+
+.comments_amount {
+	font-family: sans-serif;
+	font-size: 1.3em;
+	float: right;
+	position: relative;
+	top: -1.2em;
+	display:inline;
+	
+}
+
+.articles_amount{
+	font-family: sans-serif;
+	font-size: 1.3em;
+	float: right;
+	position: relative;
+	top: -1.2em;
+	display:inline;
+	
+}
+
+.pieces_count {
+	font-family: sans-serif;
+	font-size: 1.3em;
+	float: right;
+	position: relative;
+	top: -1.8em;
+	left:-1em;
+	display:inline;
+	
+}
+
+.discuss_instructions {
+	color: gray;
+	font-size: 1.4em;
+	border-top: 1px solid gray;
+	padding-top: 1em;
+	padding-left: 8em;
+	padding-bottom:1em;
+}
+
+#discussion li {
+	border-top: 1px solid gray;
+	/* revision because if the content is small then it will overlap */
+	min-height:150px;
+}
+
+.comment {
+	position: relative;
+}
+
+.comment_number {
+	font-family: Times;
+	font-size: 6em;
+	font-weight: bold;
+	color: gray;
+}
+
+.metadata {
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	color: gray;
+	font-size: 1.3em;
+}
+
+.metadata a:link {
+	color: gray;
+}
+
+.datestamp, .timestamp {
+	font-size: 1.5em;
+	display: block;
+}
+
+.username {
+	font-weight: bold;
+	color: #222;
+}
+
+.comment_text {
+	margin-left: 10.5em;
+}
+
+.comment_text h4 {
+	font-size: 1.6em;
+	/*padding-top: 1em;*/
+	padding-bottom: 1em;
+}
+
+/*------------------------------------------------------------------------
+=Links
+------------------------------------------------------------------------*/
+
+
+
+
+/* Alain editted the anchor links */
+a, a:visited {
+	text-decoration: underline;
+	color: gray;
+}
+/* added underline back 
+a:visited {
+	color: gray;
+	text-decoration: none; 
+}*/
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#refresh_captcha {
+font-size: 1.5em;
+display: block;
+}
+
+/*------------------------------------------------------------------------
+=Pagination
+------------------------------------------------------------------------*/
+
+#pagination {
+	margin-top: 4em;
+	margin-bottom: 5em;
+	margin-left: 6em;
+	float:left;
+	display:inline;
+}
+
+#pagination a,
+#pagination span {
+	color: #222;
+}
+
+#pagination li {
+	float: left;
+	font-size: 1.3em;
+	font-weight: bold;
+	border-left: 1px solid #D2B252;
+	padding-left: .5em;
+	padding-right: .5em;
+	line-height: 1.3em;
+	display:inline;
+	
+}
+
+#pagination li.first, #pagination li.prev_page, #pagination li.next_page {
+	border-left: 0;
+}
+
+#pagination .prev_page a,
+#pagination .prev_page span{
+	background: url('../img/previous.gif') no-repeat;
+	width: 116px;
+	height: 23px;
+	color: #D2B252;
+	padding-left: 25px;
+}
+
+#pagination .next_page a,
+#pagination .next_page span {
+	background: url('../img/next.gif') no-repeat right;
+	width: 84px;
+	height: 23px;
+	padding-right: 25px;
+	color: #D2B252;
+}
+
+.prev_page, .next_page {
+	text-transform: uppercase;
+}
+
+/*------------------------------------------------------------------------
+=Masthead
+------------------------------------------------------------------------*/
+
+#masthead_nav {
+	text-align: center;
+	margin-top: 1em;
+	width:28em;
+	/* Alain Edit: removed abs in fav of float
+	position: absolute;
+	width: 293px;
+	top: 0;
+	left: 0;
+	*/
+	float:left;
+	display:inline;
+	
+}
+
+#masthead_nav h3 {
+	background: url('../img/long_flourish.gif') bottom center no-repeat;
+	height: 2.6em;
+	font-weight: bold;
+	padding-top: .5em;
+}
+
+#masthead_nav ul {
+	margin-bottom: 2em
+}
+
+#masthead_nav a {
+	color: #222;
+	text-decoration:none;
+}
+
+#masthead_nav a:hover {
+	text-decoration:underline;
+}
+
+#masthead_nav p, blockquote {
+	margin: 1em;
+}
+
+#masthead_nav .citation .author {
+	font-style: normal;
+	font-weight: bold;
+	/*margin-bottom: 1.2em;*/
+	font-size: 1.2em;
+	display: block;
+}
+
+/*------------------------------------------------------------------------
+=masthead_content
+------------------------------------------------------------------------*/
+
+.masthead_content {
+	/*Alain Edit: removing margin-left since it is now floating
+	margin-left: 310px;
+	*/
+	padding: 1.8em 2em;
+}
+
+.masthead_content.archive ul {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 1em;
+}
+
+.masthead_content.archive h1 {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: .5em;
+}
+
+#wooden_man_image {
+	padding-right: 3em;
+}
+
+/*------------------------------------------------------------------------
+=Footer
+------------------------------------------------------------------------*/
+
+#footer {
+	clear: none;
+	width: 100%;
+	border-top: 1px solid #ddd;
+	padding-top: .75em;
+	padding-bottom: .75em;
+	margin-top: .75em;
+	margin-bottom: 8em;
+}
+
+#footer a {
+	color: #222;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
+
+#footer ul {
+	width: 80em;
+	margin: 0 auto;
+}
+
+#footer ul li {
+	float: left;
+	text-transform: uppercase;
+	line-height: 2em;
+	font-size: 1.2em;
+	display:inline;
+	
+}
+
+#footer li.first {
+	background: url('../img/left_flourish.gif') no-repeat left;
+	padding-left: 70px;
+	margin-left: 30px;
+}
+
+#footer li.last {
+	background: url('../img/right_flourish.gif') no-repeat right;
+	padding-right: 55px;
+}
+
+#cc_icon {
+	background: url('../img/cc_icon.gif') no-repeat -10px -5px;
+	width: 22px;
+	height: 20px;
+	text-align: left;
+}
+
+#rss_icon {
+	background: url('../img/rss_icon.gif') no-repeat -5px -5px;
+	width: 22px;
+	height: 20px;
+	text-align: left;
+}
+
+/*------------------------------------------------------------------------
+=Forms
+------------------------------------------------------------------------*/
+
+#form, #comment_form {
+	margin-top: 2em;
+	min-height: 500px;
+}
+
+#form a,
+#comment_form a {
+	text-decoration: underline;
+}
+
+#form label,
+#comment_form label {
+	font-size: 1.6em;
+}
+
+#form input, textarea,
+#comment_form input {
+	width: 320px;
+	font-size: 1.4em;
+	margin-bottom: 1em;
+	display: block;
+	font-family:"Times New Roman",Georgia,Times,serif;
+	}
+#form label,
+#comment_form label {
+	padding-left: .5em;
+}
+
+#form #feedback,
+#comment_form #feedback {
+	height: 7em;
+	font-size: 1.4em;
+	margin-bottom: 1em;
+	display: block;
+}
+
+#form .subscribe,
+#comment_form .subscribe {
+	width: 325px;
+/*padding-top: .5em;
+	background-color: #eee;
+	margin-bottom: 1em;*/
+}
+
+#form .subscribe_checkbox,
+#comment_form .subscribe_checkbox, .newsletter {
+display: inline;
+}
+
+#form button,
+#comment_form button {
+	background: transparent;
+	border: 1px solid gray;
+	font-family: "Times New Roman",Georgia,Times,serif;
+	font-size: 1.6em;
+	margin-top: 1em;
+	line-height:1.5;
+	margin-right:5px;
+}
+
+body #comment_form a#preview_button {
+	background: transparent;
+	border: 1px solid gray;
+	font-family: inherit;
+	font-size: 1.6em;
+	margin-top: 1em;
+	padding:.5em;
+	padding-top:1px;
+	padding-bottom:1px;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	height:22px;
+}
+
+
+.discussion_form {
+	margin-left: 10em;
+	margin-top: 2em;
+	float:left;
+	display:inline;
+	width:45em;
+}
+
+
+/*------------------------------------------------------------------------
+=Typography
+------------------------------------------------------------------------*/
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.1em;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 2em;
+	/*margin-bottom: 10px;*/
+}
+
+.duscussion_form {
+	padding-top: 2em;
+}
+
+h3 {
+	font-size: 1.8em;
+	/*margin-bottom: 10px;*/
+}
+
+strong {
+	font-weight: bold;
+}
+
+.archive h3 {
+	/*text-transform: uppercase;*/
+	font-size: 1.7em;
+	margin-bottom: 10px;
+}
+
+em {
+	font-style: italic;
+}
+
+.citation {
+	font-size: 1.4em;
+	margin-bottom: 1.2em;	
+	/*font-style: italic;
+	padding-left: 2.5em; <-- removed because we want the citation centered underneat the quote*/
+}
+
+#masthead_nav .citation a{
+	color:gray;
+	text-decoration:underline;
+}
+
+#masthead_nav .citation a:hover{
+	color:black;
+}
+
+/* old blockquote style
+blockquote {
+	background: url('../img/big_quotes.gif') no-repeat;
+	padding-left: 4em;
+	font-size: 1.1em;
+	padding-right: 2em;
+}
+*/
+
+#content blockquote.excerpt {
+	background: url('../img/big_quotes.gif') no-repeat;
+	padding-left: 4em;
+	font-size: 1.8em;
+	padding-right: 2em;
+}
+
+#pdf a:link {
+	color: #222;
+	font-size: 1.4em;
+}

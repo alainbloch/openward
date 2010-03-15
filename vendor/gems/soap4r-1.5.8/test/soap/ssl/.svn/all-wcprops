@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl
+END
+ca.cert
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/ca.cert
+END
+server.cert
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/server.cert
+END
+test_ssl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/test_ssl.rb
+END
+client.key
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/client.key
+END
+subca.cert
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/subca.cert
+END
+client.cert
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/client.cert
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/README
+END
+server.key
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/server.key
+END
+sslsvr.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/soap/ssl/sslsvr.rb
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test
+END
+test_httpclient.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/test_httpclient.rb
+END
+ca.cert
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/ca.cert
+END
+subca.cert
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/subca.cert
+END
+server.key
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/server.key
+END
+htpasswd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/htpasswd
+END
+sslsvr.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/sslsvr.rb
+END
+test_http-access2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/test_http-access2.rb
+END
+test_ssl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/test_ssl.rb
+END
+test_auth.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/test_auth.rb
+END
+server.cert
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/server.cert
+END
+client.key
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/client.key
+END
+test_cookie.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/test_cookie.rb
+END
+client.cert
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/client.cert
+END
+runner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/runner.rb
+END
+htdigest
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/test/htdigest
+END

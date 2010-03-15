@@ -1,0 +1,14 @@
+<div class="advert">
+<p>P&amp;P Sponsors</p>
+
+  <a href="http://www.nau.com">
+    <%= image_tag "advertisements/nau_ecotrust_ad.jpg" %>
+  </a>
+
+  <div class="advertisement">
+    <a href="http://www.portfolio21.com/?utm_source=PandP&utm_medium=banner&utm_campaign=PandP_banner">
+      <%= image_tag "advertisements/portfolio-21_270.jpg" %>
+    </a>  
+  </div>      
+
+</div>

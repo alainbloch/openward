@@ -1,0 +1,10 @@
+# Highlights the associated media table
+page['associated_media_list_table'].visual_effect :highlight
+
+# Inserts the new associate media into the associated media table
+page.insert_html :before, 'associated_media_list_table_last', :partial => '/associations/media/associated_media', 
+                                                               :locals  => {:associated_media => @media }
+page << "associated_media('#{@media.id}');"
+
+
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/480/peopleandplace/trunk/vendor/plugins/monkey_patches
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnpap/!svn/ver/137/peopleandplace/trunk/vendor/plugins/monkey_patches/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/480/peopleandplace/trunk/vendor/plugins/monkey_patches/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/137/peopleandplace/trunk/vendor/plugins/monkey_patches/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/137/peopleandplace/trunk/vendor/plugins/monkey_patches/MIT-LICENSE
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/137/peopleandplace/trunk/vendor/plugins/monkey_patches/uninstall.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/137/peopleandplace/trunk/vendor/plugins/monkey_patches/README
+END

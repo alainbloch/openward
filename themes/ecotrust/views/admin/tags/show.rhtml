@@ -1,0 +1,8 @@
+<% for column in Tag.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @tag.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', edit_admin_tag_path(@tag) %> |
+<%= link_to 'Back', admin_tags_path %>

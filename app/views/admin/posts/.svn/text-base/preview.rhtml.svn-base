@@ -1,0 +1,37 @@
+<% content_for :preview do %>  
+    <%= link_to "Return to Edit", edit_admin_post_pa(@post) %>
+<% end %>
+
+<div id="main" class="perspectives">
+  <div id="content">
+    
+    <h1><%= @post.title rescue nil %></h1>
+      <div class="author">by <%= @post.user.name rescue nil %></div>
+      <div class="article_date">
+        <% if @post.published? %>
+          <%= @post.published_at.strftime("%B %d, %Y %I:%M%p") rescue nil %>
+        <% else %>
+          <b>Not yet published</b>
+        <% end %>
+      </div>
+
+      <p class="feature_first_paragraph">
+        <%= @post.first_half_of_content  rescue nil %>
+      </p>
+
+      <blockquote><%= @post.excerpt  rescue nil %></blockquote>
+
+      <p>
+        <%= @post.second_half_of_content  rescue nil%>
+      </p>
+
+    
+    <%= render(:partial => "tags/association", :locals => {:taggable => @post}) rescue nil %>
+
+    <%= render(:partial => "shared/syndicate", :locals => {:article => @post}) rescue nil %>        
+  
+  </div>
+
+</div>
+<%= render :partial => "shared/large_sidebar" %>
+

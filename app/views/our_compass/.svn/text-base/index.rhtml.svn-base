@@ -1,0 +1,30 @@
+<div id="main" class="our_compass">
+  
+        <div id="about_each_section">
+          <div class="about_our_compass">
+            <p>
+              Our Compass points to leading websites and articles on each P&P topic. 
+            </p>
+          </div>
+        </div>
+  
+        <div id="content">
+          <div id="perspectives_list_header">
+            our compass
+          </div>
+     
+          <ul id="perspectives_listing">
+            <%= render :partial => "compass", :collection => @posts %>
+          </ul>
+          <!-- .perspectives_listing -->
+		 	 
+      	  <div id="pagination">
+           <ul><%= will_paginate @posts, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+      		</div>
+        
+       </div>
+
+       
+</div>       
+
+<%= render :partial => "shared/large_sidebar"%>

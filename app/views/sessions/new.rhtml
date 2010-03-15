@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link href="/rss/" rel="alternate" title="RSS" type="application/rss+xml" />
+	<title>People & Place Administration</title>
+	<%= stylesheet_link_tag 'admin' %>
+  </head>
+
+	<body>
+	  
+	  <div id="session_form">
+	    <%= content_tag :div, image_tag("published_by_ecotrust.png"), :class => 'logo' %>
+  	  <%= content_tag :div, link_to( image_tag("header.png"), home_path), :class => 'logo' %>
+  	  <div id="password_container">      
+  		  <% unless current_user.nil? %>
+      		<h2>You are already signed in!</h2>
+      	  	<div class="form_buttons"><%= button_to 'Sign out', session_path, :method => :delete %>
+      			Click the button to sign out.
+      		</div>
+      	<% else %>
+    			<%= form_tag session_path %>
+
+            <div class="form_field <%= "form_error" if flash[:error]%>">
+              Email Address <%= text_field_tag 'email', '' %>
+            </div>
+
+            <div class="form_field <%= "form_error" if flash[:error]%>">
+              Password <%= password_field_tag 'password', '' %><br/>
+            </div>
+            
+        		<div class="sign_in">
+        			<%= submit_tag 'Sign In' %>
+        		</div>
+    			</form>
+        <% end %>
+        <div><a href="mailto:info@peopleandplace.net">forgot your password?</a></div>
+      </div>
+      
+    </div>
+  </body>
+</html>

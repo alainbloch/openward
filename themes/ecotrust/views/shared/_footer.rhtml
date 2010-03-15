@@ -1,0 +1,25 @@
+<div id="footer">
+  <ul class="nav horizontal">
+    <li class="first">
+      <a href="/">home</a>
+    </li>
+    <li>
+      <%= link_to "About P&amp;P", page_path("about"), :title => "About People and Place" %>
+    </li>
+    <li>
+      <%= link_to "Make a Connection", connect_path, :title => "Make a Connection"%>
+    </li>
+    <li>
+      <%= link_to "Subscribe", subscribe_path, :title => "Subscribe"%>
+    </li>
+    <li>
+      <%= link_to "Archive", archives_path, :title => "Archive" %>
+    </li>
+    <li>
+      <%= link_to "CC License", page_path("licenses"), :title => "Licenses", :class => "replaced", :id => "cc_icon", :rel => "license"%>
+    </li>
+    <li class="last">
+      <%= link_to "RSS", formatted_home_path(:rss), :id => "rss_icon", :class => "replaced last" %>
+    </li>
+  </ul>
+</div>

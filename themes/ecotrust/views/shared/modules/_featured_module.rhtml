@@ -1,0 +1,14 @@
+<% if feature %>
+  <div class="featured module">
+    <h3><%= link_to "featured voices", section_path("featured_voices") %></h3>
+    <h4><%= link_to feature.title, 
+    
+    section_article_path(feature.permalink_params.merge(:section_id => "featured_voices")) %></h4>
+    <span class="author">by <%= h feature.user.name %></span>
+    <span class="article_date"><%= feature.published_at.strftime("%B %d, %Y") %></span>
+    <p><%= strip_tags(feature.excerpt) %></p>
+    <%= link_to "readmore", 
+        section_article_path(feature.permalink_params.merge(:section_id => "featured_voices")), 
+        :class => "replaced readmore"%><br />
+  </div>
+<% end %>

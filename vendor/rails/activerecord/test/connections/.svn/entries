@@ -1,0 +1,58 @@
+10
+
+dir
+580
+http://svn.vps120.speedyrails.ca/svnpap/peopleandplace/trunk/vendor/rails/activerecord/test/connections
+http://svn.vps120.speedyrails.ca/svnpap
+
+
+
+2009-02-13T22:22:50.090645Z
+493
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7cd04dc2-7d32-4124-8f57-6e100f016afd
+
+native_openbase
+dir
+
+native_sqlite
+dir
+
+native_frontbase
+dir
+
+native_postgresql
+dir
+
+native_sqlite3
+dir
+
+native_mysql
+dir
+
+native_oracle
+dir
+
+native_firebird
+dir
+
+native_sybase
+dir
+
+native_db2
+dir
+

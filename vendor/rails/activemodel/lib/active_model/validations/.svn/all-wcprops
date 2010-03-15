@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations
+END
+associated.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/associated.rb
+END
+uniqueness.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/uniqueness.rb
+END
+length.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/length.rb
+END
+inclusion.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/inclusion.rb
+END
+presence.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/presence.rb
+END
+numericality.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/numericality.rb
+END
+acceptance.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/acceptance.rb
+END
+confirmation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/confirmation.rb
+END
+format.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/format.rb
+END
+exclusion.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activemodel/lib/active_model/validations/exclusion.rb
+END

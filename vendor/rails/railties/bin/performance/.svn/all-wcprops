@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/bin/performance
+END
+benchmarker
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/bin/performance/benchmarker
+END
+profiler
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/bin/performance/profiler
+END
+request
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/railties/bin/performance/request
+END

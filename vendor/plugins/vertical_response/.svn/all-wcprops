@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/498/peopleandplace/trunk/vendor/plugins/vertical_response
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/MIT-LICENSE
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/uninstall.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/498/peopleandplace/trunk/vendor/plugins/vertical_response/README
+END

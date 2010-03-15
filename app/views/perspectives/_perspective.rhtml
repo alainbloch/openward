@@ -1,0 +1,20 @@
+<!--list_item_start-->
+<li class="perspectives_list_item">
+   <div class="perspectives_list_item_content">
+     <h2 class="article_title"><%= link_to perspective.title, perspective_path(perspective) %></h2>
+     <div class="author">by <%= perspective.user.name %></div>
+       <p><%= perspective.excerpt %></p>
+        <%= link_to "readmore", perspective_path(perspective), :class => "readmore replaced" %>
+     </div>
+   <!-- .perspectives_list_item_content -->
+   <div class="metadata">
+     <span><%= perspective.published_at.strftime("%b %d, %Y") %></span>
+     <%= render :partial => "tags/association", :locals => {:taggable => perspective} %>
+     <span class="comments"><%= pluralize perspective.approved_comments.size, "Comment" %></span>
+     <span class="permalink"><%= link_to "permalink", perspective_url(perspective) %></span>
+   </div>
+   <!-- .perspectives_metadata -->
+
+   <!-- .tags -->
+ </li>
+ <!-- .perspectives_list_item -->

@@ -1,0 +1,12 @@
+<div id="connection_form">
+<%= text_area :suggestion, :content, :id => "feedback" %>
+
+<label for="name">Name</label>
+<%= text_field :suggestion, :name, :id => "name" %>
+
+<label for="email">Email address</label>
+<%= text_field :suggestion, :email, :id => "email" %>
+
+<%= show_simple_captcha(:object => "suggestion",:label => "Enter text from the image below (case sensitive)", :distortion => "medium") %>  
+
+</div>

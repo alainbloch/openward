@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl
+END
+message.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/message.rb
+END
+port.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/port.rb
+END
+portType.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/portType.rb
+END
+info.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/info.rb
+END
+operationBinding.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/operationBinding.rb
+END
+parser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/parser.rb
+END
+operation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/operation.rb
+END
+param.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/param.rb
+END
+service.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/service.rb
+END
+importer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/importer.rb
+END
+types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/types.rb
+END
+part.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/part.rb
+END
+wsdl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/wsdl.rb
+END
+data.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/data.rb
+END
+documentation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/documentation.rb
+END
+import.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/import.rb
+END
+binding.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/binding.rb
+END
+definitions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/374/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/lib/wsdl/definitions.rb
+END

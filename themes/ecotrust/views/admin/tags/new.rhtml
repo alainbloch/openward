@@ -1,0 +1,9 @@
+<h1>New tag</h1>
+
+<% form_tag :action => 'create' do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag "Create Tag"%></div>
+  <div style="margin-right:75px;color:#454545;font-weight:bold;">single word, no numbers, all lowercase</div>
+<% end %>
+
+<%= link_to 'Back', :action => 'list' %>

@@ -1,0 +1,45 @@
+      <div id="masthead_nav">
+        <h3>
+          P&amp;P Masthead
+        </h3>
+        
+        <%= render :partial => "pages/page_links" %>
+        
+
+        <% if @setting.archive_page; @page = @setting.archive_page %>
+
+          <% if @page.media %>
+            <%= image_tag url_for_file_column(@page.media, 'file'), :style => "width:232px;" %>  
+          <% end %>
+
+          <blockquote><p> &ldquo;<%= @page.quote %>&rdquo;</p>
+          </blockquote>
+
+          <div class="citation"><span class="author"><%= @page.quote_author %></span><%= @page.quote_source %></div>
+
+        <% end %>
+      </div>      
+      
+      <div id="main" class="masthead_content archive">
+        <% if @setting.archive_page %>
+          <h1>
+            <%= link_to( "(Edit Page)", edit_admin_page_path(@setting.archive_page), :style => "display:inline;float:right;") if current_user %>
+            <%= @setting.archive_page.title %>
+          </h1>
+          <div id="article_content">
+          <p><%= @setting.archive_page.content %></p>
+          </div>
+        
+        <% else %>
+        <h1>
+          Archive
+        </h1>
+        <% end  %>
+        
+        <% unless @volumes.empty? %>
+          <%= render :partial => "volume", :collection => @volumes %>
+        <% else %>
+          <h2>There are no archives at this present time.</h2>
+        <% end %>
+      </div>
+      

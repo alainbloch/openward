@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/463/peopleandplace/trunk/app/views/on_the_wire
+END
+index.rss.builder
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/463/peopleandplace/trunk/app/views/on_the_wire/index.rss.builder
+END
+_wire.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/433/peopleandplace/trunk/app/views/on_the_wire/_wire.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/288/peopleandplace/trunk/app/views/on_the_wire/index.rhtml
+END

@@ -1,0 +1,15 @@
+<div style="border:2px solid #EF9C00; padding:5px;min-height:98px;" id="feedback_preview">
+  <%= display @comment.content %>
+</div>
+<div><%= hidden_field :comment, :content, :id => "hidden_comment_content" %></div>
+<div style="margin:5px;margin-bottom:1em;">
+<div id="spinner" style="display:none;" >
+  <i>Loading Editor...</i><%= image_tag "grey_spinner-white_bg.gif" %>
+</div>
+<%= link_to_remote "Edit Comment",{:url =>  input_field_comments_path,
+                                   :with => %($('hidden_comment_content').serialize()),
+                                   :loading => "$('preview_link').style.display = 'none';
+                                                $('spinner').style.display = 'inline';"},
+                                  {:id => "preview_link"}
+                           %>
+</div>

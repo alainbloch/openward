@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations
+END
+has_many_through_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/has_many_through_associations_test.rb
+END
+has_many_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/has_many_associations_test.rb
+END
+join_model_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/join_model_test.rb
+END
+callbacks_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/callbacks_test.rb
+END
+eager_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/eager_test.rb
+END
+eager_singularization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/eager_singularization_test.rb
+END
+inner_join_association_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/inner_join_association_test.rb
+END
+eager_load_nested_include_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/eager_load_nested_include_test.rb
+END
+cascaded_eager_loading_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/cascaded_eager_loading_test.rb
+END
+has_one_through_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/has_one_through_associations_test.rb
+END
+has_one_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/has_one_associations_test.rb
+END
+eager_load_includes_full_sti_class_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/eager_load_includes_full_sti_class_test.rb
+END
+belongs_to_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/belongs_to_associations_test.rb
+END
+has_and_belongs_to_many_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/has_and_belongs_to_many_associations_test.rb
+END
+extension_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activerecord/test/cases/associations/extension_test.rb
+END

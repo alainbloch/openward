@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+    <meta name="Description" content="People and Place is a web journal that hosts an inquiry on ideas that connect us." />
+    <title>People and Place: Ideas That Connect Us</title>
+    <%= theme_stylesheet_link_tag 'master' %>
+    <%= theme_javascript_include_tag :defaults %>
+    <%= auto_discovery_link_tag(:rss, formatted_home_path(:format => :rss), {:title => %(People and Place)}) %>
+    <style type="text/css">
+      body .sidebar_modules .media {
+        border-bottom:0;
+      }
+    </style>
+    <!--[if lte IE 6]>
+      <style type="text/css">
+        html, body {
+            height: 100%; overflow: hidden;
+         }
+         #body_container {
+            height: 100%; overflow: scroll; position: relative; z-index: 2;
+         }
+     	   body .fader,
+     	   body .popup{
+     	     position:absolute;
+     	   } 
+     	</style>
+    <![endif]-->
+  </head>
+  <body id="index">
+    <div id="body_container">
+      <%= render :partial => "shared/header" %>
+      <%= render :partial => "shared/main_nav" %>  
+      <div id="wrapper" class="frontpage">
+        <div id="main" class="feature remove_bullhorn">
+        
+        <div id="frontpage_content">
+          <%= link_to(  render_caricature(@feature, :id => "front_image", :style =>"width:179px;"), 
+                        section_article_path(@feature.permalink_params.merge(:section_id => @feature_section.uri))
+                      ) if @feature %>
+          <!--
+          <img src="img/smaller_illus_man.gif" alt="illustration" id="front_image" />
+          -->
+          <div class="front_header">
+            <%= @volume.title %>
+          </div>
+          
+          <% if @feature %>
+            <h1 class="article_title">
+              <%= link_to @feature.title, section_article_path(@feature.permalink_params.merge(:section_id => @feature_section.uri)) %>
+            </h1>
+            <div class="author">by <%= @feature.user.name %></div>
+            <div class="article_date"><%= @feature.published_at.strftime("%B %d, %Y")%></div>
+            <p class="front_quote">
+              <%= strip_tags(@feature.excerpt) %>
+            </p>
+            <%= link_to "readmore", section_article_path(@feature.permalink_params.merge(:section_id => @feature_section.uri)), :class => "replaced readmore" %>
+          <% end %> 
+          
+          <div id="next_issue_teaser">
+            <div class="issue_header">Next Issue of P&amp;P:</div>
+            <h1 class="article_title"><%= strip_tags(@setting.next_issue_text) %></h1>
+            <div class="author">by <%=  @setting.next_issue_author %></div>
+		        <div class="article_date"><%= @setting.next_issue_date.strftime("%B %d, %Y") if @setting.show_date %></div>
+          </div>
+                  
+        </div>
+        
+      </div>
+        <div class="sidebar" id="sidebar_left">
+        <div class="sidebar_modules">
+          <%= render_perspectives_module(2) %>
+          <%= render_media_module(1) %>
+          
+        </div>
+      </div>
+        <div class="sidebar" id="sidebar_right">
+          <div class="sidebar_modules">
+        
+          <%= render_wires_module %>
+          <%= render_compass_module %>
+          </div>
+          <!-- advert removed
+          <div class="advert">
+            <p>P&amp;P Sponsor</p>
+            <div class="advertisement_frontpage">advertisement</div>
+          </div>        
+          -->
+      </div>
+        <br style="clear:both;"/>
+      </div>
+      <%= render :partial => "shared/footer" %>
+    </div>
+        
+    <!--[if lte IE 6]>    
+      <%= render_ie6_alert %>
+      <script type="text/javascript">
+    	  OpenLightbox('ie6_alert');
+      </script>
+    <![endif]-->
+
+    <% if ENV['RAILS_ENV'] == "production" %>
+      <%= @setting.analytics %>
+    <% end %>
+  </body>
+</html>

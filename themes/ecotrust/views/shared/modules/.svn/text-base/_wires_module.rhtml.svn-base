@@ -1,0 +1,15 @@
+<% unless wires.empty? %>
+<div class="wire module">
+   <h3>
+     <%= link_to "on the wire", section_path("on_the_wire") %>
+     <div class="wire_date"><%= Time.now.strftime("%B %d, %Y")%></div>
+   </h3>
+   <ul class="wire_links">
+     <% for wire in wires do %>
+       <li><%= link_to wire.title, 
+                       section_article_path(wire.permalink_params.merge(:section_id => "on_the_wire")), 
+                       :class => "article title" %></li>
+     <% end %>
+   </ul>
+ </div>
+ <% end %>

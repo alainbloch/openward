@@ -1,0 +1,120 @@
+The Return of the Theme
+=======================
+
+An Epic Rant by the Ruby Miner
+==============================
+Behold, a story of how Themes were lost but returned to our humble ruby lands. Oh joyous day!
+
+The Great Themes
+=====================
+Almost every notable CMS has some sort of theming support. A user can easily upload a theme through 
+the CMS and be able to select it. Mephisto and Typo both have their ways of doing things. Both notably complex.
+
+A Plugin for Everyone
+=====================
+A few rails peeps got together and abstracted the template scheme from Typo into a nifty plugin 
+called theme_support. All was good until...
+
+The Rise of Rails 2.2
+=====================
+Rails 2.2 privatized and later completely changed some methods in AssetTagsHelper (eg: compute_public_path) 
+necessary for the theme_plugin to render javascript, stylesheets and images that laid outside the public folder. 
+Many attempts where made to overcome this, but alas, the Rails peeps did a great job in being opinionated. 
+All seemed dark until a gleaming light appeared: Rails.public_paths. A simple method that allowed a person to dynamically reassign the path to the public folder. 
+But there was one problem: It didn't work.
+
+The Path is Blocked
+=====================
+I don't know why it doesn't work. Maybe some Rails gurus will take mercy on our poor theme-driven souls
+and show us the light. Even hacking the Rails Initializer to explicitly set the public path folder didn't work.
+Rails.public_path is used everywhere in the helpers to construct the paths to the public assets.
+Image_tag still wanted to look at public/images/ and not themes/foo/public/images. :-(
+
+A KISS from a Princess
+=====================
+Bruised, and weary but not defeated, I took sanctuary and talked it over with my princess girlfriend. 
+Under the auspices of my girlfriend who recommended I not over-think things and try to be more simple, 
+I took it upon myself to refashion theming support.
+
+Constraints Are Freedom
+=====================
+Lets take a step back from this idea where you need to have a themes directory in which your views, and other themed assets live. Does it really give us a great benefit
+in supporting this way if we have to hack ActionView and everything else to bits - not be able to support the
+next Rails version or step. If we build theming support within the conventions and standards of a typical Rails app, we have nothing to fear about upgrading and running into other dubious
+hacking of ActionView and the ever sacred Rails initializer. It would be easier for people to learn
+and modify the plugin if it worked within the Rails conventions. Besides, Joe the User who is using themes won't really
+care about the directory structure as long as it works.
+
+The Castle of Convention
+=====================
+If stylesheets are supposed to be in public/stylesheets - so be it! If images are supposed to be located in
+public/images - thats fine! I give up trying to isolate my assets into a completely separate directory. Obviously,
+Rails doesn't care about that, and would rather me just work with what I got immediately available. So here we go -
+theming support that works within the typical structure of Rails. Its simple, it straightforward, and ultimately it works.
+
+
+Creating a Theme
+=====================
+To create a theme, use the following script.
+
+usage:
+
+theme NAME_OF_THEME
+
+
+Theme Structure
+=====================
+Themed assets reside in the following structure:
+
+public/
+  themes/
+    [theme_name]/
+      images/
+      stylesheets/
+      javascripts/
+      
+Add Routes
+=====================
+We need custom routes for the themed views, images, stylesheets, etc. Add this to your routes.rb:
+
+  map.theme_images      "/themes/:theme/images/*filename",      :controller=>'theme', :action=>'images'
+  map.theme_stylesheets "/themes/:theme/stylesheets/*filename", :controller=>'theme', :action=>'stylesheets'
+  map.theme_javascript  "/themes/:theme/javascripts/*filename", :controller=>'theme', :action=>'javascripts'
+  map.connect           "/themes/*whysoserious", :controller=>'theme', :action=>'error'    
+
+Usage
+=====================
+
+Add to your custom theme the respective views, images, stylesheets, and javascripts.
+
+In the controller that you want to use your theme, add this:
+
+  theme 'NAME_OF_THEME'
+
+To serve the themed images, stylesheets and javascripts, use these respective helper methods:
+
+  theme_stylesheet_path()
+
+  theme_javascript_path()
+
+  theme_stylesheet_link_tag()
+
+  theme_javascript_include_tag()
+
+Refer to the asset_tag_helper_path.rb for all the methods.
+
+
+Update Your Cache!
+=======================
+The image/stylesheets/javascripts will need to be cached in the public folder in order to serve the files.
+To do this, simply run...
+  
+  rake themes:cache:update
+
+Gotchas!
+=======================
+You'll need to rename your layout view to something other than 'application.rhtml'. Rails will only look for that named layout
+in the typical app/views/layouts directory and NOT the theme directory. So be sure to rename your themed layout to something else.
+
+
+Copyright (c) 2009 Ruby Miner, released under the MIT license

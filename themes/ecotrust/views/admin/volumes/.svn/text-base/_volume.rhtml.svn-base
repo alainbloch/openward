@@ -1,0 +1,16 @@
+<div id="volume_<%= volume.id %>">
+  <div class="field_title">
+    <%= radio_button_tag "active_volume", volume.id, volume.active, :id => "active_volume" %> Volume <%= volume.number %> - <%= volume.title %> 
+    <%= link_to_remote "edit", :url => edit_admin_volume_path(volume), :method => :get %>
+    <span style="padding-left:5px;">
+      <%= link_to image_tag("trash.gif") + "delete", admin_volume_path(volume), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %>
+    </span>
+  </div>
+  <div class="form_field">
+    <% unless volume.issues.empty? %>
+      <%= render :partial => "admin/volumes/issue_list", :locals => {:volume => volume}%>
+    <% else %>
+      <i>No issues yet. Create an issue by clicking on <%= link_to "Create Issue", new_admin_issue_path() %></i>
+    <% end %>  
+  </div>
+</div>

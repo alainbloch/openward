@@ -1,0 +1,17 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="1px">Selected</th>
+    <th class="la" width="100px">Title</th>
+    <th class="la" width="50px">Date</th>
+    <th class="la" width="250px">Content</th>
+  </tr>
+  <% for feature in features do %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= color %>">
+    <td><%= radio_button_tag "newsletter[feature]", feature.id, issue.feature == feature %></td>
+    <td><%= link_to truncate( strip_tags(feature.title)), admin_post_path(feature) %></td>
+    <td><%= feature.created_at.strftime("%b %d, %Y") %></td>
+    <td><%= truncate strip_tags(feature.excerpt), 100 %></td>
+  </tr>  
+  <% end %>
+</table>

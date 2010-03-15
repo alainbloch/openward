@@ -1,0 +1,46 @@
+<div class="field_title">Add Media To Article</div>
+  <div class="form_field">
+    <div id="media_list">
+      <%= render( :partial => '/associations/media/media_list', :locals => {:medias => medias,
+                                                                            :user  => current_user,
+                                                                            :action  => "all_media",
+                                                                            :type    => nil }) %>
+    
+    </div>
+    
+    <div id="associated_media_list_container" style="display:none;">
+      <div id="associated_media_list">    
+        <table id="associated_media_table">
+            <tbody id="associated_media_list_table">
+            <%= render :partial => '/associations/media/associated_media', :collection => @post.medias %> 
+            <tr id="associated_media_list_table_last"></tr>
+        </table>
+      </div>
+      <% for media in medias do %>
+        <%= associated_media?(media) %>
+      <% end %>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Temp removing to try out something...
+  
+<div style="float:left;margin:10px;top:57px;position:relative;">
+  <div class="field_title">Associated Media</div>
+    <div class="form_field">
+
+      <div id="associated_media_list">    
+        <table>
+            <tbody id="associated_media_list_table">
+            <%#= render :partial => '/associations/media/associated_media', :collection => post.medias %> 
+            <tr id="associated_media_list_table_last"></tr>
+        </table>
+      </div>
+      <%# for media in medias do %>
+        <%#= associated_media?(media) %>
+      <%# end %>
+    </div>
+  </div>
+</div>
+-->

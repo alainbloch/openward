@@ -1,0 +1,7 @@
+<div class="sub_admin_menu">
+  <span class="actions"><%= link_to "Write a new post", :controller => :post, :action => :new %></span>&nbsp;|&nbsp;
+  <span class="actions"><%= link_to "Write a new page", :controller => :page, :action => :new %></span>&nbsp;|&nbsp;
+  <span class="actions"><%= link_to "View Posts", :controller => :post, :action => :list %></span>&nbsp;|&nbsp;
+  <span class="actions">Comments</span>&nbsp;|&nbsp;
+  <span class="actions">Edit Profile</span>
+</div>

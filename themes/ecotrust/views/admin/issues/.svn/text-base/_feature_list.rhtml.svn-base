@@ -1,0 +1,27 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="20px">Archive</th>
+    <th class="la" width="100px">Title</th>
+    <th class="la" width="50px">Date</th>
+    <th class="la" width="250px">Content</th>
+  </tr>
+  <% for feature in features do %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= color %>">
+    <td>
+        <%= image_tag("grey_spinner-white_bg.gif", :id => "feature_#{feature.id}_spinner", :style => "display:none;") %>
+        <%= check_box_tag "feature_#{feature.id}_in_archive", true, feature.in_archive, :name => "in_archive" %>
+    </td>
+    <td><%= link_to feature.title, edit_admin_post_path(feature) %></td>
+    <td><%= feature.created_at.strftime("%b %d, %Y") %></td>
+    <td><%= feature.excerpt %></td>
+    <td><%= observe_field "feature_#{feature.id}_in_archive",
+                          :url  => archive_admin_post_path(feature),
+                          :method => :put,
+                          :with   => "$('feature_#{feature.id}_in_archive').serialize()",
+                          :before    => "$('feature_#{feature.id}_spinner').show();$('feature_#{feature.id}_in_archive').hide()",
+                          :success   => "$('feature_#{feature.id}_spinner').hide();$('feature_#{feature.id}_in_archive').show()",
+                          :failure   => "$('feature_#{feature.id}_spinner').hide();$('feature_#{feature.id}_in_archive').show()"%></td>
+  </tr>  
+  <% end %>
+</table>

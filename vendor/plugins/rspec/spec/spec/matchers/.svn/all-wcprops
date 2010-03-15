@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers
+END
+matcher_methods_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/matcher_methods_spec.rb
+END
+equal_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/equal_spec.rb
+END
+be_close_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/be_close_spec.rb
+END
+has_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/has_spec.rb
+END
+respond_to_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/respond_to_spec.rb
+END
+raise_error_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/raise_error_spec.rb
+END
+handler_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/handler_spec.rb
+END
+eql_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/eql_spec.rb
+END
+satisfy_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/satisfy_spec.rb
+END
+have_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/have_spec.rb
+END
+include_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/include_spec.rb
+END
+mock_constraint_matchers_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/mock_constraint_matchers_spec.rb
+END
+change_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/change_spec.rb
+END
+be_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/be_spec.rb
+END
+throw_symbol_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/throw_symbol_spec.rb
+END
+match_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/match_spec.rb
+END
+exist_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/exist_spec.rb
+END
+operator_matcher_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/operator_matcher_spec.rb
+END
+description_generation_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/matchers/description_generation_spec.rb
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/generators/rspec/templates
+END
+previous_failures.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/generators/rspec/templates/previous_failures.txt
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/generators/rspec/templates/spec_helper.rb
+END
+spec.opts
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/generators/rspec/templates/spec.opts
+END

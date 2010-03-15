@@ -1,0 +1,123 @@
+10
+
+dir
+580
+http://svn.vps120.speedyrails.ca/svnpap/peopleandplace/trunk/vendor/rails
+http://svn.vps120.speedyrails.ca/svnpap
+
+
+
+2009-02-13T22:22:50.090645Z
+493
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7cd04dc2-7d32-4124-8f57-6e100f016afd
+
+activeresource
+dir
+
+doc
+dir
+
+.gitignore
+file
+
+
+
+
+2010-03-15T00:40:22.000000Z
+3deda718f0c739d9000d4e6ea0eeee9e
+2009-02-13T22:22:50.090645Z
+493
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+302
+
+actionmailer
+dir
+
+activesupport
+dir
+
+REVISION_f04346d8b999476113d5e5a30661e07899e3ff80
+file
+
+
+
+
+2010-03-15T00:40:22.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2009-02-13T22:22:50.090645Z
+493
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+activerecord
+dir
+
+ci
+dir
+
+actionpack
+dir
+
+activemodel
+dir
+
+railties
+dir
+

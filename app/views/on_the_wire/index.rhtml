@@ -1,0 +1,28 @@
+<div id="main" class="on_the_wire">
+  
+  <div id="about_each_section">
+    <div class="about_on_the_wire">
+      <p>
+        On the Wire articles relay ideas and voices from around the Net.
+      </p>
+    </div>
+  </div>
+
+  <div id="content">
+    <div id="perspectives_list_header">
+      on the wire
+    </div>
+
+    <ul id="perspectives_listing">
+      <%= render :partial => "wire", :collection => @posts %>
+ 	  </ul>
+ 	  <!-- .perspectives_listing -->
+	 
+	  <div id="pagination">
+     <ul><%= will_paginate @posts, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+		</div>
+  </div>
+ 
+</div>
+      
+<%= render :partial => "shared/large_sidebar"%>

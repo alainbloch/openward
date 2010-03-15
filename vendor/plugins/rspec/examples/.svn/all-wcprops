@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples
+END
+legacy_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/legacy_spec.rb
+END
+not_yet_implemented_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/not_yet_implemented_spec.rb
+END
+stack_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/stack_spec.rb
+END
+partial_mock_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/partial_mock_example.rb
+END
+before_and_after_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/before_and_after_example.rb
+END
+io_processor_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/io_processor_spec.rb
+END
+test_case_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/test_case_spec.rb
+END
+test_case_adapter_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/test_case_adapter_example.rb
+END
+multi_threaded_behaviour_runner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/multi_threaded_behaviour_runner.rb
+END
+stubbing_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/stubbing_example.rb
+END
+behave_as_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/behave_as_example.rb
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/spec_helper.rb
+END
+helper_method_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/helper_method_example.rb
+END
+priority.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/priority.txt
+END
+custom_formatter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/custom_formatter.rb
+END
+dynamic_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/dynamic_spec.rb
+END
+auto_spec_description_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/auto_spec_description_example.rb
+END
+file_accessor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/file_accessor.rb
+END
+mocking_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/mocking_example.rb
+END
+custom_expectation_matchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/custom_expectation_matchers.rb
+END
+stack.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/stack.rb
+END
+io_processor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/io_processor.rb
+END
+greeter_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/greeter_spec.rb
+END
+shared_behaviours_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/shared_behaviours_example.rb
+END
+file_accessor_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/file_accessor_spec.rb
+END
+predicate_example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/examples/predicate_example.rb
+END

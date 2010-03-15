@@ -1,0 +1,6 @@
+<div class="advert">
+<p>P&amp;P Sponsor</p>
+    <a href="http://www.nau.com">
+      <%= image_tag "advertisements/nau_ecotrust_ad.jpg" %>
+    </a>  
+</div>

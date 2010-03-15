@@ -1,0 +1,64 @@
+10
+
+dir
+580
+http://svn.vps120.speedyrails.ca/svnpap/peopleandplace/trunk/vendor/plugins
+http://svn.vps120.speedyrails.ca/svnpap
+
+
+
+2009-09-28T06:09:57.643169Z
+574
+peopleandplace
+has-props
+
+
+svn:externals
+
+
+
+
+
+
+
+
+
+
+7cd04dc2-7d32-4124-8f57-6e100f016afd
+
+will_paginate
+dir
+
+ssl_requirement
+dir
+
+rspec_on_rails
+dir
+
+acts_as_ferret
+dir
+
+savage-authorization
+dir
+
+return_of_the_theme
+dir
+
+vertical_response
+dir
+
+monkey_patches
+dir
+
+fckeditor
+dir
+
+file_column
+dir
+
+rspec
+dir
+
+simple_captcha
+dir
+

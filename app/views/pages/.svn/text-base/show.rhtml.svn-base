@@ -1,0 +1,30 @@
+<div id="masthead_nav">
+  <h3>P&amp;P Masthead</h3>
+        
+  <%= render :partial => "pages/page_links" %>
+
+  <% if @page.media %>
+    <%= image_tag url_for_file_column(@page.media, 'file'), :style => "width:232px;" %>  
+  <% end %>
+
+  <blockquote>
+    <p> &ldquo;<%= @page.quote %>&rdquo;</p>
+  </blockquote>
+
+  <div class="citation">
+    <span class="author"><%= @page.quote_author %></span>
+    <%= @page.quote_source %>
+  </div>
+  
+</div>
+      
+<div id="main" class="masthead_content">
+  <h1>
+    <%= link_to( "(Edit Page)", edit_admin_page_path(@page), :style => "display:inline;float:right;") if current_user %>
+    <%= @page.title %>
+  </h1>  	
+	<p><%= @page.content %></p>
+
+</div>
+
+  </div>

@@ -1,0 +1,15 @@
+<% unless perspectives.empty? %>
+<div class="perspectives module">
+  <h3><%= link_to "perspectives", section_path("perspectives") %></h3>
+  <% for perspective in perspectives do %>
+  <div class="module_entry">
+    <h4><%= link_to perspective.title, section_article_path(perspective.permalink_params.merge(:section_id => "perspectives")) %></h4>
+    <span class="author">by <%= h perspective.user.name %></span>
+    <p><%= strip_tags(perspective.excerpt) %></p>
+    <%= link_to "readmore", 
+        section_article_path(perspective.permalink_params.merge(:section_id => "perspectives")),
+        :class => "replaced readmore"%>
+  </div>
+  <% end %>
+</div>
+<% end %>

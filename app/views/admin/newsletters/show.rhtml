@@ -1,0 +1,57 @@
+<div class="project_container">
+  
+  <div class="sub_admin_menu">
+    <span class="actions"><%= link_to 'Volume List',  admin_volumes_path %></span>&nbsp;|&nbsp;
+    <span class="actions"><%= link_to 'Show Issue', edit_admin_issue_path(@issue) %></span>
+  </div>
+
+  <div class="form_field">
+  	<b>Volume <%= @issue.volume.number_string %> <%= %(- #{@issue.volume.title}) unless @issue.volume.title.blank? %></b>
+  </div>
+
+  <div class="form_field">
+  	<b>Issue <%= @issue.number_string %> <%= %(- #{@issue.title}) unless @issue.title.blank? %></b>
+  </div>
+  
+  <div class="field_title">Released</div>
+  <div class="form_field">
+    <%= @newsletter.created_at() %>
+  </div>
+  
+  <div class="field_title">Title </div>
+  <div class="form_field">
+    <%= @newsletter.title %>
+  </div>
+
+  <div class="field_title">Intro Text</div>
+  <div class="form_field">
+  	<%= @newsletter.intro %>
+  </div>
+
+  <div class="field_title">Feature included</div>
+  <div class="form_field">
+    <%= render( :partial => "selected_list", :locals => {:articles => [@newsletter.feature]}) if @newsletter.feature %>    
+  </div>    
+
+  <div class="field_title">Perspectives included</div>
+  <div class="form_field">
+    <%= render :partial => "selected_list", :locals => {:articles => @newsletter.posts.find_all_by_section("Perspectives")} %>    
+  </div>
+
+  <div class="field_title">On The Wire included</div>
+  <div class="form_field">
+    <%= render :partial => "selected_list", :locals => {:articles => @newsletter.posts.find_all_by_section("On The Wire")} %>    
+  </div>
+
+  <div class="field_title">Media Library included</div>
+  <div class="form_field">
+    <%= render :partial => "selected_list", :locals => {:articles => @newsletter.medias} %>    
+    
+  </div>
+
+  <div class="field_title">Compass included</div>
+  <div class="form_field">
+    <%= render :partial => "selected_list", :locals => {:articles => @newsletter.posts.find_all_by_section("Our Compass")} %>    
+  </div>
+
+</div>

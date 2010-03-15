@@ -1,0 +1,15 @@
+<% unless compasses.empty? %>
+<div class="compass module">
+  <h3>
+    <%= link_to "our compass", section_path("our_compass") %>
+  </h3>
+  <% for compass in compasses do %>
+    <div class="module_entry">
+      <h4><%= link_to compass.title, 
+      section_article_path(compass.permalink_params.merge(:section_id => "our_compass")) %></h4>
+      <p><%=  strip_tags(compass.excerpt) %></p>
+      <%= link_to "readmore", section_article_path(compass.permalink_params.merge(:section_id => "our_compass")), :class => "replaced readmore" %>
+    </div>
+  <% end %>
+</div>
+<% end %>

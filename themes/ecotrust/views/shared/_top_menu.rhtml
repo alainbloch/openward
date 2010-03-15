@@ -1,0 +1,17 @@
+<div id="project_menu">
+	<span class="menu_item">
+		<a href='/home'<%= 'class="selected_item"' if controller.params[:controller] == 'home'%>>Home</a>
+	</span>
+	<% Page.find(:all, :conditions => ['status = ?', Page::STATUS[1]]).each do |page| %>		
+	 	<span class="menu_item">
+			<a href='/<%= page.url %>'<%= 'class="active_item"' if @page == page %>>
+				<%= page.title.capitalize %>
+			</a>
+		</span>	
+	<% end -%>
+	<% if current_user %>
+		<span class="menu_item">
+			<a href='/admin'<%= 'class="active_item"' if @admin_item %>>Admin</a>
+		</span>
+ 	<% end -%>
+</div>

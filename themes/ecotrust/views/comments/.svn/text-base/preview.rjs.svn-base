@@ -1,0 +1,6 @@
+page.replace_html 'comment_content', :partial => "comment_content"
+page << "$('edit_comment_link').show();"
+page << "$('preview_comment_link').hide();"
+page << "$('comment_preview').show();"
+page << "$('comment_editor').hide();"
+page.visual_effect :highlight, 'comment_content'

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpap/!svn/ver/417/peopleandplace/trunk/app/views/archive
+END
+_volume.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/238/peopleandplace/trunk/app/views/archive/_volume.html.erb
+END
+_issue.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/114/peopleandplace/trunk/app/views/archive/_issue.html.erb
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/417/peopleandplace/trunk/app/views/archive/show.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/417/peopleandplace/trunk/app/views/archive/index.rhtml
+END

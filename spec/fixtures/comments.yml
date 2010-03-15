@@ -1,0 +1,24 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+first_comment:
+  id: 1
+  commentable_type: 'Post'
+  commentable_id: 1
+  owner_id: 1
+  owner_type: 'Visitor'
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent elementum, massa eu condimentum fermentum, tortor libero consectetuer felis, ut gravida pede lacus sit amet pede. Maecenas sit amet enim vitae urna luctus rhoncus. Duis mauris eros, vehicula ut, vestibulum vitae, tempor vel, sapien. Maecenas vel arcu. Duis consectetuer, nunc venenatis vulputate interdum, sapien massa varius tortor, vitae consequat tellus felis quis libero. Mauris arcu nisl, consectetuer sagittis, porta vel, blandit in, mauris. Ut vehicula quam non tortor. Ut nonummy. Integer tempor nisi eget est. Vestibulum posuere purus eget elit. In quis augue. Nam pede dui, pellentesque in, lobortis vitae, lacinia ut, lorem. Vivamus sollicitudin."
+  created_at: <%= Time.now.to_s :db %>
+  updated_at: <%= Time.now.to_s :db %>
+  show: false
+  archived: false
+
+second_comment:
+  id: 2
+  commentable_type: 'Post'
+  commentable_id: 2
+  owner_id: 1
+  owner_type: 'Visitor'
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent elementum, massa eu condimentum fermentum, tortor libero consectetuer felis, ut gravida pede lacus sit amet pede. Maecenas sit amet enim vitae urna luctus rhoncus. Duis mauris eros, vehicula ut, vestibulum vitae, tempor vel, sapien. Maecenas vel arcu. Duis consectetuer, nunc venenatis vulputate interdum, sapien massa varius tortor, vitae consequat tellus felis quis libero. Mauris arcu nisl, consectetuer sagittis, porta vel, blandit in, mauris. Ut vehicula quam non tortor. Ut nonummy. Integer tempor nisi eget est. Vestibulum posuere purus eget elit. In quis augue. Nam pede dui, pellentesque in, lobortis vitae, lacinia ut, lorem. Vivamus sollicitudin."
+  created_at: <%= Time.now.to_s :db %>
+  updated_at: <%= Time.now.to_s :db %>
+  show: true
+  archived: true

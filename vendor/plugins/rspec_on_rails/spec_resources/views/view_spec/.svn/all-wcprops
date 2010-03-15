@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec
+END
+_spacer.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/_spacer.rhtml
+END
+multiple_helpers.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/multiple_helpers.rhtml
+END
+partial_collection_including_template.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/partial_collection_including_template.rhtml
+END
+_included_partial_collection_with_spacer_template.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/_included_partial_collection_with_spacer_template.rhtml
+END
+explicit_helper.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/explicit_helper.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/show.rhtml
+END
+_included_partial.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/_included_partial.rhtml
+END
+accessor.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/accessor.rhtml
+END
+partial_including_template.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/partial_including_template.rhtml
+END
+entry_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/entry_form.rhtml
+END
+_partial_with_local_variable.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/_partial_with_local_variable.rhtml
+END
+partial_with_array.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec_on_rails/spec_resources/views/view_spec/partial_with_array.rhtml
+END

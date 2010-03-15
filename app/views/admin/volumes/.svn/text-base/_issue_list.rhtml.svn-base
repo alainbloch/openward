@@ -1,0 +1,11 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums" id="volume_<%= volume.id %>_issue_list">
+  <tr>
+    <th class="la" width="20px">Active</th>
+    <th class="la" width="50px">Issue</th>
+    <th class="la" width="150px">Topic</th>
+    <th class="la" width="100px">Featured</th>
+    <th class="la" width="20px">Articles</th>
+    <th class="la" width="150px">Date Range</th>
+  </tr>
+  <%= render :partial => "admin/volumes/issue", :collection => volume.issues %>
+</table>

@@ -1,0 +1,26 @@
+<div class="project_container" style="float:left;">
+    <%= render :partial => "menu" %>
+    
+		<% unless @pages.empty? %>
+		
+		<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+      <tr>
+        <th class="la" width="600px">Pages</th>
+        <th class="la" width="50px">Date</th>
+        <th class="la" width="50px">Status</th>
+        <th class="la" width="150px"></th>
+      </tr>
+		
+			<% for page in @pages %>
+        <%= render :partial => "list_entry", :locals => {:page => page, :indent => 0}%>
+			<% end -%>
+			
+		</table>
+		
+		<% else %>
+
+		<p>No Pages have been created yet</p>
+
+		<% end %>
+
+</div>

@@ -1,0 +1,21 @@
+<div class="project_container">
+
+<div class="sub_admin_menu">&nbsp;</div>
+
+<span class="actions">Comment Queue</span>
+<div id="queued_comments">
+  <%= render :partial => 'comment_list', :locals => {:comments => @queued_comments}%>
+</div>
+<div class="sub_admin_menu">&nbsp;</div>
+
+<span class="actions">Comment Archive</span>
+  
+<div id="archived_comments">
+  <%= render :partial => 'comment_list', :locals => {:comments => @archived_comments}%>
+</div>
+
+<div id="pagination">
+  <ul><%= will_paginate @archived_comments, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+</div>
+
+</div>

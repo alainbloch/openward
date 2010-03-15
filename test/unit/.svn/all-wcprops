@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/unit
+END
+media_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/media_test.rb
+END
+subscription_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/unit/subscription_test.rb
+END
+suggestion_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/suggestion_test.rb
+END
+issue_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/issue_test.rb
+END
+activity_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/activity_test.rb
+END
+newsletter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/newsletter_test.rb
+END
+visit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/30/peopleandplace/trunk/test/unit/visit_test.rb
+END
+visitor_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/visitor_test.rb
+END
+role_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/unit/role_test.rb
+END
+comment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/comment_test.rb
+END
+section_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/unit/section_test.rb
+END
+volume_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/volume_test.rb
+END
+mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/unit/mailer_test.rb
+END
+tag_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/tag_test.rb
+END
+association_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/484/peopleandplace/trunk/test/unit/association_test.rb
+END
+setting_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/unit/setting_test.rb
+END

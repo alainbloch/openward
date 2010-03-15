@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnpap/!svn/ver/419/peopleandplace/trunk/vendor/plugins/savage-authorization
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/README.rdoc
+END
+README_developers.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/README_developers.txt
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/.gitignore
+END
+CHANGELOG.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/CHANGELOG.txt
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/MIT-LICENSE
+END
+about.yml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/404/peopleandplace/trunk/vendor/plugins/savage-authorization/about.yml
+END

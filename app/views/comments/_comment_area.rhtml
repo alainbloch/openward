@@ -1,0 +1,14 @@
+<div>
+  <%= text_area :comment, :content, :id => "feedback", :wrap => "on", :cols => "25", :style => "margin:0;" %>
+</div>
+<div style="margin:5px;margin-bottom:1em;" id="">
+<div id="spinner" style="display:none;" >
+<i>Loading Preview...</i><%= image_tag "grey_spinner-white_bg.gif" %>
+</div>
+<%= link_to_remote "Preview Comment",{:url => preview_comments_path,
+                                      :with => %($('feedback').serialize()),
+                                      :loading => "$('preview_link').style.display = 'none';
+                                                   $('spinner').style.display = 'inline';"},
+                                     {:id => "preview_link"}
+                                      %>
+</div>

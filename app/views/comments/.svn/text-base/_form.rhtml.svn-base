@@ -1,0 +1,44 @@
+<% unless commentable_id.discussion?(@setting) %>
+<div id="discussion">
+  <h2>This discussion has been closed.</h2>
+</div>
+<% else %>
+<!--form-->
+  <div id="comment_form" class="discussion_form">
+      <% form_remote_tag :url => comments_path(:commentable_id => commentable_id, :commentable_type => commentable_type) do %>
+      <h2>Join the Discussion</h2>    
+      <div>
+      
+        <label for="name">Name (required)</label>
+        <%= text_field :visitor, :name, :id => "name" %>
+
+        <label for="email">Email address (required)</label>
+        <%= text_field :visitor, :email, :id => "email" %>
+
+        <label for="website">Website (optional)</label>
+        <%= text_field :visitor, :website, :id => "website" %>
+      
+        <label for="name">Subject (optional)</label>
+        <%= text_field :comment, :title, :id => "name" %>
+      
+        <label for="name">Comment (required)</label>
+        <div id="comment_area">    
+          <%= render :partial => "comments/comment_area" %>
+        </div>
+
+        <%= show_simple_captcha(:object => "comment", :label => "Enter text from the image below (case sensitive)", :distortion => "medium") %>  
+
+        <!--  #Temporarily Removed
+        <div class="subscribe"> 
+        <%#= check_box_tag :subscribe, 'yes', false, :class => "subscribe_checkbox" %>
+        <label for="newsletter" class="newsletter">Subscribe to the Newsletter</label>
+        </div>
+        -->
+        
+        <button type="submit">Post Comment</button>
+      
+        <% end %>
+      </div>
+  </div>
+<!--form end-->
+<% end %>

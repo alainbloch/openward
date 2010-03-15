@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link href="/rss/" rel="alternate" title="RSS" type="application/rss+xml" />
+	<title>Unauthorized Access is Prohibited</title>
+	<style type="text/css">
+	  
+	  * {
+      margin:0pt;
+      padding:0pt; }
+      	
+	  body {
+      text-align: center;
+      background-color: #FFF;
+      font: 12px 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+      line-height: 1.4; }
+
+    #password_container {
+      border: 10px solid #999;
+      background-color: #FFF;
+      padding: 10px;
+      width: 370px;
+      position: relative;
+      top: 100px;
+      margin: 0pt auto;
+      text-align: left; }
+
+    .password_input {
+      padding: 2px 2px;
+      width: 300px;
+      border: 1px solid #999; }
+
+    #alert_container {
+      background: #F5DC63 none repeat scroll 0%;
+      border: 1px solid #D29C34;
+      margin: 10px; }
+
+    #alert_content {
+      background: #FFFFFF url(/images/icon_yield.gif) no-repeat scroll 15px;
+      min-height: 30px;
+      padding: 10px 10px 10px 70px;
+      margin: 10px;
+      text-align: left; }
+    
+    .error {
+      	border:  2px solid #FF676B;
+      	padding: 10px;
+      	color: red;
+      	font-weight: bold;
+      	width:285px;
+      	text-align: center;
+      	margin:10px 0px;}    
+	</style>
+  </head>
+
+	<body>
+		<div id="password_container">
+      <div id="alert_container">
+        <div id="alert_content"> 
+          Unauthorized access is prohibited. Your IP address, 
+          <strong><%= @user_ip %></strong>, has been logged.
+        </div>
+      </div>  
+
+      <% form_tag home_path, :method => :get do %>
+        <div class="field_title">
+          <strong>Please enter your password</strong>
+        </div>
+        <div class="field">
+          <%= password_field_tag :password, '', :class => 'password_input' %>
+          <%= submit_tag("submit") %>
+        </div>
+      <% end %>    
+    </div>
+  </body>
+</html>

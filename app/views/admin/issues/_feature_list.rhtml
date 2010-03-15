@@ -1,0 +1,17 @@
+<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+  <tr>
+    <th class="la" width="20px">Archive</th>
+    <th class="la" width="100px">Title</th>
+    <th class="la" width="50px">Date</th>
+    <th class="la" width="250px">Content</th>
+  </tr>
+  <% for feature in features do %>
+  <% color = (color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+  <tr style="background-color:<%= color %>">
+    <td><%= check_box_tag :archived, true, feature.archived, :id => "features[#{feature.id}][archived]" %></td>
+    <td><%= link_to feature.title, edit_admin_post_path(feature) %></td>
+    <td><%= feature.created_at.strftime("%b %d, %Y") %></td>
+    <td><%= feature.excerpt %></td>
+  </tr>  
+  <% end %>
+</table>

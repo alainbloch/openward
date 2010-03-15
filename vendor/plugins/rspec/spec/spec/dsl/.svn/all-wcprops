@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl
+END
+description_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/description_spec.rb
+END
+predicate_matcher_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/predicate_matcher_spec.rb
+END
+behaviour_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/behaviour_spec.rb
+END
+configuration_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/configuration_spec.rb
+END
+shared_behaviour_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/shared_behaviour_spec.rb
+END
+behaviour_eval_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/behaviour_eval_spec.rb
+END
+behaviour_factory_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/behaviour_factory_spec.rb
+END
+composite_proc_builder_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/composite_proc_builder_spec.rb
+END
+example_should_raise_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/example_should_raise_spec.rb
+END
+example_instance_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/example_instance_spec.rb
+END
+example_class_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec/spec/dsl/example_class_spec.rb
+END

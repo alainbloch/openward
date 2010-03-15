@@ -1,0 +1,100 @@
+<%= auto_discovery_link_tag(:rss, formatted_home_path(:format => :rss), {:title => %(People and Place)}) %>
+<%= auto_discovery_link_tag(:rss, formatted_section_path(@section.uri, :format => :rss), {:title => %(People and Place: #{@section.name}) }) %>
+
+      <div id="main" class="<%= @section.uri %>">
+        
+        <div id="about_each_section">
+          <div class="about_<%= @section.uri %>">
+             <% if @post.caricature %>
+               <p><%= @post.caricature.excerpt %></p>
+             <% elsif @section.uri == "perspectives" or @section.uri == "featured_voices"%>
+               <% unless @post.user.blank? and @post.user.description.blank? %>
+                <p><%= @post.user.description %></p>
+               <% else %>
+                <p><%= @section.description %></p>
+               <% end %>
+             <% else %>
+                <p><%= @section.description %></p>
+             <% end %>
+          </div>
+        </div>
+        
+        <div id="content">
+          
+          <h1>
+            <%= link_to( "(Edit Article)", edit_admin_post_path(@post), :style => "display:inline;float:right;") if current_user %>
+            <%= @post.title %>
+          </h1>
+            <% if @post.user %>
+              <div class="author">by <%= @post.user.name %></div>
+            <% end %>
+            <div class="article_date">
+              <% if @post.published? %>
+                <%= @post.published_at.strftime("%B %d, %Y %I:%M%p") rescue nil %>
+              <% else %>
+                <b>Not yet published</b>
+              <% end %>
+            </div>
+            
+            <%= render_caricature(@post, :style =>"width:232px;")  if @post.caricature %>
+        
+            <div id="article_content">
+              
+              <p><%= @post.content %></p>
+              
+            </div>
+            
+            <%= render_source_link(@post) %>
+            
+            <div id="favicon_links">
+              <ul>
+                <li class="right"><%#= link_to "Download PDF", formatted_featured_voice_path(@post, :pdf), :id => "pdf", :title => "Download Feature PDF", :class => "replaced" %></li>
+                <li><%= link_to content_tag(:span, "print"), print_preview_admin_post_path(@post), :class => "replaced", :id => "print", :title => "Print Article" %></li>
+                <% unless @setting.sharethis.blank? %>
+                  <li class=""><%= @setting.sharethis %></li>
+                <% end %>
+                <li style="list-style: none"></li>
+              </ul>
+            </div>       
+
+          <%= render :partial => "tags/association", :locals => {:taggable => @post}%>
+        
+        </div>
+
+        <% unless @post.published_media.empty? %>  
+    	  <!-- Begin Associated Media -->
+          <div class="associated_media">
+            <h2>Associated Media</h2>
+            <span class="pieces_count"><%#= pluralize @post.published_media.size, "Piece" %></span>
+            <!-- Begin feature_media_listing -->
+            <ul class="media_listing">
+              <%= render :partial => "media_library/association", :collection => @post.published_media %>
+            </ul>
+             <!-- End feature_media_listing -->
+          </div>
+        <!-- End Associated Media -->
+        <% end %>
+    	  
+        <!-- Begin Comments -->  
+        <div id="discussion">
+          <h2>
+            Discussion
+          </h2>
+          <span class="comments_amount"><%= pluralize @post.approved_comments.size, "Comment"%></span> 
+          <p class="discuss_instructions">
+            <%= @setting.comment_instructions %>
+          </p>
+          <ul id="comments_listing">
+            <%= render :partial => "comments/comment", :collection => @post.approved_comments %>
+          </ul>
+        </div>
+        <!-- End Comments -->
+        
+        <!-- Begin Comment Form-->      
+          <%= render :partial => "comments/form", :locals => {:commentable_id => @post, :commentable_type => "Post"} %>
+        <!-- End Comment Form -->
+        
+        </div>
+        
+        <%= render :partial => "shared/large_sidebar" %>
+

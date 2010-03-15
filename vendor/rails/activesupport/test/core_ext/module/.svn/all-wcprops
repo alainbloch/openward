@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module
+END
+synchronization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module/synchronization_test.rb
+END
+attribute_accessor_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module/attribute_accessor_test.rb
+END
+attr_internal_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module/attr_internal_test.rb
+END
+model_naming_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module/model_naming_test.rb
+END
+attribute_aliasing_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module/attribute_aliasing_test.rb
+END
+attr_accessor_with_default_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/activesupport/test/core_ext/module/attr_accessor_with_default_test.rb
+END

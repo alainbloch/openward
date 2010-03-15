@@ -1,0 +1,18 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  email: "John Doe"
+  name: "jdoe@testing.com"
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent elementum, massa eu condimentum fermentum, tortor libero consectetuer felis, ut gravida pede lacus sit amet pede. Maecenas sit amet enim vitae urna luctus rhoncus. Duis mauris eros, vehicula ut, vestibulum vitae, tempor vel, sapien. Maecenas vel arcu. Duis consectetuer, nunc venenatis vulputate interdum, sapien massa varius tortor, vitae consequat tellus felis quis libero. Mauris arcu nisl, consectetuer sagittis, porta vel, blandit in, mauris. Ut vehicula quam non tortor. Ut nonummy. Integer tempor nisi eget est. Vestibulum posuere purus eget elit. In quis augue. Nam pede dui, pellentesque in, lobortis vitae, lacinia ut, lorem. Vivamus sollicitudin."
+  created_at: <%= Time.now.to_s :db %>
+  read: 1
+  user_id: 2
+    
+two:
+  id: 2
+  email: "Alain Bloch"
+  name: "alainbloch@gmail.com"
+  content: "More content please."
+  created_at: <%= Time.now.to_s :db %>
+  read: 0
+  user_id: 

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/lib/sanitize/config
+END
+basic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/lib/sanitize/config/basic.rb
+END
+relaxed.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/lib/sanitize/config/relaxed.rb
+END
+restricted.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/lib/sanitize/config/restricted.rb
+END

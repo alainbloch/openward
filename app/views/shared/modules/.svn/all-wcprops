@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/440/peopleandplace/trunk/app/views/shared/modules
+END
+_wires_module.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/174/peopleandplace/trunk/app/views/shared/modules/_wires_module.rhtml
+END
+_perspectives_module.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/153/peopleandplace/trunk/app/views/shared/modules/_perspectives_module.rhtml
+END
+_featured_module.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/440/peopleandplace/trunk/app/views/shared/modules/_featured_module.rhtml
+END
+_media_module.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/327/peopleandplace/trunk/app/views/shared/modules/_media_module.rhtml
+END
+_compass_module.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/136/peopleandplace/trunk/app/views/shared/modules/_compass_module.rhtml
+END

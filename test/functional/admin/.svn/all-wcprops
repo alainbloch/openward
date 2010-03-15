@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/486/peopleandplace/trunk/test/functional/admin
+END
+issues_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/functional/admin/issues_controller_test.rb
+END
+media_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/functional/admin/media_controller_test.rb
+END
+newsletters_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/functional/admin/newsletters_controller_test.rb
+END
+settings_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/functional/admin/settings_controller_test.rb
+END
+sections_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/486/peopleandplace/trunk/test/functional/admin/sections_controller_test.rb
+END
+volumes_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/12/peopleandplace/trunk/test/functional/admin/volumes_controller_test.rb
+END

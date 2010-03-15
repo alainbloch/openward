@@ -1,0 +1,23 @@
+<div class="project_container">
+		
+		<% if current_user.has_role?('admin')%>
+		<div class="sub_admin_menu">
+      <span class="actions"><%= link_to 'Manage Users', admin_users_path %></span>&nbsp;|&nbsp;
+      <span class="actions"><%= link_to 'Create User',  new_admin_user_path %></span> 
+    </div>
+    
+		<span class="action"><%= link_to 'Show', :action => 'show', :id => @user %></span>  | 
+		<span class="action"><%= link_to 'Delete',{ :action => 'destroy', :id => @user }, :confirm => 'Are you sure you want to delete this user?' %></span>		
+		<% end %>
+		
+		<% form_tag admin_user_path(@user), :method => :put do %>
+
+		
+			<%= render :partial => 'form' %>
+			<div style="float:right;display:block;padding:5px;">
+				<%= submit_tag "Update" %> or 
+				<%= link_to "Cancel", { :action => 'index' }, { :confirm => 'Are you sure you want to cancel?' } %>
+			</div>
+		<% end %>
+
+</div>

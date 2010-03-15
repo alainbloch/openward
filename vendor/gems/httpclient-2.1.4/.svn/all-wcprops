@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4
+END
+httpclient.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/httpclient.gemspec
+END
+webagent-0_6_2_cookie_rb_patch.diff
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/webagent-0_6_2_cookie_rb_patch.diff
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/Rakefile
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/install.rb
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/README.txt
+END

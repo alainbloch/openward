@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test
+END
+entities_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/entities_test.rb
+END
+legacy_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/legacy_test.rb
+END
+roundtrip_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/roundtrip_test.rb
+END
+string_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/string_test.rb
+END
+html4_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/html4_test.rb
+END
+test_all.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/test_all.rb
+END
+xhtml1_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/htmlentities-4.0.0/test/xhtml1_test.rb
+END

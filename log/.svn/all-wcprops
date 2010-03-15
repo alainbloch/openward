@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnpap/!svn/ver/38/peopleandplace/trunk/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnpap/!svn/ver/1/peopleandplace/trunk/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpap/!svn/ver/38/peopleandplace/trunk/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpap/!svn/ver/1/peopleandplace/trunk/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnpap/!svn/ver/1/peopleandplace/trunk/log/server.log
+END

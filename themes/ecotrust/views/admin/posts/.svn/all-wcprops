@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/569/peopleandplace/trunk/themes/ecotrust/views/admin/posts
+END
+print_preview.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/569/peopleandplace/trunk/themes/ecotrust/views/admin/posts/print_preview.rhtml
+END
+preview.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnpap/!svn/ver/535/peopleandplace/trunk/themes/ecotrust/views/admin/posts/preview.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/535/peopleandplace/trunk/themes/ecotrust/views/admin/posts/_form.rhtml
+END
+_menu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/490/peopleandplace/trunk/themes/ecotrust/views/admin/posts/_menu.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/490/peopleandplace/trunk/themes/ecotrust/views/admin/posts/edit.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/537/peopleandplace/trunk/themes/ecotrust/views/admin/posts/index.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnpap/!svn/ver/490/peopleandplace/trunk/themes/ecotrust/views/admin/posts/new.rhtml
+END

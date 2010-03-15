@@ -1,0 +1,28 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  action_type: 'Post'
+  action_id: 1
+  description: "(created)"
+  created_at: <%= Time.now.to_s :db %>
+  
+two:
+  id: 2
+  action_type: 'Post'
+  action_id: 2
+  description: "(created)"
+  created_at: <%= Time.now.to_s :db %>
+
+three:
+  id: 3
+  action_type: 'Comment'
+  action_id: 1
+  description: "(created)"
+  created_at: <%= Time.now.to_s :db %>
+  
+four:
+  id: 4
+  action_type: 'Comment'
+  action_id: 2
+  description: "(created)"
+  created_at: <%= Time.now.to_s :db %>

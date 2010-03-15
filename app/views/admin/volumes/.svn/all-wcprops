@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/238/peopleandplace/trunk/app/views/admin/volumes
+END
+_edit_volume.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnpap/!svn/ver/238/peopleandplace/trunk/app/views/admin/volumes/_edit_volume.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/117/peopleandplace/trunk/app/views/admin/volumes/show.rhtml
+END
+_issue_list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/224/peopleandplace/trunk/app/views/admin/volumes/_issue_list.rhtml
+END
+_volume.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnpap/!svn/ver/238/peopleandplace/trunk/app/views/admin/volumes/_volume.rhtml
+END
+_issue.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/224/peopleandplace/trunk/app/views/admin/volumes/_issue.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnpap/!svn/ver/117/peopleandplace/trunk/app/views/admin/volumes/index.rhtml
+END

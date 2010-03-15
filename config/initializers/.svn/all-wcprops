@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpap/!svn/ver/423/peopleandplace/trunk/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/423/peopleandplace/trunk/config/initializers/inflections.rb
+END
+new_rails_defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnpap/!svn/ver/423/peopleandplace/trunk/config/initializers/new_rails_defaults.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnpap/!svn/ver/423/peopleandplace/trunk/config/initializers/mime_types.rb
+END

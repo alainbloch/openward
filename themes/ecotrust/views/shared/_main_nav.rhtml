@@ -1,0 +1,22 @@
+<div id="main_nav">
+  <div>
+    <span>volume <%= @volume_number %> issue <%= @issue_number %></span> 
+    <ul class="horizontal nav group">
+      <li id="featured" class="first">
+        <%= link_to "featured voices", section_path("featured_voices"), :title => "featured voices"%>
+      </li>
+      <li id="perspectives">
+        <%= link_to "perspectives", section_path("perspectives"), :title => "perspectives"%>
+      </li>
+      <li id="media"> 
+        <%= link_to "media library", media_library_path(:media_type => "all"), :title => "media library"%>       
+      </li>
+      <li id="compass">
+        <%= link_to "our compass", section_path("our_compass"), :title => "our compass"%>
+      </li>
+      <li id="wire">
+        <%= link_to "on the wire", section_path("on_the_wire"), :title => "on the wire"%>        
+      </li>
+    </ul>
+  </div>
+</div>

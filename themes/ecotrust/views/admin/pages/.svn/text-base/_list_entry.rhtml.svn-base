@@ -1,0 +1,25 @@
+<% @color = (@color == "#E6E6E6" ? "#FFFFFF" : "#E6E6E6") %>
+<tr style="background-color:<%= @color %>">
+ <td><%= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" * indent %>
+    
+    <% if page.status == "Published"%>
+    <%= link_to page.title, page_path(page.uri) %>
+    <% else %>
+    <%= page.title %>
+    <% end %>
+</td>
+ <td><%= page.created_at.strftime("%m/%d/%Y") %></td>
+ <td><%= page.status %></td>
+ <td style="text-align:right;">
+  <% if current_user && (current_user.has_role?('admin') or post.user == current_user)%>
+    <%= link_to "Edit", {:action => 'edit', :id => page },  :style => "border:medium none;text-decoration:none;" %>
+    <span style="padding-left:5px;">
+      <%= link_to image_tag("trash.gif") + "Delete", admin_page_path(page), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %>
+    </span>
+  <% end %>
+ </td>
+</tr>
+
+<% page.child_pages.each do |child_page| %>
+    <%= render :partial => "list_entry", :locals => {:page => child_page, :indent => indent + 1 }%>
+<% end unless page.child_pages.empty? %>

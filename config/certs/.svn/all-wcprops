@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnpap/!svn/ver/480/peopleandplace/trunk/config/certs
+END
+vr_key
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpap/!svn/ver/480/peopleandplace/trunk/config/certs/vr_key
+END
+vr_cert
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/480/peopleandplace/trunk/config/certs/vr_cert
+END

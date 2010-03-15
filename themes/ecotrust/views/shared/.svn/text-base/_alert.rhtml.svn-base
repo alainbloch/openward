@@ -1,0 +1,17 @@
+<%= link_to_function image_tag("a-close.gif"), "CloseLightbox('alert');return false", :style => "float:right;" %>
+
+<h1><%= title %> <img src="../img/black_flourish.gif"></h1>
+
+<div class="popup_comment">
+  <%= comment %>
+</div>
+
+<div id="form" style="min-height:0px;">
+  <button onClick="CloseLightbox('alert');">Close</button>
+</div>
+
+<script type="javascript/text">
+  OpenLightbox('alert');
+</script>
+
+

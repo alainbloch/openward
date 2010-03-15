@@ -1,0 +1,6 @@
+<div class="fader" style="display:none;" id="<%= element_id %>_fader">&nbsp;</div>
+<div class="popup" style="display:none;" id="<%= element_id %>_popup">
+  <div class="p-bg" id="<%= element_id %>_popup-content">    
+    <%= content %>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<div class="project_container">
+    <%#= render_sub_menu %>
+    <div class="sub_admin_menu"><span class="actions">Dashboard</span></div>
+  
+    <div id="dashboard">
+      
+      <div class="half_container">
+        <span class="actions">Alerts</span>
+        <div class="border_container">
+          <div class="title"><%= link_to (pluralize @new_comments.size, "New Comment"), admin_comments_path() %></div>
+          <div class="title"><%= link_to (pluralize @new_connections.size, "New Connection"), admin_suggestions_path() %></div>
+          
+          <!-- removed 
+          <div class="title">New/Updated Pages:
+            <ul style="margin-left:15px">
+            <%# @new_pages.each do |page| %>
+              <li><%#= link_to truncate(page.title), admin_page_path(page) %></li>
+            <%# end %>
+            </ul>
+          </div>
+          -->
+          <div class="title">Pending Articles:
+            <ul style="margin-left:15px">
+            <% @pending_articles.each do |article| %>
+              <li><%= link_to truncate(article.title), edit_admin_post_path(article) %></li>
+            <% end %>
+            </ul>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="half_container">
+        <span class="actions">Monthly Statistics</span>
+        <div class="border_container">
+            <div class="title">New Subscribers: <%= @new_subscriptions.size %></div>
+            <div class="title">Unique Visitors: <%= @unique_visitors.size %></div>
+            <div class="title">Most Viewed Article: <%= link_to @most_viewed_article.title, article_path(@most_viewed_article) %></div>
+            <div class="title">Most Viewed Media: <%= link_to @most_viewed_media.title, media_path(@most_viewed_media) %></div>
+            <div class="title">Top Commented Article: <%= link_to @most_commented_article.title, article_path(@most_commented_article) %></div>
+            <!--
+            <div class="title">Top Trackbacked Article: <%= link_to @most_viewed_article.title, article_path(@most_viewed_article) %></div>
+            -->
+          <div style="text-align:right;" class="title">
+            <a href="http://www.google.com/analytics ">check google analytics</a>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="full_container">
+        <span class="actions">Recent Activity</span>
+          <div class="border_container">
+              <%= render :partial => 'activity_list', :locals => { :activities => @activities }%>
+          </div>
+      </div>      
+      
+    </div>
+    
+</div>
+
+
+
+
+

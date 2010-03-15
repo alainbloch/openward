@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  title: "Testing the post system"
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent elementum, massa eu condimentum fermentum, tortor libero consectetuer felis, ut gravida pede lacus sit amet pede. Maecenas sit amet enim vitae urna luctus rhoncus. Duis mauris eros, vehicula ut, vestibulum vitae, tempor vel, sapien. Maecenas vel arcu. Duis consectetuer, nunc venenatis vulputate interdum, sapien massa varius tortor, vitae consequat tellus felis quis libero. Mauris arcu nisl, consectetuer sagittis, porta vel, blandit in, mauris. Ut vehicula quam non tortor. Ut nonummy. Integer tempor nisi eget est. Vestibulum posuere purus eget elit. In quis augue. Nam pede dui, pellentesque in, lobortis vitae, lacinia ut, lorem. Vivamus sollicitudin."
+  user_id: 1
+  created_at: <%= Time.now.to_s :db %>
+  updated_at: <%= Time.now.to_s :db %>
+  section: "Our Compass"
+           
+two:
+  id: 2
+  title: "This is just a test"
+  content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent elementum, massa eu condimentum fermentum, tortor libero consectetuer felis, ut gravida pede lacus sit amet pede. Maecenas sit amet enim vitae urna luctus rhoncus. Duis mauris eros, vehicula ut, vestibulum vitae, tempor vel, sapien. Maecenas vel arcu. Duis consectetuer, nunc venenatis vulputate interdum, sapien massa varius tortor, vitae consequat tellus felis quis libero. Mauris arcu nisl, consectetuer sagittis, porta vel, blandit in, mauris. Ut vehicula quam non tortor. Ut nonummy. Integer tempor nisi eget est. Vestibulum posuere purus eget elit. In quis augue. Nam pede dui, pellentesque in, lobortis vitae, lacinia ut, lorem. Vivamus sollicitudin."
+  status: "published"
+  user_id: 2
+  created_at: <%= Time.now.to_s :db %>
+  updated_at: <%= Time.now.to_s :db %>
+  section: "On The Wire"

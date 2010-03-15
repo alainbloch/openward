@@ -1,0 +1,34 @@
+<li class="media_list_item">
+  <div class="list_item_caricature">
+    <% unless featured_voices.caricature.blank? %>
+      <%= link_to( media_thumbnail(featured_voices.caricature, :alt => 'caricature', :width => '120px'),
+                   section_article_path(featured_voices.permalink_params.merge(:section_id => @section.uri)), 
+                  :class => "media_image" ) %>
+    <% else %>
+      &nbsp;
+    <% end %>
+  </div>
+  <div class="list_item_content">
+    <h2 class="media_title">
+    <%= link_to featured_voices.title, section_article_path(featured_voices.permalink_params.merge(:section_id => @section.uri)) %>
+    </h2>
+    <div class="author">by <%= featured_voices.user.name %></div>
+
+    <p><%= featured_voices.excerpt %></p>
+    
+    <%= link_to "readmore", section_article_path(featured_voices.permalink_params.merge(:section_id => @section.uri)), :class => "readmore replaced" %>
+   
+  </div>
+  <!-- .list_item_content -->
+  
+  <!-- .features_list_item_content -->
+  
+	<div class="metadata">                
+    <span><%= featured_voices.published_at.strftime("%b %d, %Y") %></span> 
+    <%= render :partial => "tags/association", :locals => {:taggable => featured_voices}%>
+    <span class="comments"><%= pluralize featured_voices.approved_comments.size, "Comment" %></span>
+    <span class="permalink"><%= link_to "permalink", section_article_path(featured_voices.permalink_params.merge(:section_id => @section)) %></span>
+    <!-- .tags -->
+  </div>
+
+</li>

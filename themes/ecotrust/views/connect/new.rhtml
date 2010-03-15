@@ -1,0 +1,35 @@
+<div id="masthead_nav">
+        <h3>P&amp;P Masthead</h3>
+        
+        <%= render :partial => "pages/page_links" %>
+
+        
+        <div id="wooden_man_image"><img src="/img/wooden_man.gif" alt="man in the woods"/></div>
+
+        <blockquote><p> &ldquo;Conservation is a state of harmony between men and land.&rdquo;</p>
+        </blockquote>
+
+
+  <div class="citation"><span class="author">Aldo Leopold</span>A Sand County Almanac, 1949</div>
+  
+</div>
+      
+<div id="main" class="masthead_content">
+  
+  <h1>Suggest a Story</h1>
+  
+  <p class="feedback_requests">
+    Caught some news on the wire?<br />
+    Have an idea about and article for P&amp;P?<br />
+    Please do get in touch.
+  </p>
+
+  <div id="form">
+    <%= flash[:notice] %><%= flash[:error]%>
+    <% form_remote_tag :url => connect_path do %>
+      <%= render :partial => "form" %>
+      <button type="submit">Send</button>
+    <% end %>
+  </div>
+
+</div>

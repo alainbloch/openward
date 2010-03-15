@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnpap/!svn/ver/580/peopleandplace/trunk/app/models
+END
+right.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpap/!svn/ver/3/peopleandplace/trunk/app/models/right.rb
+END
+setting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/377/peopleandplace/trunk/app/models/setting.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpap/!svn/ver/419/peopleandplace/trunk/app/models/user.rb
+END
+media.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpap/!svn/ver/580/peopleandplace/trunk/app/models/media.rb
+END
+subscription.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/565/peopleandplace/trunk/app/models/subscription.rb
+END
+post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpap/!svn/ver/570/peopleandplace/trunk/app/models/post.rb
+END
+suggestion.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/451/peopleandplace/trunk/app/models/suggestion.rb
+END
+issue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpap/!svn/ver/536/peopleandplace/trunk/app/models/issue.rb
+END
+activity.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpap/!svn/ver/218/peopleandplace/trunk/app/models/activity.rb
+END
+newsletter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/557/peopleandplace/trunk/app/models/newsletter.rb
+END
+visit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpap/!svn/ver/569/peopleandplace/trunk/app/models/visit.rb
+END
+visitor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/481/peopleandplace/trunk/app/models/visitor.rb
+END
+role.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpap/!svn/ver/36/peopleandplace/trunk/app/models/role.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/569/peopleandplace/trunk/app/models/comment.rb
+END
+section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpap/!svn/ver/556/peopleandplace/trunk/app/models/section.rb
+END
+volume.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/224/peopleandplace/trunk/app/models/volume.rb
+END
+mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/136/peopleandplace/trunk/app/models/mailer.rb
+END
+tag.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpap/!svn/ver/565/peopleandplace/trunk/app/models/tag.rb
+END
+page.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpap/!svn/ver/564/peopleandplace/trunk/app/models/page.rb
+END
+association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/39/peopleandplace/trunk/app/models/association.rb
+END

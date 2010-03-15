@@ -1,0 +1,25 @@
+<% form_remote_tag :url => email_article_path(article) do %>
+  <h1 style="
+  border-bottom:1px dashed #DDDDDD;
+  height:33px;
+  padding-top:0.25em;">Email Article <img src="../img/black_flourish.gif" style="position:relative;top:6px;"></h1>
+  <div id="form">
+      <p>Email this article to friend. Simply enter in the email address below.</p>
+      <label for="email">Email Address</label>
+      <%= text_field_tag 'email', '', :id => "email" %>
+    
+      <label for="subject">Subject</label>
+      <%= text_field_tag 'subject', article.title, :id => "subject" %>
+
+      <label for="from">From</label>
+      <%= text_field_tag 'from', '', :id => "from" %>
+
+      <label for="message">Message</label>
+      <%= text_area_tag 'message', 'Check out this article from People & Place (www.peopleandplace.net).', :id => "feedback", :size => "22" %>
+      </br>
+
+  </div>
+  <div id="email_submit">
+  <%= submit_tag "Send"%> or <%= link_to_function "Cancel", "CloseLightbox('email_article');"%>
+  </div>
+<% end %>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci
+END
+ci_setup_notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci/ci_setup_notes.txt
+END
+cruise_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci/cruise_config.rb
+END
+geminstaller.yml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci/geminstaller.yml
+END
+site.css
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci/site.css
+END
+site_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci/site_config.rb
+END
+ci_build.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/493/peopleandplace/trunk/vendor/rails/ci/ci_build.rb
+END

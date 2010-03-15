@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnpap/!svn/ver/498/peopleandplace/trunk/vendor/plugins/vertical_response/lib
+END
+VRAPIDriver.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/lib/VRAPIDriver.rb
+END
+VRAPIClient.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/lib/VRAPIClient.rb
+END
+VRAPI.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/428/peopleandplace/trunk/vendor/plugins/vertical_response/lib/VRAPI.rb
+END
+vertical_response.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/498/peopleandplace/trunk/vendor/plugins/vertical_response/lib/vertical_response.rb
+END

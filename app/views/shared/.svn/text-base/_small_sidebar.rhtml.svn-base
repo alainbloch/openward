@@ -1,0 +1,21 @@
+<div class="sidebar">
+    
+  <h2 class="sidebar_header">Currently on P&amp;P</h2>
+  
+  <div class="sidebar_modules">
+    
+    <!-- 
+    <div class="advert">
+      <p>P&amp;P Sponsor</p>
+      <div class="advertisement">advertisement</div>
+    </div>
+    -->
+
+    <%= render_wires_module %>
+
+    <!--
+    <div id="tagcloud">tags here</div>
+    -->
+  </div>
+
+</div>

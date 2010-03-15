@@ -1,0 +1,14 @@
+<%= @name %> has invited you to read an article on People & Place.
+
+"<%= @message %>"
+
+The article is titled, <%= @post.title %> and can be found here, http://www.peopleandplace.net/articles/<%= @post.id %>.
+
+"<%= @post.excerpt %>"
+
+If you feel you've been spammed or received this email from someone you don't know, please contact us at info@peopleandplace.net . 
+
+Sincerely,
+
+The People & Place Team
+www.peopleandplace.net

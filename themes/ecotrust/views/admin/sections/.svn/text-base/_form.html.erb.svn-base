@@ -1,0 +1,16 @@
+<%= error_messages_for :section %>
+<div class="column_container">
+
+  <div class="column first_column">
+    <div class="field_title">Section Name <%= error_message_on('section', 'name')%></div>
+    <div class="form_field">
+    	<%= text_field :section, :name, :size => '50' %>
+    </div>
+  </div>
+
+</div>
+
+<div class="field_title">Section Description <%= error_message_on('section', 'description')%></div>
+<div class="form_field">	
+		<%= fckeditor_textarea(:section, :description, :toolbarSet => 'Media', :cols => '50', :rows => '10' ) %>
+</div>

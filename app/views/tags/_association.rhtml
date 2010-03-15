@@ -1,0 +1,8 @@
+<div class="tags">
+  <% unless taggable.tags.empty? %>
+    Tags:
+    <% for tag in taggable.tags do %>
+     <%= link_to tag.name, tag_url(tag.name), :title => "tag" %><%= ", " unless taggable.tags.last == tag %>
+    <% end %>
+   <% end %>
+</div>

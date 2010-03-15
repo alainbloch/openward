@@ -1,0 +1,19 @@
+<div class="sidebar">
+
+  <%= render :partial => "advertisements/sidebar" %>
+
+  <h2 class="sidebar_header">Currently on P&amp;P</h2>
+  
+  <div class="sidebar_modules">
+    <%= render_featured_module %>
+    <%= render_perspectives_module %>
+    <%= render_media_module %>
+    <%= render_compass_module %>
+    <%= render_wires_module %>
+
+    <!--
+    <div id="tagcloud">tags here</div>
+    -->
+  </div>
+
+</div>

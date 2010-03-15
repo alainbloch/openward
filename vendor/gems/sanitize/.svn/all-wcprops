@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize
+END
+HISTORY
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/HISTORY
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/README.rdoc
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpap/!svn/ver/450/peopleandplace/trunk/vendor/gems/sanitize/.gitignore
+END

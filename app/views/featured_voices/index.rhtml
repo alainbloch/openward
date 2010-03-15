@@ -1,0 +1,31 @@
+<div id="main" class="feature features_listing">
+
+  <div id="about_each_section">
+   <div class="about_feature_page">
+      <p>
+        Featured Voices speak to ideas that connect us. Each serves as the centerpiece for an issue of P&P.
+      </p>
+    </div>
+  </div>
+
+  <div id="content">
+
+    <div id="featured_voices_header">featured voices</div>
+    <%#= render :partial => "main_feature" if @main_feature %>
+
+<!-- old ul 
+    <ul id="features_listing"></ul>
+-->    
+    <ul id="media_listing">
+      <%= render :partial => "featured_voice", :collection => @posts %>
+    </ul>
+  
+	  <div id="pagination">
+     <ul><%= will_paginate @posts, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+		</div>
+    
+  </div>
+  
+</div>
+
+<%= render :partial => "shared/large_sidebar" %>

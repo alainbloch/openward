@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl
+END
+ssl_client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl/ssl_client.rb
+END
+0key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl/0key.pem
+END
+1000key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl/1000key.pem
+END
+0cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl/0cert.pem
+END
+1000cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl/1000cert.pem
+END
+webrick_httpsd.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnpap/!svn/ver/561/peopleandplace/trunk/vendor/gems/httpclient-2.1.4/sample/ssl/webrick_httpsd.rb
+END

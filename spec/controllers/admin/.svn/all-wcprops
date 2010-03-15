@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/admin
+END
+users_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/admin/users_controller_spec.rb
+END
+roles_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/admin/roles_controller_spec.rb
+END
+admin_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/admin/admin_controller_spec.rb
+END
+page_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnpap/!svn/ver/3/peopleandplace/trunk/spec/controllers/admin/page_controller_spec.rb
+END

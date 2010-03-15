@@ -1,0 +1,33 @@
+<div id="main" class="on_the_wire" style="background:transparent url(/images/tag.jpg) no-repeat scroll 0 0;">
+  
+  <div id="about_each_section">
+    <div class="about_tags">
+      <p>All P&P articles sorted by subject.</p>
+    </div>
+  </div>
+  <div id="content">
+    <div id="perspectives_list_header">
+      <%= @tag.name %>
+    </div>
+
+    <ul id="perspectives_listing">
+      <% @taggables.each do |taggable| %>
+        <%= render_taggable_partial(taggable)%>
+      <% end %>
+ 	  </ul>
+
+	  <div id="pagination">
+     <ul><%= will_paginate @taggables, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+		</div>   
+
+    <div id="tagcloud">
+     <% tag_cloud @tags, %w(tag1 tag2 tag3 tag4 tag5) do |name, css_class| %>
+       <%= link_to name, tag_url(name), :class => css_class %>
+     <% end %>
+     </div>
+     
+  </div>
+ 
+</div>
+      
+<%= render :partial => "shared/large_sidebar"%>

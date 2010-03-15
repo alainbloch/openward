@@ -1,0 +1,33 @@
+      <div id="main" class="perspectives">
+        
+        <div id="about_each_section">
+           <div class="about_perspectives_list">
+             <p>
+               Perspective articles critique, extend or illustrate the P&P featured essays.
+             </p>
+           </div>
+         </div>
+        
+        
+        <div id="content">
+          <div id="perspectives_list_header">
+            perspectives
+          </div>
+     
+          <ul id="perspectives_listing">
+            <%= render :partial => "perspective", :collection => @posts %>
+        	</ul>
+        	<!-- .perspectives_listing -->
+		 	 
+      	  <div id="pagination">
+           <ul><%= will_paginate @posts, :container => false, :previous_label => "previous", :next_label => "next" %></ul>
+      		</div>
+
+
+        </div>
+  
+
+        
+</div>
+
+<%= render :partial => "shared/large_sidebar"%>

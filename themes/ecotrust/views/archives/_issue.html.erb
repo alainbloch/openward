@@ -1,0 +1,5 @@
+<li>
+  <%= link_to(%(Issue #{issue.number_string}), archive_url(:volume_number => issue.volume.number, :issue_number => issue.number)) %>
+  <%= %( – ) + link_to(%(#{issue.title}), archive_url(:volume_number => issue.volume.number, :issue_number => issue.number), :class => "issue-title") unless issue.title.blank? %> 
+  <%= content_tag(:i, %("#{issue.intro}")) unless issue.intro.blank? %>
+</li>

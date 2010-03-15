@@ -1,0 +1,18 @@
+<div id="header">
+  <a href="/" id="people_place_logo" class="replaced">people and place: ideas that connect
+  us</a> 
+  <ul id="top_nav" class='nav'>
+    <% if current_user %>
+    <li id="admin">
+      <a href="/admin" title="admin control panel">admin control panel</a>
+    </li>
+    <% end %>
+    <li id="about">
+      <a href="/about.html" title="about people and place">about p&amp;p</a>
+    </li>
+    <li id="support">
+      <a href="/support_pp.html" title="support people and place">support p&amp;p</a>
+    </li>
+  </ul>
+  <a href="http://ecotrust.org" id="published_by_ecotrust" class="replaced">published by ecotrust</a>
+</div>

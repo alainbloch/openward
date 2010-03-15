@@ -1,0 +1,5 @@
+<h3 id="volume 2">Volume <%= volume.number_string %> – <%= volume.title %>
+ </h3>
+ <ul class="archive">
+   <%= render :partial => "issue", :collection => volume.published_issues %>
+ </ul> 

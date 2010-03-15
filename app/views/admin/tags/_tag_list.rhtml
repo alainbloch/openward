@@ -1,0 +1,9 @@
+<ul id="tags" class="list">
+  <% for tag in tags %> 
+    <li>
+      <%= tag.name %>
+      <%= link_to "edit", edit_admin_tag_path(tag) %>
+      <%= link_to image_tag("trash.gif"), admin_tag_path(tag), :method => :delete, :confirm => "Are you sure?", :style => "border:medium none;text-decoration:none;" %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,267 @@
+10
+
+dir
+580
+http://svn.vps120.speedyrails.ca/svnpap/peopleandplace/trunk/vendor/gems/soap4r-1.5.8/test/wsdl
+http://svn.vps120.speedyrails.ca/svnpap
+
+
+
+2008-12-03T19:57:37.798006Z
+374
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7cd04dc2-7d32-4124-8f57-6e100f016afd
+
+simplecontent
+dir
+
+rpc
+dir
+
+any
+dir
+
+marshal
+dir
+
+anonymous
+dir
+
+test_multiplefault.rb
+file
+
+
+
+
+2010-03-15T00:40:25.000000Z
+a21b56fdac4b4bb0d93401adee6a336f
+2008-12-03T19:57:37.798006Z
+374
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+914
+
+test_emptycomplextype.rb
+file
+
+
+
+
+2010-03-15T00:40:25.000000Z
+a8d52838fb2c80a6fe5975ea717cda2e
+2008-12-03T19:57:37.798006Z
+374
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+399
+
+choice
+dir
+
+simpletype
+dir
+
+datetime
+dir
+
+group
+dir
+
+multiplefault.wsdl
+file
+
+
+
+
+2010-03-15T00:40:25.000000Z
+e9a0b7671102d7d775a4043286f6e0cf
+2008-12-03T19:57:37.798006Z
+374
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2711
+
+emptycomplextype.wsdl
+file
+
+
+
+
+2010-03-15T00:40:25.000000Z
+d60d3d62368f7948fb35285eea3fd655
+2008-12-03T19:57:37.798006Z
+374
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1069
+
+soap
+dir
+
+complexcontent
+dir
+
+oneway
+dir
+
+qualified
+dir
+
+abstract
+dir
+
+axisArray
+dir
+
+raa
+dir
+
+soaptype
+dir
+
+list
+dir
+
+fault
+dir
+
+overload
+dir
+
+ref
+dir
+
+test_fault.rb
+file
+
+
+
+
+2010-03-15T00:40:25.000000Z
+56db375f06ae9671288ec9f07d17c736
+2008-12-03T19:57:37.798006Z
+374
+peopleandplace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1488
+
+map
+dir
+
+document
+dir
+

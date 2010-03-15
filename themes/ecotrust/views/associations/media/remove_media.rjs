@@ -1,0 +1,11 @@
+# Highlights the associated medias div area
+page['associated_media_list'].visual_effect :highlight          
+
+# Removes the associated media entry
+page.remove "associated_media_entry_#{@media.id}"      
+
+page << %(var me = document.getElementById('media_entry_#{@media.id}');
+          if (me != null) 
+            { Element.replace(me,'#{escape_javascript(render :partial => "/associations/media/media", 
+                                                             :locals  =>  { :media => @media })}') };)
+

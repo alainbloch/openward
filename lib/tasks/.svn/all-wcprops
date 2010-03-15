@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnpap/!svn/ver/12/peopleandplace/trunk/lib/tasks
+END
+load_initial_data.rake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnpap/!svn/ver/12/peopleandplace/trunk/lib/tasks/load_initial_data.rake
+END
+capistrano.rake
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnpap/!svn/ver/2/peopleandplace/trunk/lib/tasks/capistrano.rake
+END

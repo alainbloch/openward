@@ -1,0 +1,23 @@
+<li class="comment">
+  <a href="#<%= comment.id %>"></a>
+  <div class="metadata">
+    <!--<span class="comment_number"><%= comment_counter + 1 %></span>-->
+    <span class="datestamp"><%= comment.created_at.strftime("%B %d, %Y")%></span>
+    <span class="timestamp"><%= comment.created_at.strftime("%I:%M%p")%></span>
+    <span class="username">
+      <% unless comment.commentator.website.blank? %>
+        <%= link_to_function strip_tags(comment.commentator.name), 
+                            %(location.href='#{escape_javascript strip_tags(comment.commentator.website)}'), 
+                            :title  => comment.commentator.website, 
+                            :href   => "#{escape_javascript strip_tags(comment.commentator.website)}"%>
+      <% else %>
+        <%= strip_tags(comment.commentator.name) %>
+      <% end %>
+    </span>
+  </div>
+  
+  <div class="comment_text">
+    <%= content_tag(:h4, comment.title) unless comment.title.blank? %>
+    <p><%= display comment.content %></p>
+  </div>
+</li>

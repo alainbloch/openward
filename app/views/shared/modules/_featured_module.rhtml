@@ -1,0 +1,10 @@
+<% if feature %>
+  <div class="featured module">
+    <h3><%= link_to "featured voices", featured_voices_path %></h3>
+    <h4><%= link_to feature.title, featured_voice_path(feature) %></h4>
+    <span class="author">by <%= h feature.user.name %></span>
+    <span class="article_date"><%= feature.published_at.strftime("%B %d, %Y") %></span>
+    <p><%= strip_tags(feature.excerpt) %></p>
+    <%= link_to "readmore", featured_voice_path(feature), :class => "replaced readmore"%><br />
+  </div>
+<% end %>

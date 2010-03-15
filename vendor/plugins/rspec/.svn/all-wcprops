@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/init.rb
+END
+UPGRADE
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/UPGRADE
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/CHANGES
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/MIT-LICENSE
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/README
+END
+spec.opts
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnpap/!svn/ver/3/peopleandplace/trunk/vendor/plugins/rspec/spec.opts
+END

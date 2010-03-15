@@ -1,0 +1,24 @@
+<div class="project_container" style="float:left;">
+    <%= render :partial => "menu" %>
+    
+		<% unless @sections.empty? %>
+		
+		<table border="0" cellspacing="0" cellpadding="0" class="wide forums">
+      <tr>
+        <th class="la" width="100px">Section Name</th>
+        <th class="la" width="450px">Description</th>
+        <th class="la" width="50px">Posts</th>
+        <th class="la" width="150px"></th>
+      </tr>
+		
+      <%= render :partial => "section", :collection => @sections %>
+			
+		</table>
+		
+		<% else %>
+
+		<p>No Sections have been created yet</p>
+
+		<% end %>
+
+</div>
